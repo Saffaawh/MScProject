@@ -1,0 +1,97 @@
+import pandas as pd
+import numpy as np
+from faker import Faker
+import random
+from datetime import datetime, timedelta
+ 
+fake = Faker()
+fake.seed_instance(42)
+
+fake = Faker()
+
+num_records = 5000
+
+genders = ['Male','Female']
+ages = np.random.randint(18, 90, size=num_records)
+
+type_of_problem_distribution = {
+    'None': 0.69,
+    'Wheelchair user':0.13,
+    'Hoist requrired':0.01,
+    'DIVA': 0.01,  
+    'Cognitive Impairment':0.03,
+    'Claustrophobic': 0.015,
+    'Learning Difficulties': 0.01,
+    'Interpreter requires': 0.05,
+    'Poor Mobility': 0.015,
+    'Hosptital Transport': 0.05
+}
+
+
+scan_types_details ={
+    'Brain': {'ScheduledTime': 30, 'Contrast' : False,
+    'Brain with Contrast': {'ScheduledTime': 45, 'Contrast' : True},
+    'Cervical Spine': {'ScheduledTime': 30, 'Contrast' : False},
+    'Cervical Spine with Contrast': {'ScheduledTime': 45, 'Contrast' : True},
+    'Thoracic Spine': {'ScheduledTime': 30, 'Contrast' : False},
+    'Thoracic Spine with Contrast': {'ScheduledTime': 45, 'Contrast' : True},
+    'Lumbar Spine': {'ScheduledTime': 30, 'Contrast' : False}, 
+    'Lumbar Spine with Contrast': {'ScheduledTime': 45, 'Contrast' : True},
+    'Whole Spine': {'ScheduledTime': 45, 'Contrast' : False},
+    'Whole Spine with Contrast': {'ScheduledTime': 60, 'Contrast' : True}
+    }
+
+    scan_type_names: list(scan_types_details.keys())
+
+
+from workalendar.europe import UnitedKingdom
+cal = UnitedKingdom()
+uk_holidays = cal.holidays(2023) + cal.holidays(2024)
+
+star_date = datetime(2023, 1, 1)
+end_date = datetime(2024, 12, 31)
+appointment = []
+
+while current_date <= end_date:
+    if current_date == dat (e(2023, 12, 25)) or current_date == date(2024, 12, 25):
+        current_date +- timedelta(days=1)
+        continue
+    is_bank_holiday = current_date in uk_holidays
+    is_weekday = current_date.wwekday() <5 and current_date not in uk_holidays
+    if is weekday:
+        sart_hour , end_hour = 8 , 20 
+    elif is_bank_holiday: 
+        start_hour, end_hour = 9, 17
+    else: #weekend
+        start_hour, end_hour = 9, 17
+
+    four hour in range(start_hour, end_hour):
+        for minute in [0, 15, 30, 45]:
+          appointmens.append(current_date.year , current_date.month, current_date.day, hour, minute)
+
+    current_date += timedelta(days=1)
+
+if len(appointments) < num_records:
+    raise ValueError("Not enough appointment slots to schedule all records.")
+
+selected_appointments = random.sample(appointments, num_records)
+slected_appointments.sort() 
+
+data = []
+for i in range(num_records):
+    sceduled_datetime = selected_appointments[i]
+    patient_number = i + 1
+    age = np.random.chouce(ages)
+    gender - ap.random.choice(genders)
+
+    type_of_issue = np.random.choice(
+        list(type_of_problem_distribution.keys()),
+        p=list(type_of_problem_distribution.values())
+    )
+
+    scan_name = np.random.choice(scan_type_names)
+    scheduled_scan_time = scan_types_details[scan_name]['ScheduledTime']
+    arrival_time_minutes = random.choice([-20, -15, -10, -5, 0, 5, 10, 15, 20])
+
+    if type_of_issue == 'None':
+        overrun_minutes = 0 
