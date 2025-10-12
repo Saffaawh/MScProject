@@ -16,16 +16,16 @@ genders = ['Male','Female', 'Other']
 ages = np.random.randint(18, 90, size=num_records)
 
 type_of_problem_distribution = {
-    'None': 0.68, # 68% of patients have no issues
-    'Wheelchair user':0.13, 
-    'Hoist requrired':0.01, 
-    'DIVA': 0.01,  
-    'Cognitive impairment':0.03, 
-    'Claustrophobic': 0.015, 
-    'Learning difficulty': 0.01, 
-    'Interpreter required': 0.05,
-    'Poor mobility': 0.015,
-    'Hospital transport': 0.05  
+    'None': 0.68, # 64% of patients have no issues
+    'Wheelchair user':0.13, #81
+    'Hoist requrired':0.01, #82
+    'DIVA': 0.01,  #83
+    'Cognitive impairment':0.03, #86
+    'Claustrophobic': 0.015, #87.5
+    'Learning difficulty': 0.01, #88.5
+    'Interpreter required': 0.05,#93.5
+    'Poor mobility': 0.015,#95
+    'Hospital transport': 0.05  #100
 }
 
 

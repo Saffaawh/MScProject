@@ -42,7 +42,7 @@ df['Contrast'] = np.where(df['Scan Type'].str.contains('Contrast', case = False)
 #6. Diifcult Venous Access
 df['Difficult IV Access'] = np.where(df['Delay Reason'] == 'DIVA', 'Yes', 'No')
 
-#7. Hospital Transport Required
+#7. Hospit al Transport Required
 df['Hospital Transport Required'] = np.where(df['Delay Reason'] == 'Hospital transport', 'Yes', 'No')
 
 #Step 3: add the classifcation label
@@ -52,7 +52,7 @@ conditions_class =[
     (df['Overrun Minutes'] > 20)
 ]
 
-label_class = ['Class 1', 'Class 2', 'Class 3'] 
+label_class = ['Class 1', 'Class 2', 'Class 3']
 df['Class'] = np.select(conditions_class, label_class, default='Unknown')
 
 #Step 4: Create the final dataframe and save to csv
