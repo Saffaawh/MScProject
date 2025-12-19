@@ -101,9 +101,9 @@ for i in range(num_records):
         else:
             delay_category = np.random.choice(['minor_delay', 'major_delay'], p=[0.7, 0.3])
         if delay_category == 'minor_delay':
-            overrun_minutes = random.choice([5, 20])
+            overrun_minutes = random.randint(5, 20)
         else:
-            overrun_minutes = random.choice([21, 60])
+            overrun_minutes = random.randint(21, 60)
         
     actual_scan_duration = scheduled_scan_time + overrun_minutes
     actual_datetime = sceduled_datetime + timedelta(minutes=actual_scan_duration)
