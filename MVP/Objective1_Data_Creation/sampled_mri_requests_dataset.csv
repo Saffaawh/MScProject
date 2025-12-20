@@ -1,0 +1,501 @@
+Patient Number,Age,Gender,Delay Reason,Type of Issue,Scan Type,Contrast,Request Date
+4547,69.0,Male,Hoist required,back pain,Lumbar Spine,False,2026-01-25 17:10:00
+0226,53.0,Female,Hoist required,spinal cord injury,Whole Spine with Contrast,True,2025-10-06 17:00:00
+3218,23.0,Male,Hoist required,multiple sclerosis,Brain,False,2025-12-22 14:31:00
+4551,54.0,Male,Hoist required,infection,Cervical Spine with Contrast,True,2026-01-26 08:20:00
+2763,85.0,Male,Hoist required,dementia,Brain,False,2025-12-10 12:19:00
+4220,64.0,Other,Hoist required,stroke,Brain,False,2026-01-17 16:08:00
+1706,68.0,Female,Hoist required,spinal cord injury,Whole Spine with Contrast,True,2025-11-13 15:21:00
+3932,18.0,Male,Hoist required,dementia,Brain,False,2026-05-17 17:35:00
+1151,61.0,Female,Hoist required,headache,Brain,False,2025-10-30 10:02:00
+1947,50.0,Female,Hoist required,aneurysm,Brain with Contrast,True,2025-11-19 16:54:00
+4415,75.0,Male,Learning difficulty,aneurysm,Brain with Contrast,True,2026-01-22 15:22:00
+1903,51.0,Male,Learning difficulty,back pain,Lumbar Spine,False,2025-11-18 16:28:00
+0897,85.0,Male,Learning difficulty,tumor,Lumbar Spine with Contrast,True,2026-03-01 12:21:00
+3024,31.0,Female,Learning difficulty,headache,Brain,False,2026-04-24 15:29:00
+0177,83.0,Female,Learning difficulty,infection,Brain with Contrast,True,2025-10-05 14:33:00
+2326,72.0,Other,Learning difficulty,multiple sclerosis,Whole Spine,False,2025-11-29 15:20:00
+4303,40.0,Other,Learning difficulty,other,Thoracic Spine,False,2026-01-19 17:06:00
+2107,36.0,Female,Learning difficulty,dementia,Brain,False,2026-04-01 09:25:00
+1220,40.0,Male,Learning difficulty,sciatica,Lumbar Spine,False,2025-11-01 08:35:00
+4657,57.0,Male,Learning difficulty,dementia,Brain,False,2026-01-28 16:58:00
+3877,32.0,Male,DIVA,infection,Thoracic Spine with Contrast,True,2026-01-08 17:46:00
+1393,18.0,Female,DIVA,infection,Thoracic Spine with Contrast,True,2026-03-13 15:16:00
+0171,89.0,Male,DIVA,multiple sclerosis,Brain,False,2025-10-05 13:12:00
+4071,85.0,Female,DIVA,dementia,Brain,False,2026-01-14 08:37:00
+4012,42.0,Female,DIVA,other,Brain,False,2026-01-12 14:15:00
+1838,23.0,Male,DIVA,spinal cord injury,Whole Spine with Contrast,True,2026-03-25 11:36:00
+2569,65.0,Other,DIVA,infection,Brain with Contrast,True,2025-12-05 16:31:00
+1418,79.0,Male,DIVA,multiple sclerosis,Whole Spine,False,2025-11-06 09:41:00
+1132,65.0,Female,DIVA,sciatica,Lumbar Spine with Contrast,True,2025-10-29 14:53:00
+4048,20.0,Female,DIVA,back pain,Lumbar Spine,False,2026-01-13 12:58:00
+3349,60.0,Female,Claustrophobic,headache,Brain with Contrast,True,2026-05-02 16:45:00
+3106,40.0,Male,Claustrophobic,dementia,Brain,False,2025-12-19 17:26:00
+4013,56.0,Female,Claustrophobic,sciatica,Lumbar Spine,False,2026-05-20 08:00:00
+1209,73.0,Male,Claustrophobic,headache,Brain,False,2025-10-31 16:26:00
+1857,69.0,Female,Claustrophobic,multiple sclerosis,Brain,False,2026-03-25 15:54:00
+0903,34.0,Male,Claustrophobic,sciatica,Lumbar Spine,False,2025-10-24 08:57:00
+0082,35.0,Male,Claustrophobic,spinal cord injury,Whole Spine with Contrast,True,2026-02-08 10:15:00
+1962,63.0,Other,Claustrophobic,headache,Brain,False,2025-11-20 10:39:00
+0248,77.0,Female,Claustrophobic,neck pain,Cervical Spine,False,2026-02-12 10:33:00
+0610,86.0,Male,Claustrophobic,back pain,Lumbar Spine,False,2025-10-16 14:29:00
+1737,66.0,Male,Claustrophobic,neck pain,Cervical Spine,False,2025-11-14 13:44:00
+1330,70.0,Female,Claustrophobic,infection,Brain with Contrast,True,2026-03-12 09:07:00
+4726,30.0,Female,Claustrophobic,stroke,Brain with Contrast,True,2026-06-07 10:41:00
+4288,26.0,Other,Claustrophobic,back pain,Lumbar Spine,False,2026-01-19 13:48:00
+3566,89.0,Female,Claustrophobic,back pain,Lumbar Spine with Contrast,True,2026-05-08 11:13:00
+2909,54.0,Other,Cognitive impairment,other,Brain with Contrast,True,2025-12-14 15:02:00
+4016,24.0,Male,Cognitive impairment,spinal cord injury,Whole Spine with Contrast,True,2026-05-20 09:04:00
+1653,72.0,Female,Cognitive impairment,dementia,Brain,False,2025-11-12 11:31:00
+0615,61.0,Female,Cognitive impairment,back pain,Lumbar Spine,False,2026-02-21 17:22:00
+4745,24.0,Female,Cognitive impairment,neck pain,Cervical Spine,False,2026-01-30 17:03:00
+4127,74.0,Female,Cognitive impairment,neck pain,Cervical Spine,False,2026-01-15 11:16:00
+2844,33.0,Female,Cognitive impairment,tumor,Thoracic Spine with Contrast,True,2026-04-20 08:10:00
+3870,75.0,Female,Cognitive impairment,back pain,Lumbar Spine,False,2026-01-08 15:32:00
+0455,79.0,Female,Cognitive impairment,other,Brain with Contrast,True,2025-10-12 14:41:00
+3205,30.0,Other,Cognitive impairment,spinal cord injury,Whole Spine with Contrast,True,2025-12-22 10:56:00
+4970,31.0,Female,Cognitive impairment,headache,Brain,False,2026-02-05 13:54:00
+4667,18.0,Female,Cognitive impairment,infection,Lumbar Spine with Contrast,True,2026-06-05 14:04:00
+1287,37.0,Female,Cognitive impairment,stroke,Brain,False,2025-11-02 15:18:00
+4749,76.0,Male,Cognitive impairment,stroke,Brain,False,2026-06-07 17:26:00
+2851,40.0,Male,Cognitive impairment,other,Cervical Spine,False,2026-04-20 09:43:00
+2785,62.0,Male,Cognitive impairment,aneurysm,Brain with Contrast,True,2025-12-11 08:00:00
+1702,38.0,Male,Cognitive impairment,aneurysm,Brain with Contrast,True,2025-11-13 14:26:00
+0327,43.0,Female,Cognitive impairment,neck pain,Cervical Spine,False,2025-10-09 11:57:00
+2969,61.0,Male,Cognitive impairment,multiple sclerosis,Brain,False,2026-04-23 11:01:00
+4119,83.0,Female,Cognitive impairment,sciatica,Lumbar Spine,False,2026-05-22 15:38:00
+1079,75.0,Female,Interpreter required,neck pain,Cervical Spine with Contrast,True,2025-10-28 12:58:00
+1420,34.0,Female,Interpreter required,multiple sclerosis,Brain,False,2025-11-06 10:06:00
+0626,78.0,Other,Interpreter required,sciatica,Lumbar Spine,False,2025-10-16 17:37:00
+0704,34.0,Male,Interpreter required,aneurysm,Brain with Contrast,True,2026-02-24 09:27:00
+0118,24.0,Female,Interpreter required,infection,Cervical Spine with Contrast,True,2026-02-09 08:00:00
+3123,24.0,Female,Interpreter required,dementia,Brain,False,2026-04-27 12:07:00
+4323,81.0,Female,Interpreter required,other,Whole Spine,False,2026-01-20 12:26:00
+0193,64.0,Male,Interpreter required,multiple sclerosis,Brain,False,2025-10-06 08:38:00
+2599,24.0,Male,Interpreter required,neck pain,Cervical Spine,False,2025-12-06 14:50:00
+1386,59.0,Male,Interpreter required,neck pain,Cervical Spine,False,2025-11-05 10:02:00
+1681,39.0,Other,Interpreter required,infection,Thoracic Spine with Contrast,True,2025-11-13 08:53:00
+3810,28.0,Female,Interpreter required,headache,Brain,False,2026-01-07 09:49:00
+2410,81.0,Male,Interpreter required,dementia,Brain,False,2026-04-08 13:54:00
+3671,27.0,Other,Interpreter required,headache,Brain,False,2026-01-03 13:07:00
+4713,78.0,Female,Interpreter required,sciatica,Lumbar Spine,False,2026-06-06 17:35:00
+4510,20.0,Male,Interpreter required,sciatica,Lumbar Spine,False,2026-06-01 14:23:00
+3099,18.0,Female,Interpreter required,aneurysm,Brain with Contrast,True,2025-12-19 15:22:00
+1876,38.0,Other,Interpreter required,sciatica,Lumbar Spine,False,2025-11-18 09:56:00
+4010,89.0,Male,Interpreter required,multiple sclerosis,Brain,False,2026-05-19 17:20:00
+1670,41.0,Female,Interpreter required,neck pain,Cervical Spine with Contrast,True,2025-11-12 15:47:00
+0005,86.0,Male,Interpreter required,sciatica,Lumbar Spine,False,2025-10-01 09:18:00
+4849,64.0,Male,Interpreter required,back pain,Lumbar Spine,False,2026-06-10 15:27:00
+0206,46.0,Male,Interpreter required,headache,Brain with Contrast,True,2025-10-06 11:32:00
+3197,42.0,Other,Interpreter required,headache,Brain,False,2025-12-22 08:56:00
+1492,51.0,Female,Interpreter required,headache,Brain,False,2025-11-08 09:00:00
+2638,49.0,Male,Wheelchair user,headache,Brain,False,2026-04-14 14:55:00
+2712,75.0,Female,Wheelchair user,other,Whole Spine,False,2025-12-09 10:47:00
+4043,65.0,Other,Wheelchair user,tumor,Brain with Contrast,True,2026-01-13 11:50:00
+2111,79.0,Female,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-11-24 08:51:00
+0107,19.0,Male,Wheelchair user,dementia,Brain,False,2026-02-08 15:34:00
+3916,82.0,Male,Wheelchair user,stroke,Brain with Contrast,True,2026-01-10 08:21:00
+0376,71.0,Other,Wheelchair user,other,Brain,False,2025-10-10 15:34:00
+3746,67.0,Male,Wheelchair user,other,Whole Spine,False,2026-01-05 14:29:00
+1728,42.0,Female,Wheelchair user,neck pain,Cervical Spine,False,2026-03-22 13:11:00
+3696,88.0,Female,Wheelchair user,aneurysm,Brain with Contrast,True,2026-01-04 10:26:00
+3985,75.0,Male,Wheelchair user,stroke,Brain,False,2026-05-19 10:57:00
+3418,85.0,Male,Wheelchair user,neck pain,Cervical Spine,False,2025-12-27 16:56:00
+3997,27.0,Male,Wheelchair user,infection,Whole Spine with Contrast,True,2026-01-12 09:46:00
+3657,47.0,Female,Wheelchair user,tumor,Whole Spine with Contrast,True,2026-05-10 14:57:00
+2406,59.0,Female,Wheelchair user,infection,Brain with Contrast,True,2026-04-08 12:22:00
+0844,59.0,Male,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-10-22 14:37:00
+0647,89.0,Female,Wheelchair user,aneurysm,Brain with Contrast,True,2026-02-22 15:38:00
+3678,44.0,Male,Wheelchair user,dementia,Brain,False,2026-01-03 15:26:00
+0887,24.0,Female,Wheelchair user,dementia,Brain,False,2026-03-01 10:00:00
+1611,66.0,Male,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-11-11 08:46:00
+2652,33.0,Female,Wheelchair user,other,Lumbar Spine,False,2026-04-15 08:55:00
+3608,53.0,Other,Wheelchair user,infection,Thoracic Spine with Contrast,True,2026-01-02 08:02:00
+4693,20.0,Male,Wheelchair user,other,Whole Spine,False,2026-01-29 14:21:00
+1343,71.0,Female,Wheelchair user,multiple sclerosis,Brain,False,2026-03-12 12:07:00
+1788,42.0,Male,Wheelchair user,tumor,Brain with Contrast,True,2025-11-15 17:28:00
+0591,32.0,Other,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-10-16 09:35:00
+4105,46.0,Male,Wheelchair user,tumor,Whole Spine with Contrast,True,2026-05-22 12:45:00
+0578,85.0,Other,Wheelchair user,infection,Brain with Contrast,True,2025-10-15 15:41:00
+3489,49.0,Female,Wheelchair user,multiple sclerosis,Whole Spine,False,2026-05-06 10:59:00
+2577,52.0,Male,Wheelchair user,aneurysm,Brain with Contrast,True,2025-12-06 08:25:00
+2355,55.0,Female,Wheelchair user,other,Thoracic Spine,False,2026-04-07 10:46:00
+4050,47.0,Male,Wheelchair user,aneurysm,Brain with Contrast,True,2026-01-13 13:09:00
+1629,82.0,Female,Wheelchair user,sciatica,Lumbar Spine,False,2025-11-11 15:02:00
+2959,80.0,Female,Wheelchair user,sciatica,Lumbar Spine,False,2026-04-23 08:31:00
+1463,21.0,Female,Wheelchair user,headache,Brain,False,2026-03-15 14:21:00
+3958,23.0,Male,Wheelchair user,dementia,Brain with Contrast,True,2026-01-11 11:17:00
+3843,46.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2026-01-08 08:16:00
+0404,39.0,Male,Wheelchair user,multiple sclerosis,Whole Spine,False,2025-10-11 12:26:00
+0492,66.0,Female,Wheelchair user,tumor,Brain with Contrast,True,2025-10-13 13:54:00
+4062,32.0,Female,Wheelchair user,stroke,Brain,False,2026-01-13 15:44:00
+3913,80.0,Female,Wheelchair user,headache,Brain,False,2026-01-09 17:14:00
+4342,85.0,Female,Wheelchair user,stroke,Brain,False,2026-05-28 12:18:00
+1674,85.0,Female,Wheelchair user,infection,Brain with Contrast,True,2026-03-21 08:49:00
+1987,47.0,Other,Wheelchair user,dementia,Brain,False,2025-11-20 16:31:00
+2307,54.0,Female,Wheelchair user,stroke,Brain,False,2026-04-06 09:15:00
+4241,42.0,Female,Wheelchair user,stroke,Brain,False,2026-01-18 10:53:00
+0542,27.0,Male,Wheelchair user,infection,Lumbar Spine with Contrast,True,2026-02-20 08:08:00
+1125,47.0,Male,Wheelchair user,other,Thoracic Spine,False,2026-03-07 10:18:00
+3216,19.0,Male,Wheelchair user,infection,Brain with Contrast,True,2025-12-22 14:08:00
+3961,76.0,Male,Wheelchair user,tumor,Brain with Contrast,True,2026-05-18 14:28:00
+1503,40.0,Other,Wheelchair user,sciatica,Lumbar Spine,False,2025-11-08 12:39:00
+0812,80.0,Female,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2026-02-27 10:18:00
+1620,29.0,Female,Wheelchair user,stroke,Brain,False,2025-11-11 11:46:00
+4746,72.0,Male,Wheelchair user,dementia,Brain,False,2026-06-07 16:22:00
+4811,31.0,Female,Wheelchair user,neck pain,Cervical Spine,False,2026-06-09 14:52:00
+2249,87.0,Female,Wheelchair user,sciatica,Lumbar Spine with Contrast,True,2025-11-27 15:06:00
+4719,78.0,Male,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2026-06-07 08:46:00
+2208,54.0,Male,Wheelchair user,infection,Thoracic Spine with Contrast,True,2025-11-26 13:53:00
+2585,81.0,Female,Wheelchair user,multiple sclerosis,Brain,False,2026-04-13 09:43:00
+3451,46.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2025-12-28 14:22:00
+0312,86.0,Female,Wheelchair user,multiple sclerosis,Whole Spine,False,2026-02-13 16:53:00
+0770,33.0,Male,Wheelchair user,dementia,Brain,False,2025-10-20 14:38:00
+2839,84.0,Other,Wheelchair user,back pain,Lumbar Spine,False,2025-12-12 14:46:00
+0333,68.0,Other,Wheelchair user,infection,Whole Spine with Contrast,True,2025-10-09 13:44:00
+4245,46.0,Male,Wheelchair user,neck pain,Cervical Spine,False,2026-01-18 12:32:00
+1407,30.0,Female,Wheelchair user,neck pain,Cervical Spine with Contrast,True,2026-03-14 08:36:00
+0714,87.0,Male,Wheelchair user,infection,Brain with Contrast,True,2026-02-24 12:31:00
+0193,67.0,Female,Wheelchair user,other,Whole Spine,False,2026-02-10 17:56:00
+4831,39.0,Male,Wheelchair user,tumor,Lumbar Spine with Contrast,True,2026-06-10 10:27:00
+1757,68.0,Female,Wheelchair user,dementia,Brain,False,2026-03-23 10:45:00
+0367,52.0,Female,Poor mobility,stroke,Brain with Contrast,True,2026-02-15 11:11:00
+4370,30.0,Female,Poor mobility,multiple sclerosis,Brain,False,2026-05-29 09:36:00
+1958,87.0,Other,Poor mobility,tumor,Whole Spine with Contrast,True,2025-11-20 09:40:00
+1633,77.0,Female,Poor mobility,neck pain,Cervical Spine,False,2025-11-11 15:56:00
+2654,49.0,Female,Poor mobility,aneurysm,Brain with Contrast,True,2026-04-15 09:22:00
+4052,25.0,Female,Poor mobility,neck pain,Cervical Spine with Contrast,True,2026-01-13 13:46:00
+1104,74.0,Female,Poor mobility,dementia,Brain,False,2026-03-06 13:43:00
+4630,29.0,Male,Poor mobility,headache,Brain,False,2026-06-04 14:24:00
+4925,43.0,Female,Poor mobility,multiple sclerosis,Brain,False,2026-06-12 13:23:00
+4708,20.0,Male,Poor mobility,neck pain,Cervical Spine with Contrast,True,2026-01-29 17:48:00
+2563,60.0,Female,Poor mobility,back pain,Lumbar Spine,False,2025-12-05 14:39:00
+4090,82.0,Female,Poor mobility,back pain,Lumbar Spine,False,2026-05-22 08:58:00
+0158,61.0,Male,Poor mobility,back pain,Lumbar Spine,False,2026-02-10 08:47:00
+0059,81.0,Male,Poor mobility,spinal cord injury,Whole Spine,False,2026-02-07 14:23:00
+0759,65.0,Other,Poor mobility,spinal cord injury,Whole Spine with Contrast,True,2025-10-20 11:09:00
+3753,42.0,Female,Wheelchair user,headache,Brain,False,2026-05-13 10:56:00
+4725,67.0,Male,Wheelchair user,tumor,Brain with Contrast,True,2026-06-07 10:37:00
+1959,30.0,Male,Interpreter required,dementia,Brain,False,2026-03-28 13:23:00
+2755,35.0,Female,,tumor,Thoracic Spine with Contrast,True,2026-04-17 16:21:00
+1475,25.0,Male,,other,Cervical Spine,False,2025-11-07 14:40:00
+3194,26.0,Female,,spinal cord injury,Whole Spine with Contrast,True,2025-12-22 08:18:00
+0009,87.0,Male,,neck pain,Cervical Spine,False,2026-02-06 13:44:00
+3348,75.0,Male,,stroke,Brain,False,2025-12-26 08:30:00
+1172,31.0,Male,,dementia,Brain,False,2025-10-30 15:59:00
+2523,48.0,Female,,stroke,Brain,False,2025-12-04 14:37:00
+0968,30.0,Male,,back pain,Lumbar Spine,False,2026-03-03 10:09:00
+3805,49.0,Male,,stroke,Brain,False,2026-05-14 14:28:00
+0749,59.0,Female,,sciatica,Lumbar Spine,False,2025-10-20 08:17:00
+4165,82.0,Male,,spinal cord injury,Whole Spine,False,2026-01-16 10:23:00
+4043,22.0,Female,,stroke,Brain,False,2026-05-20 16:21:00
+3539,78.0,Other,,neck pain,Cervical Spine,False,2025-12-31 09:06:00
+4603,67.0,Female,Hospital transport,aneurysm,Brain with Contrast,True,2026-01-27 14:03:00
+4188,69.0,Male,,stroke,Brain with Contrast,True,2026-01-16 17:46:00
+3076,70.0,Male,,infection,Brain with Contrast,True,2026-04-26 09:23:00
+2973,42.0,Female,,tumor,Whole Spine with Contrast,True,2026-04-23 11:47:00
+4813,18.0,Female,,spinal cord injury,Whole Spine with Contrast,True,2026-02-01 13:34:00
+2400,80.0,Female,DIVA,multiple sclerosis,Brain,False,2025-12-01 15:40:00
+2368,21.0,Other,Claustrophobic,aneurysm,Brain with Contrast,True,2025-11-30 17:08:00
+1752,26.0,Female,Interpreter required,sciatica,Lumbar Spine,False,2026-03-23 09:44:00
+2893,19.0,Female,,other,Brain,False,2025-12-14 10:39:00
+0671,87.0,Female,,sciatica,Lumbar Spine,False,2026-02-23 11:38:00
+4580,72.0,Male,,spinal cord injury,Whole Spine with Contrast,True,2026-06-03 12:20:00
+0900,54.0,Female,,back pain,Lumbar Spine,False,2026-03-01 13:06:00
+4945,36.0,Female,,dementia,Brain,False,2026-02-04 16:34:00
+4576,47.0,Male,Interpreter required,spinal cord injury,Whole Spine,False,2026-01-26 15:35:00
+3142,21.0,Female,Hospital transport,multiple sclerosis,Brain,False,2025-12-20 15:17:00
+4783,28.0,Female,,aneurysm,Brain with Contrast,True,2026-06-08 17:06:00
+1513,87.0,Female,,sciatica,Lumbar Spine,False,2025-11-08 14:39:00
+0097,48.0,Other,,spinal cord injury,Whole Spine with Contrast,True,2025-10-03 12:26:00
+3336,31.0,Male,,tumor,Brain with Contrast,True,2026-05-02 13:46:00
+0653,33.0,Female,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-10-17 14:26:00
+4681,76.0,Female,Wheelchair user,multiple sclerosis,Whole Spine,False,2026-06-06 08:00:00
+4838,56.0,Female,,back pain,Lumbar Spine with Contrast,True,2026-06-10 12:47:00
+1302,75.0,Female,Cognitive impairment,infection,Brain with Contrast,True,2026-03-11 12:44:00
+0600,84.0,Female,,neck pain,Cervical Spine,False,2026-02-21 13:18:00
+0354,42.0,Male,Learning difficulty,stroke,Brain,False,2025-10-10 09:43:00
+0864,39.0,Female,,multiple sclerosis,Whole Spine,False,2026-02-28 12:56:00
+2522,83.0,Other,Hospital transport,multiple sclerosis,Brain,False,2025-12-04 14:17:00
+3154,60.0,Female,,stroke,Brain,False,2025-12-21 08:00:00
+3318,37.0,Female,Interpreter required,headache,Brain,False,2025-12-25 10:46:00
+0107,84.0,Female,,dementia,Brain,False,2025-10-03 15:16:00
+2568,64.0,Other,Interpreter required,dementia,Brain,False,2025-12-05 16:19:00
+1917,20.0,Male,,spinal cord injury,Whole Spine,False,2026-03-27 10:20:00
+3748,37.0,Female,,dementia,Brain with Contrast,True,2026-05-13 10:01:00
+2356,23.0,Other,Interpreter required,dementia,Brain,False,2025-11-30 13:41:00
+3387,32.0,Female,,tumor,Whole Spine with Contrast,True,2025-12-27 08:19:00
+2996,44.0,Female,Interpreter required,back pain,Lumbar Spine,False,2025-12-17 08:27:00
+4850,71.0,Other,,back pain,Lumbar Spine with Contrast,True,2026-02-02 11:18:00
+4325,43.0,Male,,aneurysm,Brain with Contrast,True,2026-01-20 13:20:00
+4414,84.0,Female,Wheelchair user,stroke,Brain,False,2026-05-30 10:49:00
+0230,65.0,Female,Wheelchair user,headache,Brain,False,2026-02-11 16:08:00
+2915,35.0,Male,Interpreter required,back pain,Lumbar Spine,False,2026-04-21 16:32:00
+0530,58.0,Other,DIVA,tumor,Whole Spine with Contrast,True,2025-10-14 12:59:00
+2937,81.0,Other,,multiple sclerosis,Brain,False,2025-12-15 13:07:00
+0040,84.0,Male,,multiple sclerosis,Whole Spine,False,2025-10-01 17:19:00
+2182,79.0,Female,,dementia,Brain,False,2026-04-03 08:42:00
+1715,80.0,Female,,multiple sclerosis,Brain,False,2026-03-22 09:43:00
+4434,21.0,Female,Hospital transport,back pain,Lumbar Spine,False,2026-01-23 09:53:00
+1303,73.0,Female,Interpreter required,other,Lumbar Spine,False,2025-11-03 09:55:00
+3289,52.0,Male,Cognitive impairment,sciatica,Lumbar Spine,False,2026-05-01 11:21:00
+1165,37.0,Other,,sciatica,Lumbar Spine,False,2025-10-30 14:27:00
+0310,51.0,Female,,neck pain,Cervical Spine,False,2025-10-08 17:39:00
+1532,89.0,Female,,headache,Brain,False,2026-03-17 14:08:00
+4384,29.0,Male,Hospital transport,sciatica,Lumbar Spine with Contrast,True,2026-01-21 17:54:00
+4687,68.0,Male,Wheelchair user,tumor,Whole Spine with Contrast,True,2026-01-29 13:11:00
+0891,64.0,Other,,multiple sclerosis,Brain,False,2025-10-23 16:39:00
+0663,33.0,Female,,multiple sclerosis,Whole Spine,False,2025-10-17 17:17:00
+2191,38.0,Male,Wheelchair user,neck pain,Cervical Spine,False,2026-04-03 11:07:00
+1550,54.0,Female,,stroke,Brain,False,2026-03-18 08:18:00
+2796,75.0,Other,,infection,Lumbar Spine with Contrast,True,2025-12-11 11:22:00
+3167,76.0,Female,,headache,Brain with Contrast,True,2026-04-28 12:37:00
+0812,69.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2025-10-21 15:39:00
+3364,69.0,Female,,dementia,Brain,False,2026-05-03 09:56:00
+1782,39.0,Other,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2025-11-15 15:14:00
+0978,45.0,Female,,stroke,Brain,False,2026-03-03 12:34:00
+2093,23.0,Other,,infection,Thoracic Spine with Contrast,True,2025-11-23 14:11:00
+2295,58.0,Female,,headache,Brain,False,2026-04-05 15:47:00
+2219,74.0,Male,,neck pain,Cervical Spine,False,2026-04-03 17:24:00
+2579,55.0,Female,Wheelchair user,stroke,Brain,False,2026-04-13 08:23:00
+3214,70.0,Male,Claustrophobic,infection,Cervical Spine with Contrast,True,2025-12-22 13:46:00
+0122,42.0,Female,Cognitive impairment,neck pain,Cervical Spine,False,2026-02-09 09:05:00
+2116,33.0,Other,,sciatica,Lumbar Spine,False,2025-11-24 10:30:00
+1355,82.0,Male,,back pain,Lumbar Spine,False,2026-03-12 15:41:00
+3515,82.0,Male,Wheelchair user,tumor,Cervical Spine with Contrast,True,2026-05-06 16:37:00
+4694,85.0,Female,Wheelchair user,sciatica,Lumbar Spine,False,2026-01-29 14:24:00
+0257,51.0,Other,,sciatica,Lumbar Spine,False,2025-10-07 14:54:00
+0927,65.0,Male,,stroke,Brain,False,2026-03-02 10:01:00
+4272,89.0,Male,,aneurysm,Brain with Contrast,True,2026-05-26 15:23:00
+2196,66.0,Other,Wheelchair user,aneurysm,Brain with Contrast,True,2025-11-26 10:48:00
+3189,56.0,Female,,neck pain,Cervical Spine with Contrast,True,2026-04-29 08:00:00
+4804,41.0,Other,,back pain,Lumbar Spine,False,2026-02-01 11:03:00
+3924,44.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2026-05-17 15:51:00
+1822,85.0,Other,,back pain,Lumbar Spine with Contrast,True,2025-11-16 15:38:00
+3683,64.0,Female,,aneurysm,Brain with Contrast,True,2026-05-11 12:32:00
+3691,55.0,Male,,spinal cord injury,Whole Spine,False,2026-05-11 14:52:00
+2986,34.0,Female,,headache,Brain,False,2026-04-23 15:36:00
+2517,35.0,Other,,aneurysm,Brain with Contrast,True,2025-12-04 12:38:00
+0069,46.0,Female,Wheelchair user,neck pain,Cervical Spine,False,2026-02-07 17:19:00
+4258,23.0,Male,,dementia,Brain,False,2026-05-26 12:01:00
+1249,81.0,Male,,back pain,Lumbar Spine,False,2025-11-01 15:06:00
+1751,44.0,Male,Wheelchair user,dementia,Brain,False,2026-03-23 09:33:00
+3432,22.0,Female,,stroke,Brain with Contrast,True,2026-05-04 16:45:00
+0589,68.0,Male,,neck pain,Cervical Spine,False,2025-10-16 09:05:00
+4183,49.0,Male,,multiple sclerosis,Brain,False,2026-05-24 12:30:00
+2640,45.0,Female,,other,Cervical Spine,False,2026-04-14 15:20:00
+4050,20.0,Male,,stroke,Brain with Contrast,True,2026-05-21 08:00:00
+3445,54.0,Female,,multiple sclerosis,Whole Spine,False,2026-05-05 09:44:00
+4452,63.0,Male,,dementia,Brain,False,2026-01-23 14:24:00
+3508,52.0,Female,Wheelchair user,neck pain,Cervical Spine with Contrast,True,2026-05-06 14:35:00
+4025,43.0,Female,Wheelchair user,stroke,Brain,False,2026-01-12 17:56:00
+1087,21.0,Female,Hospital transport,sciatica,Lumbar Spine,False,2026-03-06 09:03:00
+3385,66.0,Male,,dementia,Brain,False,2026-05-03 15:33:00
+4612,67.0,Female,Cognitive impairment,stroke,Brain,False,2026-06-04 10:12:00
+3539,59.0,Male,,aneurysm,Brain with Contrast,True,2026-05-07 13:44:00
+3932,36.0,Other,,tumor,Whole Spine with Contrast,True,2026-01-10 13:57:00
+4450,23.0,Male,Cognitive impairment,spinal cord injury,Whole Spine with Contrast,True,2026-01-23 13:43:00
+1845,68.0,Other,,back pain,Lumbar Spine,False,2025-11-17 11:55:00
+3570,81.0,Other,,spinal cord injury,Whole Spine,False,2025-12-31 17:20:00
+0522,86.0,Female,,spinal cord injury,Whole Spine with Contrast,True,2025-10-14 11:09:00
+4358,28.0,Male,,spinal cord injury,Whole Spine,False,2026-05-28 16:33:00
+0204,33.0,Male,,sciatica,Lumbar Spine,False,2026-02-11 10:17:00
+4486,31.0,Female,,aneurysm,Brain with Contrast,True,2026-05-31 17:31:00
+3207,27.0,Female,,stroke,Brain,False,2025-12-22 11:24:00
+3404,51.0,Female,,other,Cervical Spine,False,2026-05-04 09:14:00
+1843,72.0,Male,Hospital transport,aneurysm,Brain with Contrast,True,2026-03-25 12:45:00
+4371,29.0,Other,,tumor,Brain with Contrast,True,2026-01-21 14:13:00
+4055,61.0,Male,,sciatica,Lumbar Spine with Contrast,True,2026-05-21 09:22:00
+1906,26.0,Other,,headache,Brain,False,2025-11-18 16:59:00
+4848,43.0,Female,,aneurysm,Brain with Contrast,True,2026-02-02 11:11:00
+2353,58.0,Other,Wheelchair user,infection,Brain with Contrast,True,2025-11-30 12:39:00
+3618,18.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2026-01-02 10:08:00
+2429,20.0,Female,,stroke,Brain,False,2025-12-02 12:20:00
+3043,82.0,Female,,multiple sclerosis,Brain,False,2026-04-25 10:35:00
+3580,84.0,Female,,spinal cord injury,Whole Spine,False,2026-05-08 15:56:00
+0039,36.0,Male,Interpreter required,other,Brain with Contrast,True,2026-02-07 10:05:00
+2889,23.0,Female,Hospital transport,aneurysm,Brain with Contrast,True,2026-04-21 09:49:00
+4699,46.0,Male,,sciatica,Lumbar Spine,False,2026-01-29 15:14:00
+4702,72.0,Male,,sciatica,Lumbar Spine,False,2026-01-29 16:09:00
+1802,50.0,Female,,dementia,Brain,False,2025-11-16 11:11:00
+1706,20.0,Female,,infection,Lumbar Spine with Contrast,True,2026-03-21 17:50:00
+0426,84.0,Female,,sciatica,Lumbar Spine,False,2025-10-12 08:00:00
+2516,55.0,Female,,spinal cord injury,Whole Spine,False,2026-04-11 11:02:00
+0574,57.0,Male,,other,Cervical Spine,False,2026-02-20 17:03:00
+3350,25.0,Other,,stroke,Brain,False,2025-12-26 08:48:00
+3968,29.0,Female,,infection,Lumbar Spine with Contrast,True,2026-01-11 14:25:00
+2508,34.0,Male,Interpreter required,back pain,Lumbar Spine,False,2025-12-04 11:29:00
+4083,68.0,Female,,tumor,Thoracic Spine with Contrast,True,2026-01-14 12:11:00
+3452,71.0,Female,,infection,Lumbar Spine with Contrast,True,2026-05-05 11:06:00
+0990,81.0,Female,Wheelchair user,stroke,Brain with Contrast,True,2025-10-26 11:04:00
+3174,87.0,Female,Wheelchair user,spinal cord injury,Whole Spine,False,2026-04-28 14:31:00
+2050,32.0,Female,,back pain,Lumbar Spine,False,2025-11-22 12:50:00
+2064,42.0,Male,,back pain,Lumbar Spine,False,2026-03-31 09:14:00
+2946,42.0,Female,Cognitive impairment,stroke,Brain,False,2025-12-15 15:18:00
+4697,41.0,Male,,aneurysm,Brain with Contrast,True,2026-06-06 13:33:00
+4539,30.0,Female,,aneurysm,Brain with Contrast,True,2026-06-02 12:55:00
+0551,87.0,Male,,spinal cord injury,Whole Spine,False,2026-02-20 10:54:00
+0976,21.0,Female,,headache,Brain,False,2026-03-03 12:17:00
+2535,81.0,Female,Cognitive impairment,back pain,Lumbar Spine,False,2025-12-04 17:04:00
+0555,52.0,Other,,stroke,Brain,False,2025-10-15 09:32:00
+2383,36.0,Female,Wheelchair user,infection,Cervical Spine with Contrast,True,2026-04-07 17:28:00
+2821,88.0,Female,,tumor,Brain with Contrast,True,2026-04-19 12:42:00
+2446,64.0,Male,Interpreter required,stroke,Brain with Contrast,True,2026-04-09 15:29:00
+3759,21.0,Male,,stroke,Brain,False,2026-01-05 17:46:00
+0109,84.0,Female,Wheelchair user,back pain,Lumbar Spine,False,2025-10-03 15:56:00
+2497,73.0,Female,,sciatica,Lumbar Spine,False,2026-04-10 16:17:00
+3114,39.0,Female,,aneurysm,Brain with Contrast,True,2026-04-27 09:49:00
+2343,50.0,Male,,back pain,Lumbar Spine with Contrast,True,2025-11-30 09:49:00
+1212,85.0,Male,Claustrophobic,headache,Brain with Contrast,True,2025-10-31 17:16:00
+2488,83.0,Male,,dementia,Brain,False,2025-12-03 16:58:00
+1005,38.0,Male,Hospital transport,other,Brain,False,2026-03-03 17:59:00
+4239,19.0,Female,Hospital transport,sciatica,Lumbar Spine,False,2026-05-25 16:48:00
+3771,72.0,Male,,sciatica,Lumbar Spine with Contrast,True,2026-05-13 14:56:00
+1731,37.0,Female,Wheelchair user,sciatica,Lumbar Spine,False,2025-11-14 12:04:00
+2061,63.0,Other,,dementia,Brain,False,2025-11-22 16:34:00
+0350,44.0,Female,Hospital transport,other,Lumbar Spine,False,2026-02-14 16:41:00
+2991,80.0,Male,,neck pain,Cervical Spine,False,2026-04-23 16:37:00
+2173,67.0,Female,Wheelchair user,infection,Brain with Contrast,True,2025-11-25 14:35:00
+1819,89.0,Male,,multiple sclerosis,Whole Spine,False,2026-03-24 16:40:00
+2548,59.0,Male,,sciatica,Lumbar Spine,False,2026-04-12 09:57:00
+4784,82.0,Male,,other,Cervical Spine,False,2026-06-08 17:32:00
+1544,28.0,Male,,tumor,Brain with Contrast,True,2025-11-09 12:28:00
+2397,37.0,Male,,dementia,Brain,False,2026-04-08 09:39:00
+3274,64.0,Other,,tumor,Whole Spine with Contrast,True,2025-12-24 09:14:00
+2692,55.0,Male,,tumor,Brain with Contrast,True,2026-04-16 09:38:00
+2900,42.0,Other,,dementia,Brain with Contrast,True,2025-12-14 12:21:00
+0113,54.0,Female,,aneurysm,Brain with Contrast,True,2026-02-08 16:40:00
+4011,34.0,Female,Wheelchair user,stroke,Brain,False,2026-05-19 17:33:00
+0782,27.0,Female,Cognitive impairment,multiple sclerosis,Brain,False,2025-10-20 17:49:00
+2429,69.0,Female,,dementia,Brain,False,2026-04-09 09:21:00
+3772,62.0,Female,Wheelchair user,neck pain,Cervical Spine,False,2026-01-06 10:41:00
+0462,67.0,Male,,sciatica,Lumbar Spine,False,2026-02-17 17:36:00
+1207,31.0,Male,,infection,Brain with Contrast,True,2026-03-09 10:29:00
+3520,60.0,Female,,infection,Brain with Contrast,True,2026-05-06 17:55:00
+3126,38.0,Other,,headache,Brain,False,2025-12-20 11:35:00
+4481,68.0,Male,Wheelchair user,multiple sclerosis,Whole Spine,False,2026-05-31 16:36:00
+0386,77.0,Female,,stroke,Brain,False,2026-02-15 17:10:00
+3217,31.0,Female,Wheelchair user,other,Brain,False,2025-12-22 14:13:00
+0093,21.0,Female,Wheelchair user,infection,Cervical Spine with Contrast,True,2025-10-03 11:49:00
+0120,18.0,Female,,sciatica,Lumbar Spine,False,2025-10-04 09:20:00
+2425,32.0,Male,,neck pain,Cervical Spine,False,2026-04-09 08:01:00
+3777,75.0,Female,Hospital transport,neck pain,Cervical Spine with Contrast,True,2026-01-06 11:22:00
+4995,20.0,Male,Poor mobility,dementia,Brain with Contrast,True,2026-02-06 10:18:00
+4482,34.0,Other,,dementia,Brain,False,2026-01-24 11:11:00
+3093,38.0,Male,Hoist required,stroke,Brain,False,2026-04-26 14:00:00
+4017,61.0,Male,,sciatica,Lumbar Spine,False,2026-05-20 09:33:00
+4868,41.0,Other,Hospital transport,tumor,Thoracic Spine with Contrast,True,2026-02-02 16:36:00
+4720,67.0,Other,,aneurysm,Brain with Contrast,True,2026-01-30 09:43:00
+2946,34.0,Female,Wheelchair user,spinal cord injury,Whole Spine with Contrast,True,2026-04-22 15:52:00
+0490,76.0,Female,Interpreter required,multiple sclerosis,Whole Spine,False,2026-02-18 15:32:00
+2288,42.0,Female,,dementia,Brain,False,2026-04-05 13:58:00
+3742,88.0,Female,,aneurysm,Brain with Contrast,True,2026-05-13 08:38:00
+4754,80.0,Male,,neck pain,Cervical Spine,False,2026-01-31 08:45:00
+1945,37.0,Other,,stroke,Brain with Contrast,True,2025-11-19 16:05:00
+2371,50.0,Male,,tumor,Whole Spine with Contrast,True,2025-11-30 17:30:00
+4948,70.0,Female,,infection,Thoracic Spine with Contrast,True,2026-02-04 17:08:00
+3195,76.0,Female,,stroke,Brain,False,2026-04-29 09:24:00
+2713,85.0,Female,,dementia,Brain,False,2026-04-16 14:26:00
+3966,22.0,Other,,dementia,Brain,False,2026-01-11 13:41:00
+0317,18.0,Other,,stroke,Brain,False,2025-10-09 09:34:00
+0232,70.0,Female,,stroke,Brain,False,2026-02-11 16:31:00
+1882,28.0,Female,,tumor,Whole Spine with Contrast,True,2026-03-26 11:40:00
+4017,82.0,Male,DIVA,neck pain,Cervical Spine,False,2026-01-12 15:46:00
+2472,68.0,Female,,aneurysm,Brain with Contrast,True,2025-12-03 13:01:00
+4058,61.0,Male,,neck pain,Cervical Spine with Contrast,True,2026-01-13 15:10:00
+2170,42.0,Female,,dementia,Brain,False,2026-04-02 15:42:00
+1461,42.0,Female,Interpreter required,stroke,Brain,False,2025-11-07 11:21:00
+3897,23.0,Female,,back pain,Lumbar Spine,False,2026-01-09 12:59:00
+1875,42.0,Other,,headache,Brain,False,2025-11-18 09:47:00
+0089,68.0,Female,,stroke,Brain,False,2025-10-03 10:50:00
+2205,58.0,Male,Wheelchair user,other,Brain,False,2026-04-03 14:05:00
+0533,34.0,Female,,tumor,Brain with Contrast,True,2026-02-19 15:27:00
+4832,48.0,Female,,neck pain,Cervical Spine,False,2026-06-10 10:50:00
+2366,62.0,Male,Claustrophobic,sciatica,Lumbar Spine with Contrast,True,2026-04-07 13:14:00
+4234,21.0,Female,Claustrophobic,back pain,Lumbar Spine,False,2026-05-25 15:09:00
+2233,37.0,Male,,tumor,Thoracic Spine with Contrast,True,2026-04-04 10:49:00
+1336,63.0,Female,,neck pain,Cervical Spine,False,2025-11-04 08:27:00
+4262,53.0,Male,Hospital transport,spinal cord injury,Whole Spine with Contrast,True,2026-01-18 16:46:00
+4492,70.0,Female,Poor mobility,aneurysm,Brain with Contrast,True,2026-06-01 08:43:00
+3955,88.0,Male,Interpreter required,dementia,Brain,False,2026-05-18 13:06:00
+3430,24.0,Male,,neck pain,Cervical Spine,False,2026-05-04 15:53:00
+0368,57.0,Male,Wheelchair user,dementia,Brain,False,2025-10-10 13:20:00
+3069,27.0,Female,Learning difficulty,neck pain,Cervical Spine,False,2026-04-25 16:58:00
+0929,30.0,Female,,multiple sclerosis,Whole Spine,False,2026-03-02 10:14:00
+4562,32.0,Female,,spinal cord injury,Whole Spine with Contrast,True,2026-06-02 17:52:00
+2343,49.0,Female,,spinal cord injury,Whole Spine,False,2026-04-06 17:49:00
+3750,52.0,Male,,sciatica,Lumbar Spine,False,2026-05-13 10:35:00
+1771,55.0,Female,,aneurysm,Brain with Contrast,True,2026-03-23 15:10:00
+4775,66.0,Female,Learning difficulty,other,Whole Spine,False,2026-06-08 13:55:00
+1089,27.0,Male,,infection,Lumbar Spine with Contrast,True,2025-10-28 15:07:00
+0449,18.0,Other,,sciatica,Lumbar Spine,False,2025-10-12 13:19:00
+1358,38.0,Male,,other,Lumbar Spine,False,2026-03-12 16:14:00
+2455,84.0,Male,,other,Brain with Contrast,True,2026-04-09 17:09:00
+3895,38.0,Male,,aneurysm,Brain with Contrast,True,2026-01-09 12:28:00
+4001,82.0,Female,,infection,Brain with Contrast,True,2026-05-19 15:33:00
+4690,61.0,Male,,tumor,Whole Spine with Contrast,True,2026-06-06 10:47:00
+0671,58.0,Male,Wheelchair user,other,Brain,False,2025-10-18 08:55:00
+1700,69.0,Female,,multiple sclerosis,Whole Spine,False,2025-11-13 13:47:00
+4115,58.0,Female,,tumor,Lumbar Spine with Contrast,True,2026-05-22 14:40:00
+3009,56.0,Other,,infection,Brain with Contrast,True,2025-12-17 12:26:00
+3057,69.0,Female,,infection,Brain with Contrast,True,2025-12-18 14:56:00
+0678,73.0,Female,Hospital transport,aneurysm,Brain with Contrast,True,2026-02-23 13:41:00
+4862,84.0,Other,,headache,Brain,False,2026-02-02 14:27:00
+3865,87.0,Female,,dementia,Brain,False,2026-05-16 10:13:00
+4846,59.0,Female,Hospital transport,spinal cord injury,Whole Spine with Contrast,True,2026-06-10 14:57:00
+2947,56.0,Female,,sciatica,Lumbar Spine,False,2025-12-15 15:47:00
+3376,61.0,Female,Claustrophobic,aneurysm,Brain with Contrast,True,2025-12-26 15:10:00
+2472,28.0,Male,Wheelchair user,back pain,Lumbar Spine,False,2026-04-10 11:10:00
+2741,72.0,Male,Wheelchair user,headache,Brain,False,2025-12-10 08:07:00
+4324,25.0,Female,Cognitive impairment,infection,Cervical Spine with Contrast,True,2026-01-20 12:56:00
+3844,54.0,Female,,multiple sclerosis,Brain,False,2026-05-15 15:08:00
+1400,89.0,Male,,other,Cervical Spine,False,2025-11-05 13:52:00
+4188,64.0,Male,,stroke,Brain,False,2026-05-24 13:35:00
+3143,54.0,Other,Interpreter required,headache,Brain,False,2025-12-20 15:35:00
+4875,29.0,Female,Cognitive impairment,infection,Thoracic Spine with Contrast,True,2026-06-11 11:50:00
+4684,18.0,Other,Hospital transport,multiple sclerosis,Brain,False,2026-01-29 11:59:00
+3816,77.0,Female,,aneurysm,Brain with Contrast,True,2026-05-14 17:35:00
+0972,49.0,Male,,neck pain,Cervical Spine,False,2026-03-03 11:15:00
+0269,20.0,Other,,spinal cord injury,Whole Spine with Contrast,True,2025-10-08 08:11:00
+4680,22.0,Other,,sciatica,Lumbar Spine,False,2026-01-29 11:14:00
+4282,66.0,Male,,neck pain,Cervical Spine with Contrast,True,2026-05-26 17:31:00
+0119,71.0,Female,,sciatica,Lumbar Spine,False,2026-02-09 08:15:00
+2671,47.0,Male,Learning difficulty,tumor,Brain with Contrast,True,2025-12-08 10:24:00
+3507,40.0,Female,,neck pain,Cervical Spine,False,2025-12-30 10:46:00
+3191,84.0,Other,,aneurysm,Brain with Contrast,True,2025-12-21 17:50:00
+2272,33.0,Other,Wheelchair user,stroke,Brain,False,2025-11-28 10:34:00
+2876,37.0,Other,,stroke,Brain,False,2025-12-13 16:06:00
+0922,24.0,Male,,other,Whole Spine,False,2026-03-02 08:24:00
+3774,61.0,Female,,infection,Lumbar Spine with Contrast,True,2026-05-13 15:49:00
+2971,66.0,Other,,dementia,Brain,False,2025-12-16 12:22:00
+4157,53.0,Female,,back pain,Lumbar Spine,False,2026-01-16 09:17:00
+4098,65.0,Female,Wheelchair user,stroke,Brain,False,2026-05-22 10:59:00
+4002,20.0,Male,,sciatica,Lumbar Spine,False,2026-05-19 15:43:00
+1422,25.0,Female,,aneurysm,Brain with Contrast,True,2025-11-06 10:24:00
+3843,36.0,Male,,multiple sclerosis,Whole Spine,False,2026-05-15 14:42:00
+0512,18.0,Other,Wheelchair user,tumor,Thoracic Spine with Contrast,True,2025-10-14 08:00:00
+2983,82.0,Female,,tumor,Brain with Contrast,True,2025-12-16 15:41:00
+0800,45.0,Female,,spinal cord injury,Whole Spine with Contrast,True,2025-10-21 12:21:00
+4522,75.0,Female,,neck pain,Cervical Spine,False,2026-06-01 17:53:00
+2287,30.0,Other,,tumor,Whole Spine with Contrast,True,2025-11-28 14:44:00
+4498,22.0,Female,Hospital transport,sciatica,Lumbar Spine,False,2026-01-24 15:33:00
+3480,35.0,Other,,tumor,Whole Spine with Contrast,True,2025-12-29 13:14:00
+1487,42.0,Female,,infection,Whole Spine with Contrast,True,2025-11-07 17:41:00
+2739,22.0,Male,,aneurysm,Brain with Contrast,True,2025-12-10 08:00:00
+1502,27.0,Female,Cognitive impairment,back pain,Lumbar Spine with Contrast,True,2025-11-08 12:30:00
+4217,30.0,Male,Wheelchair user,spinal cord injury,Whole Spine,False,2026-05-25 10:11:00
+4608,70.0,Female,,multiple sclerosis,Brain,False,2026-01-27 15:06:00
+2694,35.0,Male,,back pain,Lumbar Spine with Contrast,True,2026-04-16 10:17:00
+2967,28.0,Other,,neck pain,Cervical Spine,False,2025-12-16 11:00:00
+0309,18.0,Female,,neck pain,Cervical Spine,False,2025-10-08 17:21:00
+0807,47.0,Male,Wheelchair user,dementia,Brain,False,2025-10-21 14:07:00
+2084,57.0,Female,Hospital transport,stroke,Brain,False,2025-11-23 12:14:00
+1482,84.0,Female,,tumor,Brain with Contrast,True,2026-03-16 10:05:00
+1102,57.0,Female,,dementia,Brain,False,2026-03-06 12:58:00
+2913,19.0,Male,,spinal cord injury,Whole Spine with Contrast,True,2026-04-21 15:42:00
+3881,58.0,Male,Wheelchair user,headache,Brain,False,2026-05-16 14:43:00
+0275,44.0,Female,,sciatica,Lumbar Spine,False,2026-02-12 17:07:00
+4682,78.0,Male,Wheelchair user,infection,Brain with Contrast,True,2026-01-29 11:39:00
+2354,53.0,Female,Wheelchair user,stroke,Brain with Contrast,True,2025-11-30 12:49:00
+2791,37.0,Other,,back pain,Lumbar Spine,False,2025-12-11 10:13:00
+3502,84.0,Other,,spinal cord injury,Whole Spine with Contrast,True,2025-12-30 09:03:00
