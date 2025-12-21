@@ -24,11 +24,8 @@ except FileNotFoundError:
     print("File not found. Please ensure the dataset file is in the correct location.")
     exit()
 # Check for missing values
-# Check what the spelling actually is
 
 
-# Check if you currently have any 'Yes' values for Hoist
-print(df_historical['Hoist Required'].value_counts())
 
 Random_seed = 42 #make this repeatable 
 Ouptpu_model_name = 'appointment_delay_regression_model.pkl'
@@ -39,7 +36,7 @@ Categorical_features = [
     'Interpreter Required', 'Sedation needed', 'Difficult IV Access', 'Hospital Transport Required', 'Contrast'
 ]
 Numerical_features = [
-    'Scheduled Scan Time', 'Age', 'Arrival Time',
+    'Age'
 ]
 
 full_Features = Categorical_features + Numerical_features

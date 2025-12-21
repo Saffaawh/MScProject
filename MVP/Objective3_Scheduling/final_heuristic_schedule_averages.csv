@@ -1,0 +1,501 @@
+Scanner,Date,Day,Start Time,End Time,Patient Number,Age,Clinical Indication,Delay Reason,Scan Type,Duration
+MRI Scanner 1,2025-01-02,Thursday,08:00,09:46,226,53.0,spinal cord injury,Hoist required,Whole Spine with Contrast,106
+MRI Scanner 1,2025-01-02,Thursday,09:51,10:56,610,86.0,back pain,Claustrophobic,Lumbar Spine,65
+MRI Scanner 1,2025-01-02,Thursday,11:01,12:06,903,34.0,sciatica,Claustrophobic,Lumbar Spine,65
+MRI Scanner 1,2025-01-02,Thursday,12:11,13:19,2084,57.0,stroke,Hospital transport,Brain,68
+MRI Scanner 1,2025-01-02,Thursday,13:24,14:29,1209,73.0,headache,Claustrophobic,Brain,65
+MRI Scanner 1,2025-01-02,Thursday,14:34,15:42,1151,61.0,headache,Hoist required,Brain,68
+MRI Scanner 1,2025-01-02,Thursday,15:47,17:15,1212,85.0,headache,Claustrophobic,Brain with Contrast,88
+MRI Scanner 1,2025-01-02,Thursday,17:20,18:25,1737,66.0,neck pain,Claustrophobic,Cervical Spine,65
+MRI Scanner 1,2025-01-02,Thursday,18:30,19:20,5,86.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 1,2025-01-02,Thursday,19:25,19:55,89,68.0,stroke,None,Brain,30
+MRI Scanner 2,2025-01-02,Thursday,08:00,09:05,1962,63.0,headache,Claustrophobic,Brain,65
+MRI Scanner 2,2025-01-02,Thursday,09:10,10:38,2368,21.0,aneurysm,Claustrophobic,Brain with Contrast,88
+MRI Scanner 2,2025-01-02,Thursday,10:43,11:51,2522,83.0,multiple sclerosis,Hospital transport,Brain,68
+MRI Scanner 2,2025-01-02,Thursday,11:56,13:01,3106,40.0,dementia,Claustrophobic,Brain,65
+MRI Scanner 2,2025-01-02,Thursday,13:06,14:14,3142,21.0,multiple sclerosis,Hospital transport,Brain,68
+MRI Scanner 2,2025-01-02,Thursday,14:19,15:47,3214,70.0,infection,Claustrophobic,Cervical Spine with Contrast,88
+MRI Scanner 2,2025-01-02,Thursday,15:52,17:20,3376,61.0,aneurysm,Claustrophobic,Brain with Contrast,88
+MRI Scanner 2,2025-01-02,Thursday,17:25,18:10,40,84.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 2,2025-01-02,Thursday,18:15,19:23,97,48.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-02,Thursday,19:28,19:58,107,84.0,dementia,None,Brain,30
+MRI Scanner 3,2025-01-02,Thursday,08:00,09:46,1706,68.0,spinal cord injury,Hoist required,Whole Spine with Contrast,106
+MRI Scanner 3,2025-01-02,Thursday,09:51,11:22,1947,50.0,aneurysm,Hoist required,Brain with Contrast,91
+MRI Scanner 3,2025-01-02,Thursday,11:27,12:58,3777,75.0,neck pain,Hospital transport,Cervical Spine with Contrast,91
+MRI Scanner 3,2025-01-02,Thursday,13:03,14:49,4262,53.0,spinal cord injury,Hospital transport,Whole Spine with Contrast,106
+MRI Scanner 3,2025-01-02,Thursday,14:54,16:25,4384,29.0,sciatica,Hospital transport,Lumbar Spine with Contrast,91
+MRI Scanner 3,2025-01-02,Thursday,16:30,17:46,93,21.0,infection,Wheelchair user,Cervical Spine with Contrast,76
+MRI Scanner 3,2025-01-02,Thursday,17:51,18:21,120,18.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 3,2025-01-02,Thursday,18:26,19:12,171,89.0,multiple sclerosis,DIVA,Brain,46
+MRI Scanner 3,2025-01-02,Thursday,19:17,19:47,257,51.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 4,2025-01-02,Thursday,08:00,09:08,2763,85.0,dementia,Hoist required,Brain,68
+MRI Scanner 4,2025-01-02,Thursday,09:13,10:21,3218,23.0,multiple sclerosis,Hoist required,Brain,68
+MRI Scanner 4,2025-01-02,Thursday,10:26,11:31,4288,26.0,back pain,Claustrophobic,Lumbar Spine,65
+MRI Scanner 4,2025-01-02,Thursday,11:36,13:19,82,35.0,spinal cord injury,Claustrophobic,Whole Spine with Contrast,103
+MRI Scanner 4,2025-01-02,Thursday,13:24,14:16,109,84.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 4,2025-01-02,Thursday,14:21,15:26,248,77.0,neck pain,Claustrophobic,Cervical Spine,65
+MRI Scanner 4,2025-01-02,Thursday,15:31,16:59,1330,70.0,infection,Claustrophobic,Brain with Contrast,88
+MRI Scanner 4,2025-01-02,Thursday,17:04,18:17,177,83.0,infection,Learning difficulty,Brain with Contrast,73
+MRI Scanner 4,2025-01-02,Thursday,18:22,19:12,193,64.0,multiple sclerosis,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-02,Thursday,19:17,19:47,309,18.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-03,Friday,08:00,09:08,4220,64.0,stroke,Hoist required,Brain,68
+MRI Scanner 1,2025-01-03,Friday,09:13,10:21,4434,21.0,back pain,Hospital transport,Lumbar Spine,68
+MRI Scanner 1,2025-01-03,Friday,10:26,11:34,4498,22.0,sciatica,Hospital transport,Lumbar Spine,68
+MRI Scanner 1,2025-01-03,Friday,11:39,12:47,4547,69.0,back pain,Hoist required,Lumbar Spine,68
+MRI Scanner 1,2025-01-03,Friday,12:52,14:23,4603,67.0,aneurysm,Hospital transport,Brain with Contrast,91
+MRI Scanner 1,2025-01-03,Friday,14:28,15:36,4684,18.0,multiple sclerosis,Hospital transport,Brain,68
+MRI Scanner 1,2025-01-03,Friday,15:41,16:49,350,44.0,other,Hospital transport,Lumbar Spine,68
+MRI Scanner 1,2025-01-03,Friday,16:54,17:59,1857,69.0,multiple sclerosis,Claustrophobic,Brain,65
+MRI Scanner 1,2025-01-03,Friday,18:04,19:18,206,46.0,headache,Interpreter required,Brain with Contrast,74
+MRI Scanner 1,2025-01-03,Friday,19:23,19:53,310,51.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-03,Friday,08:00,09:28,2366,62.0,sciatica,Claustrophobic,Lumbar Spine with Contrast,88
+MRI Scanner 2,2025-01-03,Friday,09:33,11:04,4868,41.0,tumor,Hospital transport,Thoracic Spine with Contrast,91
+MRI Scanner 2,2025-01-03,Friday,11:09,12:40,678,73.0,aneurysm,Hospital transport,Brain with Contrast,91
+MRI Scanner 2,2025-01-03,Friday,12:45,13:53,1005,38.0,other,Hospital transport,Brain,68
+MRI Scanner 2,2025-01-03,Friday,13:58,15:06,1087,21.0,sciatica,Hospital transport,Lumbar Spine,68
+MRI Scanner 2,2025-01-03,Friday,15:11,16:42,1843,72.0,aneurysm,Hospital transport,Brain with Contrast,91
+MRI Scanner 2,2025-01-03,Friday,16:47,18:15,3349,60.0,headache,Claustrophobic,Brain with Contrast,88
+MRI Scanner 2,2025-01-03,Friday,18:20,19:28,269,20.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 3,2025-01-03,Friday,08:00,09:31,4551,54.0,infection,Hoist required,Cervical Spine with Contrast,91
+MRI Scanner 3,2025-01-03,Friday,09:36,11:07,2889,23.0,aneurysm,Hospital transport,Brain with Contrast,91
+MRI Scanner 3,2025-01-03,Friday,11:12,12:20,3093,38.0,stroke,Hoist required,Brain,68
+MRI Scanner 3,2025-01-03,Friday,12:25,13:33,4239,19.0,sciatica,Hospital transport,Lumbar Spine,68
+MRI Scanner 3,2025-01-03,Friday,13:38,15:24,4846,59.0,spinal cord injury,Hospital transport,Whole Spine with Contrast,106
+MRI Scanner 3,2025-01-03,Friday,15:29,15:59,317,18.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-03,Friday,16:04,16:52,327,43.0,neck pain,Cognitive impairment,Cervical Spine,48
+MRI Scanner 3,2025-01-03,Friday,16:57,18:28,333,68.0,infection,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-03,Friday,18:33,19:03,426,84.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 3,2025-01-03,Friday,19:08,19:38,449,18.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 4,2025-01-03,Friday,08:00,09:28,3566,89.0,back pain,Claustrophobic,Lumbar Spine with Contrast,88
+MRI Scanner 4,2025-01-03,Friday,09:33,10:41,3932,18.0,dementia,Hoist required,Brain,68
+MRI Scanner 4,2025-01-03,Friday,10:46,11:51,4013,56.0,sciatica,Claustrophobic,Lumbar Spine,65
+MRI Scanner 4,2025-01-03,Friday,11:56,13:01,4234,21.0,back pain,Claustrophobic,Lumbar Spine,65
+MRI Scanner 4,2025-01-03,Friday,13:06,13:55,354,42.0,stroke,Learning difficulty,Brain,49
+MRI Scanner 4,2025-01-03,Friday,14:00,15:28,4726,30.0,stroke,Claustrophobic,Brain with Contrast,88
+MRI Scanner 4,2025-01-03,Friday,15:33,16:25,368,57.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-03,Friday,16:30,17:22,376,71.0,other,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-03,Friday,17:27,18:34,404,39.0,multiple sclerosis,Wheelchair user,Whole Spine,67
+MRI Scanner 4,2025-01-03,Friday,18:39,19:47,522,86.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 1,2025-01-04,Saturday,08:00,09:12,455,79.0,other,Cognitive impairment,Brain with Contrast,72
+MRI Scanner 1,2025-01-04,Saturday,09:17,10:33,492,66.0,tumor,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-04,Saturday,10:38,11:54,512,18.0,tumor,Wheelchair user,Thoracic Spine with Contrast,76
+MRI Scanner 1,2025-01-04,Saturday,11:59,13:24,530,58.0,tumor,DIVA,Whole Spine with Contrast,85
+MRI Scanner 1,2025-01-04,Saturday,13:29,13:59,555,52.0,stroke,None,Brain,30
+MRI Scanner 1,2025-01-04,Saturday,14:04,15:20,578,85.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-04,Saturday,15:25,15:55,589,68.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-04,Saturday,16:00,17:31,591,32.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 1,2025-01-04,Saturday,17:36,18:26,626,78.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 1,2025-01-04,Saturday,18:31,19:16,663,33.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 1,2025-01-04,Saturday,19:21,19:51,749,59.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-04,Saturday,08:00,08:48,782,27.0,multiple sclerosis,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-04,Saturday,08:53,10:01,800,45.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-04,Saturday,10:06,10:36,891,64.0,multiple sclerosis,None,Brain,30
+MRI Scanner 2,2025-01-04,Saturday,10:41,11:55,1079,75.0,neck pain,Interpreter required,Cervical Spine with Contrast,74
+MRI Scanner 2,2025-01-04,Saturday,12:00,12:53,1089,27.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-04,Saturday,12:58,14:08,1132,65.0,sciatica,DIVA,Lumbar Spine with Contrast,70
+MRI Scanner 2,2025-01-04,Saturday,14:13,14:43,1165,37.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-04,Saturday,14:48,15:18,1172,31.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-04,Saturday,15:23,16:12,1220,40.0,sciatica,Learning difficulty,Lumbar Spine,49
+MRI Scanner 2,2025-01-04,Saturday,16:17,16:47,1249,81.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-04,Saturday,16:52,17:40,1287,37.0,stroke,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-04,Saturday,17:45,18:35,1303,73.0,other,Interpreter required,Lumbar Spine,50
+MRI Scanner 2,2025-01-04,Saturday,18:40,19:10,1336,63.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-04,Saturday,19:15,19:45,1400,89.0,other,None,Cervical Spine,30
+MRI Scanner 3,2025-01-04,Saturday,08:00,09:31,653,33.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-04,Saturday,09:36,10:28,671,58.0,other,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-04,Saturday,10:33,12:02,759,65.0,spinal cord injury,Poor mobility,Whole Spine with Contrast,89
+MRI Scanner 3,2025-01-04,Saturday,12:07,12:59,770,33.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-04,Saturday,13:04,13:56,807,47.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-04,Saturday,14:01,14:53,812,69.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-04,Saturday,14:58,16:29,844,59.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-04,Saturday,16:34,17:50,990,81.0,stroke,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-04,Saturday,17:55,18:45,1386,59.0,neck pain,Interpreter required,Cervical Spine,50
+MRI Scanner 3,2025-01-04,Saturday,18:50,19:51,1418,79.0,multiple sclerosis,DIVA,Whole Spine,61
+MRI Scanner 4,2025-01-04,Saturday,08:00,08:50,1420,34.0,multiple sclerosis,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-04,Saturday,08:55,09:48,1422,25.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-04,Saturday,09:53,10:43,1461,42.0,stroke,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-04,Saturday,10:48,11:18,1475,25.0,other,None,Cervical Spine,30
+MRI Scanner 4,2025-01-04,Saturday,11:23,12:31,1487,42.0,infection,None,Whole Spine with Contrast,68
+MRI Scanner 4,2025-01-04,Saturday,12:36,13:26,1492,51.0,headache,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-04,Saturday,13:31,14:43,1502,27.0,back pain,Cognitive impairment,Lumbar Spine with Contrast,72
+MRI Scanner 4,2025-01-04,Saturday,14:48,15:40,1503,40.0,sciatica,Wheelchair user,Lumbar Spine,52
+MRI Scanner 4,2025-01-04,Saturday,15:45,16:15,1513,87.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 4,2025-01-04,Saturday,16:20,17:13,1544,28.0,tumor,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-04,Saturday,17:18,18:49,1611,66.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 4,2025-01-04,Saturday,18:54,19:45,1633,77.0,neck pain,Poor mobility,Cervical Spine,51
+MRI Scanner 1,2025-01-05,Sunday,08:00,08:52,1620,29.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-05,Sunday,08:57,09:49,1629,82.0,sciatica,Wheelchair user,Lumbar Spine,52
+MRI Scanner 1,2025-01-05,Sunday,09:54,10:42,1653,72.0,dementia,Cognitive impairment,Brain,48
+MRI Scanner 1,2025-01-05,Sunday,10:47,12:01,1670,41.0,neck pain,Interpreter required,Cervical Spine with Contrast,74
+MRI Scanner 1,2025-01-05,Sunday,12:06,13:20,1681,39.0,infection,Interpreter required,Thoracic Spine with Contrast,74
+MRI Scanner 1,2025-01-05,Sunday,13:25,14:10,1700,69.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 1,2025-01-05,Sunday,14:15,15:27,1702,38.0,aneurysm,Cognitive impairment,Brain with Contrast,72
+MRI Scanner 1,2025-01-05,Sunday,15:32,16:24,1731,37.0,sciatica,Wheelchair user,Lumbar Spine,52
+MRI Scanner 1,2025-01-05,Sunday,16:29,18:00,1782,39.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 1,2025-01-05,Sunday,18:05,18:35,1802,50.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-05,Sunday,18:40,19:33,1822,85.0,back pain,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-05,Sunday,08:00,08:30,1845,68.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-05,Sunday,08:35,09:05,1875,42.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-05,Sunday,09:10,10:00,1876,38.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 2,2025-01-05,Sunday,10:05,10:54,1903,51.0,back pain,Learning difficulty,Lumbar Spine,49
+MRI Scanner 2,2025-01-05,Sunday,10:59,11:29,1906,26.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-05,Sunday,11:34,12:27,1945,37.0,stroke,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-05,Sunday,12:32,13:02,2050,32.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-05,Sunday,13:07,13:37,2061,63.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-05,Sunday,13:42,14:35,2093,23.0,infection,None,Thoracic Spine with Contrast,53
+MRI Scanner 2,2025-01-05,Sunday,14:40,15:10,2116,33.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-05,Sunday,15:15,16:23,2287,30.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-05,Sunday,16:28,17:32,2326,72.0,multiple sclerosis,Learning difficulty,Whole Spine,64
+MRI Scanner 2,2025-01-05,Sunday,17:37,18:30,2343,50.0,back pain,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-05,Sunday,18:35,19:25,2356,23.0,dementia,Interpreter required,Brain,50
+MRI Scanner 2,2025-01-05,Sunday,19:30,20:00,2429,20.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-05,Sunday,08:00,09:16,1788,42.0,tumor,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-05,Sunday,09:21,10:50,1958,87.0,tumor,Poor mobility,Whole Spine with Contrast,89
+MRI Scanner 3,2025-01-05,Sunday,10:55,11:47,1987,47.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-05,Sunday,11:52,13:23,2111,79.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-05,Sunday,13:28,14:44,2173,67.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-05,Sunday,14:49,16:05,2196,66.0,aneurysm,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-05,Sunday,16:10,17:26,2208,54.0,infection,Wheelchair user,Thoracic Spine with Contrast,76
+MRI Scanner 3,2025-01-05,Sunday,17:31,18:39,2371,50.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 3,2025-01-05,Sunday,18:44,19:30,2400,80.0,multiple sclerosis,DIVA,Brain,46
+MRI Scanner 4,2025-01-05,Sunday,08:00,09:16,2249,87.0,sciatica,Wheelchair user,Lumbar Spine with Contrast,76
+MRI Scanner 4,2025-01-05,Sunday,09:21,10:13,2272,33.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-05,Sunday,10:18,11:34,2353,58.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 4,2025-01-05,Sunday,11:39,12:55,2354,53.0,stroke,Wheelchair user,Brain with Contrast,76
+MRI Scanner 4,2025-01-05,Sunday,13:00,13:53,2472,68.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-05,Sunday,13:58,14:28,2488,83.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-05,Sunday,14:33,15:23,2508,34.0,back pain,Interpreter required,Lumbar Spine,50
+MRI Scanner 4,2025-01-05,Sunday,15:28,16:21,2517,35.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-05,Sunday,16:26,16:56,2523,48.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-05,Sunday,17:01,17:49,2535,81.0,back pain,Cognitive impairment,Lumbar Spine,48
+MRI Scanner 4,2025-01-05,Sunday,17:54,18:45,2563,60.0,back pain,Poor mobility,Lumbar Spine,51
+MRI Scanner 4,2025-01-05,Sunday,18:50,19:40,2568,64.0,dementia,Interpreter required,Brain,50
+MRI Scanner 1,2025-01-06,Monday,08:00,09:10,2569,65.0,infection,DIVA,Brain with Contrast,70
+MRI Scanner 1,2025-01-06,Monday,09:15,10:31,2577,52.0,aneurysm,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-06,Monday,10:36,11:26,2599,24.0,neck pain,Interpreter required,Cervical Spine,50
+MRI Scanner 1,2025-01-06,Monday,11:31,12:44,2671,47.0,tumor,Learning difficulty,Brain with Contrast,73
+MRI Scanner 1,2025-01-06,Monday,12:49,13:56,2712,75.0,other,Wheelchair user,Whole Spine,67
+MRI Scanner 1,2025-01-06,Monday,14:01,14:54,2739,22.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-06,Monday,14:59,15:51,2741,72.0,headache,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-06,Monday,15:56,17:08,2785,62.0,aneurysm,Cognitive impairment,Brain with Contrast,72
+MRI Scanner 1,2025-01-06,Monday,17:13,17:43,2791,37.0,back pain,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-06,Monday,17:48,18:41,2796,75.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 1,2025-01-06,Monday,18:46,19:16,2876,37.0,stroke,None,Brain,30
+MRI Scanner 1,2025-01-06,Monday,19:21,19:51,2893,19.0,other,None,Brain,30
+MRI Scanner 2,2025-01-06,Monday,08:00,08:53,2900,42.0,dementia,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-06,Monday,08:58,10:10,2909,54.0,other,Cognitive impairment,Brain with Contrast,72
+MRI Scanner 2,2025-01-06,Monday,10:15,10:45,2937,81.0,multiple sclerosis,None,Brain,30
+MRI Scanner 2,2025-01-06,Monday,10:50,11:38,2946,42.0,stroke,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-06,Monday,11:43,12:13,2947,56.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-06,Monday,12:18,12:48,2967,28.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-06,Monday,12:53,13:23,2971,66.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-06,Monday,13:28,14:21,2983,82.0,tumor,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-06,Monday,14:26,15:16,2996,44.0,back pain,Interpreter required,Lumbar Spine,50
+MRI Scanner 2,2025-01-06,Monday,15:21,16:14,3009,56.0,infection,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-06,Monday,16:19,17:12,3057,69.0,infection,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-06,Monday,17:17,18:31,3099,18.0,aneurysm,Interpreter required,Brain with Contrast,74
+MRI Scanner 2,2025-01-06,Monday,18:36,19:06,3126,38.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-06,Monday,19:11,19:41,3154,60.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-06,Monday,08:00,08:52,2839,84.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-06,Monday,08:57,09:47,3143,54.0,headache,Interpreter required,Brain,50
+MRI Scanner 3,2025-01-06,Monday,09:52,10:45,3191,84.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 3,2025-01-06,Monday,10:50,11:58,3194,26.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 3,2025-01-06,Monday,12:03,12:53,3197,42.0,headache,Interpreter required,Brain,50
+MRI Scanner 3,2025-01-06,Monday,12:58,14:25,3205,30.0,spinal cord injury,Cognitive impairment,Whole Spine with Contrast,87
+MRI Scanner 3,2025-01-06,Monday,14:30,15:00,3207,27.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-06,Monday,15:05,16:21,3216,19.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-06,Monday,16:26,17:18,3217,31.0,other,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-06,Monday,17:23,18:31,3274,64.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 3,2025-01-06,Monday,18:36,19:26,3318,37.0,headache,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-06,Monday,08:00,08:30,3348,75.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-06,Monday,08:35,09:05,3350,25.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-06,Monday,09:10,10:18,3387,32.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 4,2025-01-06,Monday,10:23,11:15,3418,85.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 4,2025-01-06,Monday,11:20,12:12,3451,46.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 4,2025-01-06,Monday,12:17,13:25,3480,35.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 4,2025-01-06,Monday,13:30,14:38,3502,84.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 4,2025-01-06,Monday,14:43,15:13,3507,40.0,neck pain,None,Cervical Spine,30
+MRI Scanner 4,2025-01-06,Monday,15:18,15:48,3539,78.0,neck pain,None,Cervical Spine,30
+MRI Scanner 4,2025-01-06,Monday,15:53,16:38,3570,81.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 4,2025-01-06,Monday,16:43,17:59,3608,53.0,infection,Wheelchair user,Thoracic Spine with Contrast,76
+MRI Scanner 4,2025-01-06,Monday,18:04,18:54,3671,27.0,headache,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-06,Monday,18:59,19:29,3759,21.0,stroke,None,Brain,30
+MRI Scanner 1,2025-01-07,Tuesday,08:00,08:52,3618,18.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 1,2025-01-07,Tuesday,08:57,09:49,3678,44.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-07,Tuesday,09:54,11:10,3696,88.0,aneurysm,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-07,Tuesday,11:15,12:22,3746,67.0,other,Wheelchair user,Whole Spine,67
+MRI Scanner 1,2025-01-07,Tuesday,12:27,13:19,3772,62.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 1,2025-01-07,Tuesday,13:24,14:14,3810,28.0,headache,Interpreter required,Brain,50
+MRI Scanner 1,2025-01-07,Tuesday,14:19,15:11,3843,46.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 1,2025-01-07,Tuesday,15:16,16:04,3870,75.0,back pain,Cognitive impairment,Lumbar Spine,48
+MRI Scanner 1,2025-01-07,Tuesday,16:09,17:19,3877,32.0,infection,DIVA,Thoracic Spine with Contrast,70
+MRI Scanner 1,2025-01-07,Tuesday,17:24,18:17,3895,38.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-07,Tuesday,18:22,18:52,3897,23.0,back pain,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-07,Tuesday,18:57,19:27,3966,22.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-07,Tuesday,08:00,09:08,3932,36.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-07,Tuesday,09:13,10:06,3968,29.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-07,Tuesday,10:11,10:57,4012,42.0,other,DIVA,Brain,46
+MRI Scanner 2,2025-01-07,Tuesday,11:02,11:48,4017,82.0,neck pain,DIVA,Cervical Spine,46
+MRI Scanner 2,2025-01-07,Tuesday,11:53,12:39,4048,20.0,back pain,DIVA,Lumbar Spine,46
+MRI Scanner 2,2025-01-07,Tuesday,12:44,13:37,4058,61.0,neck pain,None,Cervical Spine with Contrast,53
+MRI Scanner 2,2025-01-07,Tuesday,13:42,14:28,4071,85.0,dementia,DIVA,Brain,46
+MRI Scanner 2,2025-01-07,Tuesday,14:33,15:26,4083,68.0,tumor,None,Thoracic Spine with Contrast,53
+MRI Scanner 2,2025-01-07,Tuesday,15:31,16:19,4127,74.0,neck pain,Cognitive impairment,Cervical Spine,48
+MRI Scanner 2,2025-01-07,Tuesday,16:24,16:54,4157,53.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-07,Tuesday,16:59,17:44,4165,82.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 2,2025-01-07,Tuesday,17:49,18:42,4188,69.0,stroke,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-07,Tuesday,18:47,19:52,4323,81.0,other,Interpreter required,Whole Spine,65
+MRI Scanner 3,2025-01-07,Tuesday,08:00,08:52,3913,80.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-07,Tuesday,08:57,10:13,3916,82.0,stroke,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-07,Tuesday,10:18,11:34,3958,23.0,dementia,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-07,Tuesday,11:39,13:10,3997,27.0,infection,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-07,Tuesday,13:15,14:07,4025,43.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-07,Tuesday,14:12,15:28,4043,65.0,tumor,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-07,Tuesday,15:33,16:49,4050,47.0,aneurysm,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-07,Tuesday,16:54,18:08,4052,25.0,neck pain,Poor mobility,Cervical Spine with Contrast,74
+MRI Scanner 3,2025-01-07,Tuesday,18:13,19:06,4325,43.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 3,2025-01-07,Tuesday,19:11,19:41,4452,63.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-07,Tuesday,08:00,08:52,4062,32.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-07,Tuesday,08:57,09:49,4241,42.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-07,Tuesday,09:54,10:46,4245,46.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 4,2025-01-07,Tuesday,10:51,11:40,4303,40.0,other,Learning difficulty,Thoracic Spine,49
+MRI Scanner 4,2025-01-07,Tuesday,11:45,12:57,4324,25.0,infection,Cognitive impairment,Cervical Spine with Contrast,72
+MRI Scanner 4,2025-01-07,Tuesday,13:02,13:55,4371,29.0,tumor,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-07,Tuesday,14:00,15:13,4415,75.0,aneurysm,Learning difficulty,Brain with Contrast,73
+MRI Scanner 4,2025-01-07,Tuesday,15:18,16:45,4450,23.0,spinal cord injury,Cognitive impairment,Whole Spine with Contrast,87
+MRI Scanner 4,2025-01-07,Tuesday,16:50,17:20,4482,34.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-07,Tuesday,17:25,18:30,4576,47.0,spinal cord injury,Interpreter required,Whole Spine,65
+MRI Scanner 4,2025-01-07,Tuesday,18:35,19:05,4608,70.0,multiple sclerosis,None,Brain,30
+MRI Scanner 4,2025-01-07,Tuesday,19:10,19:40,4680,22.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-08,Wednesday,08:00,08:49,4657,57.0,dementia,Learning difficulty,Brain,49
+MRI Scanner 1,2025-01-08,Wednesday,08:54,10:10,4682,78.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-08,Wednesday,10:15,11:46,4687,68.0,tumor,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 1,2025-01-08,Wednesday,11:51,12:58,4693,20.0,other,Wheelchair user,Whole Spine,67
+MRI Scanner 1,2025-01-08,Wednesday,13:03,13:55,4694,85.0,sciatica,Wheelchair user,Lumbar Spine,52
+MRI Scanner 1,2025-01-08,Wednesday,14:00,14:30,4699,46.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-08,Wednesday,14:35,15:05,4702,72.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-08,Wednesday,15:10,16:24,4708,20.0,neck pain,Poor mobility,Cervical Spine with Contrast,74
+MRI Scanner 1,2025-01-08,Wednesday,16:29,17:22,4720,67.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-08,Wednesday,17:27,18:15,4745,24.0,neck pain,Cognitive impairment,Cervical Spine,48
+MRI Scanner 1,2025-01-08,Wednesday,18:20,18:50,4754,80.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-08,Wednesday,18:55,19:25,4804,41.0,back pain,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-08,Wednesday,19:30,20:00,4862,84.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-08,Wednesday,08:00,09:08,4813,18.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-08,Wednesday,09:13,10:06,4848,43.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-08,Wednesday,10:11,11:04,4850,71.0,back pain,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-08,Wednesday,11:09,11:39,4945,36.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-08,Wednesday,11:44,12:37,4948,70.0,infection,None,Thoracic Spine with Contrast,53
+MRI Scanner 2,2025-01-08,Wednesday,12:42,13:30,4970,31.0,headache,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-08,Wednesday,13:35,14:05,9,87.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-08,Wednesday,14:10,15:24,39,36.0,other,Interpreter required,Brain with Contrast,74
+MRI Scanner 2,2025-01-08,Wednesday,15:29,16:22,113,54.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-08,Wednesday,16:27,17:41,118,24.0,infection,Interpreter required,Cervical Spine with Contrast,74
+MRI Scanner 2,2025-01-08,Wednesday,17:46,18:16,119,71.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-08,Wednesday,18:21,18:51,204,33.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-08,Wednesday,18:56,19:26,232,70.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-08,Wednesday,08:00,09:14,4995,20.0,dementia,Poor mobility,Brain with Contrast,74
+MRI Scanner 3,2025-01-08,Wednesday,09:19,10:25,59,81.0,spinal cord injury,Poor mobility,Whole Spine,66
+MRI Scanner 3,2025-01-08,Wednesday,10:30,11:22,69,46.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 3,2025-01-08,Wednesday,11:27,12:19,107,19.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-08,Wednesday,12:24,13:12,122,42.0,neck pain,Cognitive impairment,Cervical Spine,48
+MRI Scanner 3,2025-01-08,Wednesday,13:17,14:08,158,61.0,back pain,Poor mobility,Lumbar Spine,51
+MRI Scanner 3,2025-01-08,Wednesday,14:13,15:20,193,67.0,other,Wheelchair user,Whole Spine,67
+MRI Scanner 3,2025-01-08,Wednesday,15:25,16:17,230,65.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-08,Wednesday,16:22,16:52,275,44.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 3,2025-01-08,Wednesday,16:57,18:04,312,86.0,multiple sclerosis,Wheelchair user,Whole Spine,67
+MRI Scanner 3,2025-01-08,Wednesday,18:09,19:23,367,52.0,stroke,Poor mobility,Brain with Contrast,74
+MRI Scanner 3,2025-01-08,Wednesday,19:28,19:58,386,77.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-08,Wednesday,08:00,08:30,462,67.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 4,2025-01-08,Wednesday,08:35,09:40,490,76.0,multiple sclerosis,Interpreter required,Whole Spine,65
+MRI Scanner 4,2025-01-08,Wednesday,09:45,10:38,533,34.0,tumor,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-08,Wednesday,10:43,11:59,542,27.0,infection,Wheelchair user,Lumbar Spine with Contrast,76
+MRI Scanner 1,2025-01-09,Thursday,08:00,08:45,551,87.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 1,2025-01-09,Thursday,08:50,09:20,574,57.0,other,None,Cervical Spine,30
+MRI Scanner 1,2025-01-09,Thursday,09:25,09:55,600,84.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-09,Thursday,10:00,10:48,615,61.0,back pain,Cognitive impairment,Lumbar Spine,48
+MRI Scanner 1,2025-01-09,Thursday,10:53,12:09,647,89.0,aneurysm,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-09,Thursday,12:14,12:44,671,87.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-09,Thursday,12:49,14:03,704,34.0,aneurysm,Interpreter required,Brain with Contrast,74
+MRI Scanner 1,2025-01-09,Thursday,14:08,15:24,714,87.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-09,Thursday,15:29,17:00,812,80.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 1,2025-01-09,Thursday,17:05,17:50,864,39.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 1,2025-01-09,Thursday,17:55,18:25,900,54.0,back pain,None,Lumbar Spine,30
+MRI Scanner 1,2025-01-09,Thursday,18:30,19:15,922,24.0,other,None,Whole Spine,45
+MRI Scanner 1,2025-01-09,Thursday,19:20,19:50,927,65.0,stroke,None,Brain,30
+MRI Scanner 2,2025-01-09,Thursday,08:00,09:13,897,85.0,tumor,Learning difficulty,Lumbar Spine with Contrast,73
+MRI Scanner 2,2025-01-09,Thursday,09:18,10:03,929,30.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 2,2025-01-09,Thursday,10:08,10:38,968,30.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-09,Thursday,10:43,11:13,972,49.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-09,Thursday,11:18,11:48,976,21.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-09,Thursday,11:53,12:23,978,45.0,stroke,None,Brain,30
+MRI Scanner 2,2025-01-09,Thursday,12:28,12:58,1102,57.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-09,Thursday,13:03,13:56,1207,31.0,infection,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-09,Thursday,14:01,15:13,1302,75.0,infection,Cognitive impairment,Brain with Contrast,72
+MRI Scanner 2,2025-01-09,Thursday,15:18,15:48,1355,82.0,back pain,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-09,Thursday,15:53,16:23,1358,38.0,other,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-09,Thursday,16:28,17:38,1393,18.0,infection,DIVA,Thoracic Spine with Contrast,70
+MRI Scanner 2,2025-01-09,Thursday,17:43,18:36,1482,84.0,tumor,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-09,Thursday,18:41,19:11,1532,89.0,headache,None,Brain,30
+MRI Scanner 2,2025-01-09,Thursday,19:16,19:46,1550,54.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-09,Thursday,08:00,08:52,887,24.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-09,Thursday,08:57,09:48,1104,74.0,dementia,Poor mobility,Brain,51
+MRI Scanner 3,2025-01-09,Thursday,09:53,10:45,1125,47.0,other,Wheelchair user,Thoracic Spine,52
+MRI Scanner 3,2025-01-09,Thursday,10:50,11:42,1343,71.0,multiple sclerosis,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-09,Thursday,11:47,13:03,1407,30.0,neck pain,Wheelchair user,Cervical Spine with Contrast,76
+MRI Scanner 3,2025-01-09,Thursday,13:08,14:00,1463,21.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-09,Thursday,14:05,15:21,1674,85.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-09,Thursday,15:26,16:19,1706,20.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 3,2025-01-09,Thursday,16:24,16:54,1715,80.0,multiple sclerosis,None,Brain,30
+MRI Scanner 3,2025-01-09,Thursday,16:59,17:51,1728,42.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 3,2025-01-09,Thursday,17:56,18:46,1752,26.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 3,2025-01-09,Thursday,18:51,19:44,1771,55.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-09,Thursday,08:00,08:52,1751,44.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-09,Thursday,08:57,09:49,1757,68.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-09,Thursday,09:54,10:39,1819,89.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 4,2025-01-09,Thursday,10:44,12:09,1838,23.0,spinal cord injury,DIVA,Whole Spine with Contrast,85
+MRI Scanner 4,2025-01-09,Thursday,12:14,13:22,1882,28.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 4,2025-01-09,Thursday,13:27,14:12,1917,20.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 4,2025-01-09,Thursday,14:17,15:07,1959,30.0,dementia,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-09,Thursday,15:12,15:42,2064,42.0,back pain,None,Lumbar Spine,30
+MRI Scanner 4,2025-01-09,Thursday,15:47,16:36,2107,36.0,dementia,Learning difficulty,Brain,49
+MRI Scanner 4,2025-01-09,Thursday,16:41,17:11,2170,42.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-09,Thursday,17:16,17:46,2182,79.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-09,Thursday,17:51,18:21,2219,74.0,neck pain,None,Cervical Spine,30
+MRI Scanner 4,2025-01-09,Thursday,18:26,19:19,2233,37.0,tumor,None,Thoracic Spine with Contrast,53
+MRI Scanner 4,2025-01-09,Thursday,19:24,19:54,2288,42.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-10,Friday,08:00,08:52,2191,38.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 1,2025-01-10,Friday,08:57,09:49,2205,58.0,other,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-10,Friday,09:54,10:24,2295,58.0,headache,None,Brain,30
+MRI Scanner 1,2025-01-10,Friday,10:29,11:21,2307,54.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-10,Friday,11:26,12:11,2343,49.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 1,2025-01-10,Friday,12:16,13:08,2355,55.0,other,Wheelchair user,Thoracic Spine,52
+MRI Scanner 1,2025-01-10,Friday,13:13,14:29,2383,36.0,infection,Wheelchair user,Cervical Spine with Contrast,76
+MRI Scanner 1,2025-01-10,Friday,14:34,15:04,2397,37.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-10,Friday,15:09,16:25,2406,59.0,infection,Wheelchair user,Brain with Contrast,76
+MRI Scanner 1,2025-01-10,Friday,16:30,17:20,2410,81.0,dementia,Interpreter required,Brain,50
+MRI Scanner 1,2025-01-10,Friday,17:25,17:55,2425,32.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-10,Friday,18:00,18:30,2429,69.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-10,Friday,18:35,19:49,2446,64.0,stroke,Interpreter required,Brain with Contrast,74
+MRI Scanner 2,2025-01-10,Friday,08:00,08:53,2455,84.0,other,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-10,Friday,08:58,09:28,2497,73.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-10,Friday,09:33,10:18,2516,55.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 2,2025-01-10,Friday,10:23,10:53,2548,59.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-10,Friday,10:58,11:28,2640,45.0,other,None,Cervical Spine,30
+MRI Scanner 2,2025-01-10,Friday,11:33,12:26,2692,55.0,tumor,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-10,Friday,12:31,13:24,2694,35.0,back pain,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-10,Friday,13:29,13:59,2713,85.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-10,Friday,14:04,14:57,2755,35.0,tumor,None,Thoracic Spine with Contrast,53
+MRI Scanner 2,2025-01-10,Friday,15:02,15:55,2821,88.0,tumor,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-10,Friday,16:00,17:12,2844,33.0,tumor,Cognitive impairment,Thoracic Spine with Contrast,72
+MRI Scanner 2,2025-01-10,Friday,17:17,18:05,2851,40.0,other,Cognitive impairment,Cervical Spine,48
+MRI Scanner 2,2025-01-10,Friday,18:10,19:18,2913,19.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-10,Friday,19:23,19:53,2986,34.0,headache,None,Brain,30
+MRI Scanner 3,2025-01-10,Friday,08:00,08:52,2472,28.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-10,Friday,08:57,09:49,2579,55.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-10,Friday,09:54,10:46,2585,81.0,multiple sclerosis,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-10,Friday,10:51,11:43,2638,49.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-10,Friday,11:48,12:40,2652,33.0,other,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-10,Friday,12:45,13:59,2654,49.0,aneurysm,Poor mobility,Brain with Contrast,74
+MRI Scanner 3,2025-01-10,Friday,14:04,14:54,2915,35.0,back pain,Interpreter required,Lumbar Spine,50
+MRI Scanner 3,2025-01-10,Friday,14:59,16:30,2946,34.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-10,Friday,16:35,17:27,2959,80.0,sciatica,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-10,Friday,17:32,18:40,2973,42.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 3,2025-01-10,Friday,18:45,19:15,2991,80.0,neck pain,None,Cervical Spine,30
+MRI Scanner 3,2025-01-10,Friday,19:20,19:50,3043,82.0,multiple sclerosis,None,Brain,30
+MRI Scanner 4,2025-01-10,Friday,08:00,08:48,2969,61.0,multiple sclerosis,Cognitive impairment,Brain,48
+MRI Scanner 4,2025-01-10,Friday,08:53,09:42,3024,31.0,headache,Learning difficulty,Brain,49
+MRI Scanner 4,2025-01-10,Friday,09:47,10:36,3069,27.0,neck pain,Learning difficulty,Cervical Spine,49
+MRI Scanner 4,2025-01-10,Friday,10:41,11:34,3076,70.0,infection,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-10,Friday,11:39,12:32,3114,39.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-10,Friday,12:37,13:27,3123,24.0,dementia,Interpreter required,Brain,50
+MRI Scanner 4,2025-01-10,Friday,13:32,14:25,3167,76.0,headache,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-10,Friday,14:30,15:37,3174,87.0,spinal cord injury,Wheelchair user,Whole Spine,67
+MRI Scanner 4,2025-01-10,Friday,15:42,16:35,3189,56.0,neck pain,None,Cervical Spine with Contrast,53
+MRI Scanner 4,2025-01-10,Friday,16:40,17:10,3195,76.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-10,Friday,17:15,18:03,3289,52.0,sciatica,Cognitive impairment,Lumbar Spine,48
+MRI Scanner 4,2025-01-10,Friday,18:08,19:01,3336,31.0,tumor,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-10,Friday,19:06,19:36,3364,69.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-11,Saturday,08:00,08:30,3385,66.0,dementia,None,Brain,30
+MRI Scanner 1,2025-01-11,Saturday,08:35,09:05,3404,51.0,other,None,Cervical Spine,30
+MRI Scanner 1,2025-01-11,Saturday,09:10,09:40,3430,24.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-11,Saturday,09:45,10:38,3432,22.0,stroke,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-11,Saturday,10:43,11:28,3445,54.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 1,2025-01-11,Saturday,11:33,12:26,3452,71.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 1,2025-01-11,Saturday,12:31,13:38,3489,49.0,multiple sclerosis,Wheelchair user,Whole Spine,67
+MRI Scanner 1,2025-01-11,Saturday,13:43,14:59,3508,52.0,neck pain,Wheelchair user,Cervical Spine with Contrast,76
+MRI Scanner 1,2025-01-11,Saturday,15:04,16:20,3515,82.0,tumor,Wheelchair user,Cervical Spine with Contrast,76
+MRI Scanner 1,2025-01-11,Saturday,16:25,17:18,3520,60.0,infection,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-11,Saturday,17:23,18:16,3539,59.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-11,Saturday,18:21,19:06,3580,84.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 1,2025-01-11,Saturday,19:11,19:56,3691,55.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 2,2025-01-11,Saturday,08:00,08:53,3683,64.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,08:58,09:51,3742,88.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,09:56,10:49,3748,37.0,dementia,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,10:54,11:24,3750,52.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-11,Saturday,11:29,12:22,3771,72.0,sciatica,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,12:27,13:20,3774,61.0,infection,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,13:25,13:55,3805,49.0,stroke,None,Brain,30
+MRI Scanner 2,2025-01-11,Saturday,14:00,14:53,3816,77.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,14:58,15:43,3843,36.0,multiple sclerosis,None,Whole Spine,45
+MRI Scanner 2,2025-01-11,Saturday,15:48,16:18,3844,54.0,multiple sclerosis,None,Brain,30
+MRI Scanner 2,2025-01-11,Saturday,16:23,16:53,3865,87.0,dementia,None,Brain,30
+MRI Scanner 2,2025-01-11,Saturday,16:58,17:48,3955,88.0,dementia,Interpreter required,Brain,50
+MRI Scanner 2,2025-01-11,Saturday,17:53,18:46,4001,82.0,infection,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-11,Saturday,18:51,19:21,4002,20.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 2,2025-01-11,Saturday,19:26,19:56,4017,61.0,sciatica,None,Lumbar Spine,30
+MRI Scanner 3,2025-01-11,Saturday,08:00,09:31,3657,47.0,tumor,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-11,Saturday,09:36,10:28,3753,42.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-11,Saturday,10:33,11:25,3881,58.0,headache,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-11,Saturday,11:30,12:22,3924,44.0,back pain,Wheelchair user,Lumbar Spine,52
+MRI Scanner 3,2025-01-11,Saturday,12:27,13:43,3961,76.0,tumor,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-11,Saturday,13:48,14:40,3985,75.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-11,Saturday,14:45,15:35,4010,89.0,multiple sclerosis,Interpreter required,Brain,50
+MRI Scanner 3,2025-01-11,Saturday,15:40,16:32,4011,34.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-11,Saturday,16:37,18:04,4016,24.0,spinal cord injury,Cognitive impairment,Whole Spine with Contrast,87
+MRI Scanner 3,2025-01-11,Saturday,18:09,18:39,4043,22.0,stroke,None,Brain,30
+MRI Scanner 3,2025-01-11,Saturday,18:44,19:37,4050,20.0,stroke,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-11,Saturday,08:00,08:53,4055,61.0,sciatica,None,Lumbar Spine with Contrast,53
+MRI Scanner 4,2025-01-11,Saturday,08:58,09:49,4090,82.0,back pain,Poor mobility,Lumbar Spine,51
+MRI Scanner 4,2025-01-11,Saturday,09:54,10:46,4098,65.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 4,2025-01-11,Saturday,10:51,12:22,4105,46.0,tumor,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 4,2025-01-11,Saturday,12:27,13:20,4115,58.0,tumor,None,Lumbar Spine with Contrast,53
+MRI Scanner 4,2025-01-11,Saturday,13:25,14:13,4119,83.0,sciatica,Cognitive impairment,Lumbar Spine,48
+MRI Scanner 4,2025-01-11,Saturday,14:18,14:48,4183,49.0,multiple sclerosis,None,Brain,30
+MRI Scanner 4,2025-01-11,Saturday,14:53,15:23,4188,64.0,stroke,None,Brain,30
+MRI Scanner 4,2025-01-11,Saturday,15:28,16:35,4217,30.0,spinal cord injury,Wheelchair user,Whole Spine,67
+MRI Scanner 4,2025-01-11,Saturday,16:40,17:10,4258,23.0,dementia,None,Brain,30
+MRI Scanner 4,2025-01-11,Saturday,17:15,18:08,4272,89.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 4,2025-01-11,Saturday,18:13,19:06,4282,66.0,neck pain,None,Cervical Spine with Contrast,53
+MRI Scanner 4,2025-01-11,Saturday,19:11,19:56,4358,28.0,spinal cord injury,None,Whole Spine,45
+MRI Scanner 1,2025-01-12,Sunday,08:00,08:52,4342,85.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-12,Sunday,08:57,09:48,4370,30.0,multiple sclerosis,Poor mobility,Brain,51
+MRI Scanner 1,2025-01-12,Sunday,09:53,10:45,4414,84.0,stroke,Wheelchair user,Brain,52
+MRI Scanner 1,2025-01-12,Sunday,10:50,11:57,4481,68.0,multiple sclerosis,Wheelchair user,Whole Spine,67
+MRI Scanner 1,2025-01-12,Sunday,12:02,12:55,4486,31.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-12,Sunday,13:00,14:14,4492,70.0,aneurysm,Poor mobility,Brain with Contrast,74
+MRI Scanner 1,2025-01-12,Sunday,14:19,15:09,4510,20.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 1,2025-01-12,Sunday,15:14,15:44,4522,75.0,neck pain,None,Cervical Spine,30
+MRI Scanner 1,2025-01-12,Sunday,15:49,16:42,4539,30.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 1,2025-01-12,Sunday,16:47,17:55,4562,32.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 1,2025-01-12,Sunday,18:00,19:08,4580,72.0,spinal cord injury,None,Whole Spine with Contrast,68
+MRI Scanner 1,2025-01-12,Sunday,19:13,19:43,4784,82.0,other,None,Cervical Spine,30
+MRI Scanner 2,2025-01-12,Sunday,08:00,08:48,4612,67.0,stroke,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-12,Sunday,08:53,10:05,4667,18.0,infection,Cognitive impairment,Lumbar Spine with Contrast,72
+MRI Scanner 2,2025-01-12,Sunday,10:10,11:18,4690,61.0,tumor,None,Whole Spine with Contrast,68
+MRI Scanner 2,2025-01-12,Sunday,11:23,12:16,4697,41.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-12,Sunday,12:21,13:11,4713,78.0,sciatica,Interpreter required,Lumbar Spine,50
+MRI Scanner 2,2025-01-12,Sunday,13:16,14:04,4749,76.0,stroke,Cognitive impairment,Brain,48
+MRI Scanner 2,2025-01-12,Sunday,14:09,15:13,4775,66.0,other,Learning difficulty,Whole Spine,64
+MRI Scanner 2,2025-01-12,Sunday,15:18,16:11,4783,28.0,aneurysm,None,Brain with Contrast,53
+MRI Scanner 2,2025-01-12,Sunday,16:16,16:46,4832,48.0,neck pain,None,Cervical Spine,30
+MRI Scanner 2,2025-01-12,Sunday,16:51,17:44,4838,56.0,back pain,None,Lumbar Spine with Contrast,53
+MRI Scanner 2,2025-01-12,Sunday,17:49,18:39,4849,64.0,back pain,Interpreter required,Lumbar Spine,50
+MRI Scanner 3,2025-01-12,Sunday,08:00,08:51,4630,29.0,headache,Poor mobility,Brain,51
+MRI Scanner 3,2025-01-12,Sunday,08:56,10:03,4681,76.0,multiple sclerosis,Wheelchair user,Whole Spine,67
+MRI Scanner 3,2025-01-12,Sunday,10:08,11:39,4719,78.0,spinal cord injury,Wheelchair user,Whole Spine with Contrast,91
+MRI Scanner 3,2025-01-12,Sunday,11:44,13:00,4725,67.0,tumor,Wheelchair user,Brain with Contrast,76
+MRI Scanner 3,2025-01-12,Sunday,13:05,13:57,4746,72.0,dementia,Wheelchair user,Brain,52
+MRI Scanner 3,2025-01-12,Sunday,14:02,14:54,4811,31.0,neck pain,Wheelchair user,Cervical Spine,52
+MRI Scanner 3,2025-01-12,Sunday,14:59,16:15,4831,39.0,tumor,Wheelchair user,Lumbar Spine with Contrast,76
+MRI Scanner 3,2025-01-12,Sunday,16:20,17:32,4875,29.0,infection,Cognitive impairment,Thoracic Spine with Contrast,72
+MRI Scanner 3,2025-01-12,Sunday,17:37,18:28,4925,43.0,multiple sclerosis,Poor mobility,Brain,51

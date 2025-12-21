@@ -1,11 +1,12 @@
-Flag,Average Predicted Overrun Minutes,Number of Patients
-Hospital Transport Required,37.84,278
-Hoist Required,37.83,50
-Sedation needed,34.54,85
-Wheelchair User,22.24,699
-Poor Mobility,20.53,62
-Interpreter Required,20.43,239
-Learning Difficulty,19.35,42
-Cognitive Impairment,18.32,167
-Difficult IV Access,16.28,43
-Contrast,8.41,2517
+Flag,Average Predicted Overrun Minutes
+Hoist Required,37.83
+Hospital Transport Required,37.84
+Sedation needed,34.54
+Claustrophobic,34.54
+Wheelchair User,22.24
+Poor Mobility,20.53
+Interpreter Required,20.43
+Learning Difficulty,19.35
+Cognitive Impairment,18.32
+Difficult IV Access,16.28
+Contrast,8.41

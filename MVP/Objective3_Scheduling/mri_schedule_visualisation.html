@@ -1,0 +1,1252 @@
+<html><head><style>
+            body { font-family: Arial, sans-serif; font-size: 12px; }
+            h1 { text-align: center; }
+            .day-container { border: 1px solid #ccc; margin: 20px; padding: 10px; background: #fff; }
+            .scanner-row { display: flex; align-items: center; margin-bottom: 5px; border-bottom: 1px solid #eee; }
+            .scanner-label { width: 100px; font-weight: bold; }
+            .timeline { display: flex; flex-grow: 1; position: relative; height: 40px; background-color: #f0f0f0; border-radius: 4px; }
+            .slot { position: absolute; height: 30px; top: 5px; border-radius: 4px; font-size: 10px; overflow: hidden; white-space: nowrap; text-align: center; line-height: 30px; border: 1px solid #666; color: #000; cursor: help; }
+            .slot:hover { opacity: 0.8; border: 2px solid #000; z-index: 10; font-weight: bold;}
+            .legend { text-align: center; margin-bottom: 20px; }
+            .legend span { margin-right: 15px; padding: 5px 10px; border: 1px solid #ccc; }
+        </style></head><body><h1>MRI Schedule Visualisation</h1><div class="legend"><span style="background-color: #ff4d4d">Hoist</span><span style="background-color: #ff9933">Transport</span><span style="background-color: #ffff66">Wheelchair</span><span style="background-color: #cc99ff">Sedation / Claustrophobia</span><span style="background-color: #66b3ff">Interpreter</span><span style="background-color: #99ff99">None</span><span style="background-color: #e0e0e0">Other</span></div><div class="day-container"><h3>Thursday (2025-01-02)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:159.0px; background-color:#ff4d4d;" title="Patient: 226 | Age: 53
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Hoist required
+Time: 08:00-09:46">Hoist (106m)</div><div class="slot" style="left:166.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 610 | Age: 86
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Claustrophobic
+Time: 09:51-10:56">Claustrophobic (65m)</div><div class="slot" style="left:271.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 903 | Age: 34
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Claustrophobic
+Time: 11:01-12:06">Claustrophobic (65m)</div><div class="slot" style="left:376.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 2084 | Age: 57
+Indication: stroke
+Scan: Brain
+Full Flag: Hospital transport
+Time: 12:11-13:19">Hospital (68m)</div><div class="slot" style="left:486.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1209 | Age: 73
+Indication: headache
+Scan: Brain
+Full Flag: Claustrophobic
+Time: 13:24-14:29">Claustrophobic (65m)</div><div class="slot" style="left:591.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 1151 | Age: 61
+Indication: headache
+Scan: Brain
+Full Flag: Hoist required
+Time: 14:34-15:42">Hoist (68m)</div><div class="slot" style="left:700.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 1212 | Age: 85
+Indication: headache
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 15:47-17:15">Claustrophobic (88m)</div><div class="slot" style="left:840.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1737 | Age: 66
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Claustrophobic
+Time: 17:20-18:25">Claustrophobic (65m)</div><div class="slot" style="left:945.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 5 | Age: 86
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 18:30-19:20">Interpreter (50m)</div><div class="slot" style="left:1027.5px; width:45.0px; background-color:#99ff99;" title="Patient: 89 | Age: 68
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 19:25-19:55">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1962 | Age: 63
+Indication: headache
+Scan: Brain
+Full Flag: Claustrophobic
+Time: 08:00-09:05">Claustrophobic (65m)</div><div class="slot" style="left:105.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 2368 | Age: 21
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 09:10-10:38">Claustrophobic (88m)</div><div class="slot" style="left:244.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 2522 | Age: 83
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Hospital transport
+Time: 10:43-11:51">Hospital (68m)</div><div class="slot" style="left:354.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 3106 | Age: 40
+Indication: dementia
+Scan: Brain
+Full Flag: Claustrophobic
+Time: 11:56-13:01">Claustrophobic (65m)</div><div class="slot" style="left:459.0px; width:102.0px; background-color:#e0e0e0;" title="Patient: 3142 | Age: 21
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Hospital transport
+Time: 13:06-14:14">Hospital (68m)</div><div class="slot" style="left:568.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 3214 | Age: 70
+Indication: infection
+Scan: Cervical Spine with Contrast
+Full Flag: Claustrophobic
+Time: 14:19-15:47">Claustrophobic (88m)</div><div class="slot" style="left:708.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 3376 | Age: 61
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 15:52-17:20">Claustrophobic (88m)</div><div class="slot" style="left:847.5px; width:67.5px; background-color:#99ff99;" title="Patient: 40 | Age: 84
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: None
+Time: 17:25-18:10">Std</div><div class="slot" style="left:922.5px; width:102.0px; background-color:#99ff99;" title="Patient: 97 | Age: 48
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 18:15-19:23">Std</div><div class="slot" style="left:1032.0px; width:45.0px; background-color:#99ff99;" title="Patient: 107 | Age: 84
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 19:28-19:58">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:159.0px; background-color:#ff4d4d;" title="Patient: 1706 | Age: 68
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Hoist required
+Time: 08:00-09:46">Hoist (106m)</div><div class="slot" style="left:166.5px; width:136.5px; background-color:#ff4d4d;" title="Patient: 1947 | Age: 50
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Hoist required
+Time: 09:51-11:22">Hoist (91m)</div><div class="slot" style="left:310.5px; width:136.5px; background-color:#e0e0e0;" title="Patient: 3777 | Age: 75
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: Hospital transport
+Time: 11:27-12:58">Hospital (91m)</div><div class="slot" style="left:454.5px; width:159.0px; background-color:#e0e0e0;" title="Patient: 4262 | Age: 53
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Hospital transport
+Time: 13:03-14:49">Hospital (106m)</div><div class="slot" style="left:621.0px; width:136.5px; background-color:#e0e0e0;" title="Patient: 4384 | Age: 29
+Indication: sciatica
+Scan: Lumbar Spine with Contrast
+Full Flag: Hospital transport
+Time: 14:54-16:25">Hospital (91m)</div><div class="slot" style="left:765.0px; width:114.0px; background-color:#ffff66;" title="Patient: 93 | Age: 21
+Indication: infection
+Scan: Cervical Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:30-17:46">Wheelchair (76m)</div><div class="slot" style="left:886.5px; width:45.0px; background-color:#99ff99;" title="Patient: 120 | Age: 18
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 17:51-18:21">Std</div><div class="slot" style="left:939.0px; width:69.0px; background-color:#e0e0e0;" title="Patient: 171 | Age: 89
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: DIVA
+Time: 18:26-19:12">DIVA (46m)</div><div class="slot" style="left:1015.5px; width:45.0px; background-color:#99ff99;" title="Patient: 257 | Age: 51
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 19:17-19:47">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 2763 | Age: 85
+Indication: dementia
+Scan: Brain
+Full Flag: Hoist required
+Time: 08:00-09:08">Hoist (68m)</div><div class="slot" style="left:109.5px; width:102.0px; background-color:#ff4d4d;" title="Patient: 3218 | Age: 23
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Hoist required
+Time: 09:13-10:21">Hoist (68m)</div><div class="slot" style="left:219.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4288 | Age: 26
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Claustrophobic
+Time: 10:26-11:31">Claustrophobic (65m)</div><div class="slot" style="left:324.0px; width:154.5px; background-color:#cc99ff;" title="Patient: 82 | Age: 35
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Claustrophobic
+Time: 11:36-13:19">Claustrophobic (103m)</div><div class="slot" style="left:486.0px; width:78.0px; background-color:#ffff66;" title="Patient: 109 | Age: 84
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 13:24-14:16">Wheelchair (52m)</div><div class="slot" style="left:571.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 248 | Age: 77
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Claustrophobic
+Time: 14:21-15:26">Claustrophobic (65m)</div><div class="slot" style="left:676.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 1330 | Age: 70
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 15:31-16:59">Claustrophobic (88m)</div><div class="slot" style="left:816.0px; width:109.5px; background-color:#e0e0e0;" title="Patient: 177 | Age: 83
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Learning difficulty
+Time: 17:04-18:17">Learning (73m)</div><div class="slot" style="left:933.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 193 | Age: 64
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Interpreter required
+Time: 18:22-19:12">Interpreter (50m)</div><div class="slot" style="left:1015.5px; width:45.0px; background-color:#99ff99;" title="Patient: 309 | Age: 18
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 19:17-19:47">Std</div></div></div></div><div class="day-container"><h3>Friday (2025-01-03)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 4220 | Age: 64
+Indication: stroke
+Scan: Brain
+Full Flag: Hoist required
+Time: 08:00-09:08">Hoist (68m)</div><div class="slot" style="left:109.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 4434 | Age: 21
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Hospital transport
+Time: 09:13-10:21">Hospital (68m)</div><div class="slot" style="left:219.0px; width:102.0px; background-color:#e0e0e0;" title="Patient: 4498 | Age: 22
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Hospital transport
+Time: 10:26-11:34">Hospital (68m)</div><div class="slot" style="left:328.5px; width:102.0px; background-color:#ff4d4d;" title="Patient: 4547 | Age: 69
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Hoist required
+Time: 11:39-12:47">Hoist (68m)</div><div class="slot" style="left:438.0px; width:136.5px; background-color:#e0e0e0;" title="Patient: 4603 | Age: 67
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Hospital transport
+Time: 12:52-14:23">Hospital (91m)</div><div class="slot" style="left:582.0px; width:102.0px; background-color:#e0e0e0;" title="Patient: 4684 | Age: 18
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Hospital transport
+Time: 14:28-15:36">Hospital (68m)</div><div class="slot" style="left:691.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 350 | Age: 44
+Indication: other
+Scan: Lumbar Spine
+Full Flag: Hospital transport
+Time: 15:41-16:49">Hospital (68m)</div><div class="slot" style="left:801.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1857 | Age: 69
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Claustrophobic
+Time: 16:54-17:59">Claustrophobic (65m)</div><div class="slot" style="left:906.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 206 | Age: 46
+Indication: headache
+Scan: Brain with Contrast
+Full Flag: Interpreter required
+Time: 18:04-19:18">Interpreter (74m)</div><div class="slot" style="left:1024.5px; width:45.0px; background-color:#99ff99;" title="Patient: 310 | Age: 51
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 19:23-19:53">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 2366 | Age: 62
+Indication: sciatica
+Scan: Lumbar Spine with Contrast
+Full Flag: Claustrophobic
+Time: 08:00-09:28">Claustrophobic (88m)</div><div class="slot" style="left:139.5px; width:136.5px; background-color:#e0e0e0;" title="Patient: 4868 | Age: 41
+Indication: tumor
+Scan: Thoracic Spine with Contrast
+Full Flag: Hospital transport
+Time: 09:33-11:04">Hospital (91m)</div><div class="slot" style="left:283.5px; width:136.5px; background-color:#e0e0e0;" title="Patient: 678 | Age: 73
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Hospital transport
+Time: 11:09-12:40">Hospital (91m)</div><div class="slot" style="left:427.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 1005 | Age: 38
+Indication: other
+Scan: Brain
+Full Flag: Hospital transport
+Time: 12:45-13:53">Hospital (68m)</div><div class="slot" style="left:537.0px; width:102.0px; background-color:#e0e0e0;" title="Patient: 1087 | Age: 21
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Hospital transport
+Time: 13:58-15:06">Hospital (68m)</div><div class="slot" style="left:646.5px; width:136.5px; background-color:#e0e0e0;" title="Patient: 1843 | Age: 72
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Hospital transport
+Time: 15:11-16:42">Hospital (91m)</div><div class="slot" style="left:790.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 3349 | Age: 60
+Indication: headache
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 16:47-18:15">Claustrophobic (88m)</div><div class="slot" style="left:930.0px; width:102.0px; background-color:#99ff99;" title="Patient: 269 | Age: 20
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 18:20-19:28">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 4551 | Age: 54
+Indication: infection
+Scan: Cervical Spine with Contrast
+Full Flag: Hoist required
+Time: 08:00-09:31">Hoist (91m)</div><div class="slot" style="left:144.0px; width:136.5px; background-color:#e0e0e0;" title="Patient: 2889 | Age: 23
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Hospital transport
+Time: 09:36-11:07">Hospital (91m)</div><div class="slot" style="left:288.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 3093 | Age: 38
+Indication: stroke
+Scan: Brain
+Full Flag: Hoist required
+Time: 11:12-12:20">Hoist (68m)</div><div class="slot" style="left:397.5px; width:102.0px; background-color:#e0e0e0;" title="Patient: 4239 | Age: 19
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Hospital transport
+Time: 12:25-13:33">Hospital (68m)</div><div class="slot" style="left:507.0px; width:159.0px; background-color:#e0e0e0;" title="Patient: 4846 | Age: 59
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Hospital transport
+Time: 13:38-15:24">Hospital (106m)</div><div class="slot" style="left:673.5px; width:45.0px; background-color:#99ff99;" title="Patient: 317 | Age: 18
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 15:29-15:59">Std</div><div class="slot" style="left:726.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 327 | Age: 43
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Cognitive impairment
+Time: 16:04-16:52">Cognitive (48m)</div><div class="slot" style="left:805.5px; width:136.5px; background-color:#ffff66;" title="Patient: 333 | Age: 68
+Indication: infection
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:57-18:28">Wheelchair (91m)</div><div class="slot" style="left:949.5px; width:45.0px; background-color:#99ff99;" title="Patient: 426 | Age: 84
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 18:33-19:03">Std</div><div class="slot" style="left:1002.0px; width:45.0px; background-color:#99ff99;" title="Patient: 449 | Age: 18
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 19:08-19:38">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 3566 | Age: 89
+Indication: back pain
+Scan: Lumbar Spine with Contrast
+Full Flag: Claustrophobic
+Time: 08:00-09:28">Claustrophobic (88m)</div><div class="slot" style="left:139.5px; width:102.0px; background-color:#ff4d4d;" title="Patient: 3932 | Age: 18
+Indication: dementia
+Scan: Brain
+Full Flag: Hoist required
+Time: 09:33-10:41">Hoist (68m)</div><div class="slot" style="left:249.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4013 | Age: 56
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Claustrophobic
+Time: 10:46-11:51">Claustrophobic (65m)</div><div class="slot" style="left:354.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4234 | Age: 21
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Claustrophobic
+Time: 11:56-13:01">Claustrophobic (65m)</div><div class="slot" style="left:459.0px; width:73.5px; background-color:#e0e0e0;" title="Patient: 354 | Age: 42
+Indication: stroke
+Scan: Brain
+Full Flag: Learning difficulty
+Time: 13:06-13:55">Learning (49m)</div><div class="slot" style="left:540.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 4726 | Age: 30
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: Claustrophobic
+Time: 14:00-15:28">Claustrophobic (88m)</div><div class="slot" style="left:679.5px; width:78.0px; background-color:#ffff66;" title="Patient: 368 | Age: 57
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 15:33-16:25">Wheelchair (52m)</div><div class="slot" style="left:765.0px; width:78.0px; background-color:#ffff66;" title="Patient: 376 | Age: 71
+Indication: other
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 16:30-17:22">Wheelchair (52m)</div><div class="slot" style="left:850.5px; width:100.5px; background-color:#ffff66;" title="Patient: 404 | Age: 39
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 17:27-18:34">Wheelchair (67m)</div><div class="slot" style="left:958.5px; width:102.0px; background-color:#99ff99;" title="Patient: 522 | Age: 86
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 18:39-19:47">Std</div></div></div></div><div class="day-container"><h3>Saturday (2025-01-04)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 455 | Age: 79
+Indication: other
+Scan: Brain with Contrast
+Full Flag: Cognitive impairment
+Time: 08:00-09:12">Cognitive (72m)</div><div class="slot" style="left:115.5px; width:114.0px; background-color:#ffff66;" title="Patient: 492 | Age: 66
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 09:17-10:33">Wheelchair (76m)</div><div class="slot" style="left:237.0px; width:114.0px; background-color:#ffff66;" title="Patient: 512 | Age: 18
+Indication: tumor
+Scan: Thoracic Spine with Contrast
+Full Flag: Wheelchair user
+Time: 10:38-11:54">Wheelchair (76m)</div><div class="slot" style="left:358.5px; width:127.5px; background-color:#e0e0e0;" title="Patient: 530 | Age: 58
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: DIVA
+Time: 11:59-13:24">DIVA (85m)</div><div class="slot" style="left:493.5px; width:45.0px; background-color:#99ff99;" title="Patient: 555 | Age: 52
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 13:29-13:59">Std</div><div class="slot" style="left:546.0px; width:114.0px; background-color:#ffff66;" title="Patient: 578 | Age: 85
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 14:04-15:20">Wheelchair (76m)</div><div class="slot" style="left:667.5px; width:45.0px; background-color:#99ff99;" title="Patient: 589 | Age: 68
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 15:25-15:55">Std</div><div class="slot" style="left:720.0px; width:136.5px; background-color:#ffff66;" title="Patient: 591 | Age: 32
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:00-17:31">Wheelchair (91m)</div><div class="slot" style="left:864.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 626 | Age: 78
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 17:36-18:26">Interpreter (50m)</div><div class="slot" style="left:946.5px; width:67.5px; background-color:#99ff99;" title="Patient: 663 | Age: 33
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: None
+Time: 18:31-19:16">Std</div><div class="slot" style="left:1021.5px; width:45.0px; background-color:#99ff99;" title="Patient: 749 | Age: 59
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 19:21-19:51">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 782 | Age: 27
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Cognitive impairment
+Time: 08:00-08:48">Cognitive (48m)</div><div class="slot" style="left:79.5px; width:102.0px; background-color:#99ff99;" title="Patient: 800 | Age: 45
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 08:53-10:01">Std</div><div class="slot" style="left:189.0px; width:45.0px; background-color:#99ff99;" title="Patient: 891 | Age: 64
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: None
+Time: 10:06-10:36">Std</div><div class="slot" style="left:241.5px; width:111.0px; background-color:#66b3ff;" title="Patient: 1079 | Age: 75
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: Interpreter required
+Time: 10:41-11:55">Interpreter (74m)</div><div class="slot" style="left:360.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1089 | Age: 27
+Indication: infection
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 12:00-12:53">Std</div><div class="slot" style="left:447.0px; width:105.0px; background-color:#e0e0e0;" title="Patient: 1132 | Age: 65
+Indication: sciatica
+Scan: Lumbar Spine with Contrast
+Full Flag: DIVA
+Time: 12:58-14:08">DIVA (70m)</div><div class="slot" style="left:559.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1165 | Age: 37
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 14:13-14:43">Std</div><div class="slot" style="left:612.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1172 | Age: 31
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 14:48-15:18">Std</div><div class="slot" style="left:664.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 1220 | Age: 40
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Learning difficulty
+Time: 15:23-16:12">Learning (49m)</div><div class="slot" style="left:745.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1249 | Age: 81
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 16:17-16:47">Std</div><div class="slot" style="left:798.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 1287 | Age: 37
+Indication: stroke
+Scan: Brain
+Full Flag: Cognitive impairment
+Time: 16:52-17:40">Cognitive (48m)</div><div class="slot" style="left:877.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 1303 | Age: 73
+Indication: other
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 17:45-18:35">Interpreter (50m)</div><div class="slot" style="left:960.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1336 | Age: 63
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 18:40-19:10">Std</div><div class="slot" style="left:1012.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1400 | Age: 89
+Indication: other
+Scan: Cervical Spine
+Full Flag: None
+Time: 19:15-19:45">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:136.5px; background-color:#ffff66;" title="Patient: 653 | Age: 33
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 08:00-09:31">Wheelchair (91m)</div><div class="slot" style="left:144.0px; width:78.0px; background-color:#ffff66;" title="Patient: 671 | Age: 58
+Indication: other
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 09:36-10:28">Wheelchair (52m)</div><div class="slot" style="left:229.5px; width:133.5px; background-color:#e0e0e0;" title="Patient: 759 | Age: 65
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Poor mobility
+Time: 10:33-12:02">Poor (89m)</div><div class="slot" style="left:370.5px; width:78.0px; background-color:#ffff66;" title="Patient: 770 | Age: 33
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 12:07-12:59">Wheelchair (52m)</div><div class="slot" style="left:456.0px; width:78.0px; background-color:#ffff66;" title="Patient: 807 | Age: 47
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 13:04-13:56">Wheelchair (52m)</div><div class="slot" style="left:541.5px; width:78.0px; background-color:#ffff66;" title="Patient: 812 | Age: 69
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 14:01-14:53">Wheelchair (52m)</div><div class="slot" style="left:627.0px; width:136.5px; background-color:#ffff66;" title="Patient: 844 | Age: 59
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 14:58-16:29">Wheelchair (91m)</div><div class="slot" style="left:771.0px; width:114.0px; background-color:#ffff66;" title="Patient: 990 | Age: 81
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 16:34-17:50">Wheelchair (76m)</div><div class="slot" style="left:892.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 1386 | Age: 59
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Interpreter required
+Time: 17:55-18:45">Interpreter (50m)</div><div class="slot" style="left:975.0px; width:91.5px; background-color:#e0e0e0;" title="Patient: 1418 | Age: 79
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: DIVA
+Time: 18:50-19:51">DIVA (61m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 1420 | Age: 34
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: Interpreter required
+Time: 08:00-08:50">Interpreter (50m)</div><div class="slot" style="left:82.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1422 | Age: 25
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 08:55-09:48">Std</div><div class="slot" style="left:169.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 1461 | Age: 42
+Indication: stroke
+Scan: Brain
+Full Flag: Interpreter required
+Time: 09:53-10:43">Interpreter (50m)</div><div class="slot" style="left:252.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1475 | Age: 25
+Indication: other
+Scan: Cervical Spine
+Full Flag: None
+Time: 10:48-11:18">Std</div><div class="slot" style="left:304.5px; width:102.0px; background-color:#99ff99;" title="Patient: 1487 | Age: 42
+Indication: infection
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 11:23-12:31">Std</div><div class="slot" style="left:414.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 1492 | Age: 51
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 12:36-13:26">Interpreter (50m)</div><div class="slot" style="left:496.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 1502 | Age: 27
+Indication: back pain
+Scan: Lumbar Spine with Contrast
+Full Flag: Cognitive impairment
+Time: 13:31-14:43">Cognitive (72m)</div><div class="slot" style="left:612.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1503 | Age: 40
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 14:48-15:40">Wheelchair (52m)</div><div class="slot" style="left:697.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1513 | Age: 87
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 15:45-16:15">Std</div><div class="slot" style="left:750.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1544 | Age: 28
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: None
+Time: 16:20-17:13">Std</div><div class="slot" style="left:837.0px; width:136.5px; background-color:#ffff66;" title="Patient: 1611 | Age: 66
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 17:18-18:49">Wheelchair (91m)</div><div class="slot" style="left:981.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 1633 | Age: 77
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Poor mobility
+Time: 18:54-19:45">Poor (51m)</div></div></div></div><div class="day-container"><h3>Sunday (2025-01-05)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1620 | Age: 29
+Indication: stroke
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 08:00-08:52">Wheelchair (52m)</div><div class="slot" style="left:85.5px; width:78.0px; background-color:#ffff66;" title="Patient: 1629 | Age: 82
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 08:57-09:49">Wheelchair (52m)</div><div class="slot" style="left:171.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 1653 | Age: 72
+Indication: dementia
+Scan: Brain
+Full Flag: Cognitive impairment
+Time: 09:54-10:42">Cognitive (48m)</div><div class="slot" style="left:250.5px; width:111.0px; background-color:#66b3ff;" title="Patient: 1670 | Age: 41
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: Interpreter required
+Time: 10:47-12:01">Interpreter (74m)</div><div class="slot" style="left:369.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 1681 | Age: 39
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: Interpreter required
+Time: 12:06-13:20">Interpreter (74m)</div><div class="slot" style="left:487.5px; width:67.5px; background-color:#99ff99;" title="Patient: 1700 | Age: 69
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: None
+Time: 13:25-14:10">Std</div><div class="slot" style="left:562.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 1702 | Age: 38
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Cognitive impairment
+Time: 14:15-15:27">Cognitive (72m)</div><div class="slot" style="left:678.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1731 | Age: 37
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 15:32-16:24">Wheelchair (52m)</div><div class="slot" style="left:763.5px; width:136.5px; background-color:#ffff66;" title="Patient: 1782 | Age: 39
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:29-18:00">Wheelchair (91m)</div><div class="slot" style="left:907.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1802 | Age: 50
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 18:05-18:35">Std</div><div class="slot" style="left:960.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1822 | Age: 85
+Indication: back pain
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 18:40-19:33">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1845 | Age: 68
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1875 | Age: 42
+Indication: headache
+Scan: Brain
+Full Flag: None
+Time: 08:35-09:05">Std</div><div class="slot" style="left:105.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 1876 | Age: 38
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 09:10-10:00">Interpreter (50m)</div><div class="slot" style="left:187.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 1903 | Age: 51
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Learning difficulty
+Time: 10:05-10:54">Learning (49m)</div><div class="slot" style="left:268.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1906 | Age: 26
+Indication: headache
+Scan: Brain
+Full Flag: None
+Time: 10:59-11:29">Std</div><div class="slot" style="left:321.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1945 | Age: 37
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: None
+Time: 11:34-12:27">Std</div><div class="slot" style="left:408.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2050 | Age: 32
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 12:32-13:02">Std</div><div class="slot" style="left:460.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2061 | Age: 63
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 13:07-13:37">Std</div><div class="slot" style="left:513.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2093 | Age: 23
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: None
+Time: 13:42-14:35">Std</div><div class="slot" style="left:600.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2116 | Age: 33
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 14:40-15:10">Std</div><div class="slot" style="left:652.5px; width:102.0px; background-color:#99ff99;" title="Patient: 2287 | Age: 30
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 15:15-16:23">Std</div><div class="slot" style="left:762.0px; width:96.0px; background-color:#e0e0e0;" title="Patient: 2326 | Age: 72
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: Learning difficulty
+Time: 16:28-17:32">Learning (64m)</div><div class="slot" style="left:865.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2343 | Age: 50
+Indication: back pain
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 17:37-18:30">Std</div><div class="slot" style="left:952.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 2356 | Age: 23
+Indication: dementia
+Scan: Brain
+Full Flag: Interpreter required
+Time: 18:35-19:25">Interpreter (50m)</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2429 | Age: 20
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 19:30-20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:114.0px; background-color:#ffff66;" title="Patient: 1788 | Age: 42
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 08:00-09:16">Wheelchair (76m)</div><div class="slot" style="left:121.5px; width:133.5px; background-color:#e0e0e0;" title="Patient: 1958 | Age: 87
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: Poor mobility
+Time: 09:21-10:50">Poor (89m)</div><div class="slot" style="left:262.5px; width:78.0px; background-color:#ffff66;" title="Patient: 1987 | Age: 47
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 10:55-11:47">Wheelchair (52m)</div><div class="slot" style="left:348.0px; width:136.5px; background-color:#ffff66;" title="Patient: 2111 | Age: 79
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 11:52-13:23">Wheelchair (91m)</div><div class="slot" style="left:492.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2173 | Age: 67
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 13:28-14:44">Wheelchair (76m)</div><div class="slot" style="left:613.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2196 | Age: 66
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 14:49-16:05">Wheelchair (76m)</div><div class="slot" style="left:735.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2208 | Age: 54
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:10-17:26">Wheelchair (76m)</div><div class="slot" style="left:856.5px; width:102.0px; background-color:#99ff99;" title="Patient: 2371 | Age: 50
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 17:31-18:39">Std</div><div class="slot" style="left:966.0px; width:69.0px; background-color:#e0e0e0;" title="Patient: 2400 | Age: 80
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: DIVA
+Time: 18:44-19:30">DIVA (46m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2249 | Age: 87
+Indication: sciatica
+Scan: Lumbar Spine with Contrast
+Full Flag: Wheelchair user
+Time: 08:00-09:16">Wheelchair (76m)</div><div class="slot" style="left:121.5px; width:78.0px; background-color:#ffff66;" title="Patient: 2272 | Age: 33
+Indication: stroke
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 09:21-10:13">Wheelchair (52m)</div><div class="slot" style="left:207.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2353 | Age: 58
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 10:18-11:34">Wheelchair (76m)</div><div class="slot" style="left:328.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2354 | Age: 53
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 11:39-12:55">Wheelchair (76m)</div><div class="slot" style="left:450.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2472 | Age: 68
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 13:00-13:53">Std</div><div class="slot" style="left:537.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2488 | Age: 83
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 13:58-14:28">Std</div><div class="slot" style="left:589.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 2508 | Age: 34
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 14:33-15:23">Interpreter (50m)</div><div class="slot" style="left:672.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2517 | Age: 35
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 15:28-16:21">Std</div><div class="slot" style="left:759.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2523 | Age: 48
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 16:26-16:56">Std</div><div class="slot" style="left:811.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 2535 | Age: 81
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Cognitive impairment
+Time: 17:01-17:49">Cognitive (48m)</div><div class="slot" style="left:891.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 2563 | Age: 60
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Poor mobility
+Time: 17:54-18:45">Poor (51m)</div><div class="slot" style="left:975.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2568 | Age: 64
+Indication: dementia
+Scan: Brain
+Full Flag: Interpreter required
+Time: 18:50-19:40">Interpreter (50m)</div></div></div></div><div class="day-container"><h3>Monday (2025-01-06)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:105.0px; background-color:#e0e0e0;" title="Patient: 2569 | Age: 65
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: DIVA
+Time: 08:00-09:10">DIVA (70m)</div><div class="slot" style="left:112.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2577 | Age: 52
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 09:15-10:31">Wheelchair (76m)</div><div class="slot" style="left:234.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2599 | Age: 24
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Interpreter required
+Time: 10:36-11:26">Interpreter (50m)</div><div class="slot" style="left:316.5px; width:109.5px; background-color:#e0e0e0;" title="Patient: 2671 | Age: 47
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: Learning difficulty
+Time: 11:31-12:44">Learning (73m)</div><div class="slot" style="left:433.5px; width:100.5px; background-color:#ffff66;" title="Patient: 2712 | Age: 75
+Indication: other
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 12:49-13:56">Wheelchair (67m)</div><div class="slot" style="left:541.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2739 | Age: 22
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 14:01-14:54">Std</div><div class="slot" style="left:628.5px; width:78.0px; background-color:#ffff66;" title="Patient: 2741 | Age: 72
+Indication: headache
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 14:59-15:51">Wheelchair (52m)</div><div class="slot" style="left:714.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 2785 | Age: 62
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Cognitive impairment
+Time: 15:56-17:08">Cognitive (72m)</div><div class="slot" style="left:829.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2791 | Age: 37
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 17:13-17:43">Std</div><div class="slot" style="left:882.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2796 | Age: 75
+Indication: infection
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 17:48-18:41">Std</div><div class="slot" style="left:969.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2876 | Age: 37
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 18:46-19:16">Std</div><div class="slot" style="left:1021.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2893 | Age: 19
+Indication: other
+Scan: Brain
+Full Flag: None
+Time: 19:21-19:51">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2900 | Age: 42
+Indication: dementia
+Scan: Brain with Contrast
+Full Flag: None
+Time: 08:00-08:53">Std</div><div class="slot" style="left:87.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 2909 | Age: 54
+Indication: other
+Scan: Brain with Contrast
+Full Flag: Cognitive impairment
+Time: 08:58-10:10">Cognitive (72m)</div><div class="slot" style="left:202.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2937 | Age: 81
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: None
+Time: 10:15-10:45">Std</div><div class="slot" style="left:255.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 2946 | Age: 42
+Indication: stroke
+Scan: Brain
+Full Flag: Cognitive impairment
+Time: 10:50-11:38">Cognitive (48m)</div><div class="slot" style="left:334.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2947 | Age: 56
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 11:43-12:13">Std</div><div class="slot" style="left:387.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2967 | Age: 28
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 12:18-12:48">Std</div><div class="slot" style="left:439.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2971 | Age: 66
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 12:53-13:23">Std</div><div class="slot" style="left:492.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2983 | Age: 82
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: None
+Time: 13:28-14:21">Std</div><div class="slot" style="left:579.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2996 | Age: 44
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Interpreter required
+Time: 14:26-15:16">Interpreter (50m)</div><div class="slot" style="left:661.5px; width:79.5px; background-color:#99ff99;" title="Patient: 3009 | Age: 56
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: None
+Time: 15:21-16:14">Std</div><div class="slot" style="left:748.5px; width:79.5px; background-color:#99ff99;" title="Patient: 3057 | Age: 69
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: None
+Time: 16:19-17:12">Std</div><div class="slot" style="left:835.5px; width:111.0px; background-color:#66b3ff;" title="Patient: 3099 | Age: 18
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Interpreter required
+Time: 17:17-18:31">Interpreter (74m)</div><div class="slot" style="left:954.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3126 | Age: 38
+Indication: headache
+Scan: Brain
+Full Flag: None
+Time: 18:36-19:06">Std</div><div class="slot" style="left:1006.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3154 | Age: 60
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 19:11-19:41">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 2839 | Age: 84
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 08:00-08:52">Wheelchair (52m)</div><div class="slot" style="left:85.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 3143 | Age: 54
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 08:57-09:47">Interpreter (50m)</div><div class="slot" style="left:168.0px; width:79.5px; background-color:#99ff99;" title="Patient: 3191 | Age: 84
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 09:52-10:45">Std</div><div class="slot" style="left:255.0px; width:102.0px; background-color:#99ff99;" title="Patient: 3194 | Age: 26
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 10:50-11:58">Std</div><div class="slot" style="left:364.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 3197 | Age: 42
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 12:03-12:53">Interpreter (50m)</div><div class="slot" style="left:447.0px; width:130.5px; background-color:#e0e0e0;" title="Patient: 3205 | Age: 30
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Cognitive impairment
+Time: 12:58-14:25">Cognitive (87m)</div><div class="slot" style="left:585.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3207 | Age: 27
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 14:30-15:00">Std</div><div class="slot" style="left:637.5px; width:114.0px; background-color:#ffff66;" title="Patient: 3216 | Age: 19
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 15:05-16:21">Wheelchair (76m)</div><div class="slot" style="left:759.0px; width:78.0px; background-color:#ffff66;" title="Patient: 3217 | Age: 31
+Indication: other
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 16:26-17:18">Wheelchair (52m)</div><div class="slot" style="left:844.5px; width:102.0px; background-color:#99ff99;" title="Patient: 3274 | Age: 64
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 17:23-18:31">Std</div><div class="slot" style="left:954.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 3318 | Age: 37
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 18:36-19:26">Interpreter (50m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3348 | Age: 75
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3350 | Age: 25
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 08:35-09:05">Std</div><div class="slot" style="left:105.0px; width:102.0px; background-color:#99ff99;" title="Patient: 3387 | Age: 32
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 09:10-10:18">Std</div><div class="slot" style="left:214.5px; width:78.0px; background-color:#ffff66;" title="Patient: 3418 | Age: 85
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Wheelchair user
+Time: 10:23-11:15">Wheelchair (52m)</div><div class="slot" style="left:300.0px; width:78.0px; background-color:#ffff66;" title="Patient: 3451 | Age: 46
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 11:20-12:12">Wheelchair (52m)</div><div class="slot" style="left:385.5px; width:102.0px; background-color:#99ff99;" title="Patient: 3480 | Age: 35
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 12:17-13:25">Std</div><div class="slot" style="left:495.0px; width:102.0px; background-color:#99ff99;" title="Patient: 3502 | Age: 84
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 13:30-14:38">Std</div><div class="slot" style="left:604.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3507 | Age: 40
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 14:43-15:13">Std</div><div class="slot" style="left:657.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3539 | Age: 78
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 15:18-15:48">Std</div><div class="slot" style="left:709.5px; width:67.5px; background-color:#99ff99;" title="Patient: 3570 | Age: 81
+Indication: spinal cord injury
+Scan: Whole Spine
+Full Flag: None
+Time: 15:53-16:38">Std</div><div class="slot" style="left:784.5px; width:114.0px; background-color:#ffff66;" title="Patient: 3608 | Age: 53
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: Wheelchair user
+Time: 16:43-17:59">Wheelchair (76m)</div><div class="slot" style="left:906.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 3671 | Age: 27
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 18:04-18:54">Interpreter (50m)</div><div class="slot" style="left:988.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3759 | Age: 21
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 18:59-19:29">Std</div></div></div></div><div class="day-container"><h3>Tuesday (2025-01-07)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 3618 | Age: 18
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 08:00-08:52">Wheelchair (52m)</div><div class="slot" style="left:85.5px; width:78.0px; background-color:#ffff66;" title="Patient: 3678 | Age: 44
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 08:57-09:49">Wheelchair (52m)</div><div class="slot" style="left:171.0px; width:114.0px; background-color:#ffff66;" title="Patient: 3696 | Age: 88
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 09:54-11:10">Wheelchair (76m)</div><div class="slot" style="left:292.5px; width:100.5px; background-color:#ffff66;" title="Patient: 3746 | Age: 67
+Indication: other
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 11:15-12:22">Wheelchair (67m)</div><div class="slot" style="left:400.5px; width:78.0px; background-color:#ffff66;" title="Patient: 3772 | Age: 62
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Wheelchair user
+Time: 12:27-13:19">Wheelchair (52m)</div><div class="slot" style="left:486.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 3810 | Age: 28
+Indication: headache
+Scan: Brain
+Full Flag: Interpreter required
+Time: 13:24-14:14">Interpreter (50m)</div><div class="slot" style="left:568.5px; width:78.0px; background-color:#ffff66;" title="Patient: 3843 | Age: 46
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 14:19-15:11">Wheelchair (52m)</div><div class="slot" style="left:654.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 3870 | Age: 75
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Cognitive impairment
+Time: 15:16-16:04">Cognitive (48m)</div><div class="slot" style="left:733.5px; width:105.0px; background-color:#e0e0e0;" title="Patient: 3877 | Age: 32
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: DIVA
+Time: 16:09-17:19">DIVA (70m)</div><div class="slot" style="left:846.0px; width:79.5px; background-color:#99ff99;" title="Patient: 3895 | Age: 38
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 17:24-18:17">Std</div><div class="slot" style="left:933.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3897 | Age: 23
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 18:22-18:52">Std</div><div class="slot" style="left:985.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3966 | Age: 22
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 18:57-19:27">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#99ff99;" title="Patient: 3932 | Age: 36
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 08:00-09:08">Std</div><div class="slot" style="left:109.5px; width:79.5px; background-color:#99ff99;" title="Patient: 3968 | Age: 29
+Indication: infection
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 09:13-10:06">Std</div><div class="slot" style="left:196.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 4012 | Age: 42
+Indication: other
+Scan: Brain
+Full Flag: DIVA
+Time: 10:11-10:57">DIVA (46m)</div><div class="slot" style="left:273.0px; width:69.0px; background-color:#e0e0e0;" title="Patient: 4017 | Age: 82
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: DIVA
+Time: 11:02-11:48">DIVA (46m)</div><div class="slot" style="left:349.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 4048 | Age: 20
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: DIVA
+Time: 11:53-12:39">DIVA (46m)</div><div class="slot" style="left:426.0px; width:79.5px; background-color:#99ff99;" title="Patient: 4058 | Age: 61
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: None
+Time: 12:44-13:37">Std</div><div class="slot" style="left:513.0px; width:69.0px; background-color:#e0e0e0;" title="Patient: 4071 | Age: 85
+Indication: dementia
+Scan: Brain
+Full Flag: DIVA
+Time: 13:42-14:28">DIVA (46m)</div><div class="slot" style="left:589.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4083 | Age: 68
+Indication: tumor
+Scan: Thoracic Spine with Contrast
+Full Flag: None
+Time: 14:33-15:26">Std</div><div class="slot" style="left:676.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 4127 | Age: 74
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Cognitive impairment
+Time: 15:31-16:19">Cognitive (48m)</div><div class="slot" style="left:756.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4157 | Age: 53
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 16:24-16:54">Std</div><div class="slot" style="left:808.5px; width:67.5px; background-color:#99ff99;" title="Patient: 4165 | Age: 82
+Indication: spinal cord injury
+Scan: Whole Spine
+Full Flag: None
+Time: 16:59-17:44">Std</div><div class="slot" style="left:883.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4188 | Age: 69
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: None
+Time: 17:49-18:42">Std</div><div class="slot" style="left:970.5px; width:97.5px; background-color:#66b3ff;" title="Patient: 4323 | Age: 81
+Indication: other
+Scan: Whole Spine
+Full Flag: Interpreter required
+Time: 18:47-19:52">Interpreter (65m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 3913 | Age: 80
+Indication: headache
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 08:00-08:52">Wheelchair (52m)</div><div class="slot" style="left:85.5px; width:114.0px; background-color:#ffff66;" title="Patient: 3916 | Age: 82
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 08:57-10:13">Wheelchair (76m)</div><div class="slot" style="left:207.0px; width:114.0px; background-color:#ffff66;" title="Patient: 3958 | Age: 23
+Indication: dementia
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 10:18-11:34">Wheelchair (76m)</div><div class="slot" style="left:328.5px; width:136.5px; background-color:#ffff66;" title="Patient: 3997 | Age: 27
+Indication: infection
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 11:39-13:10">Wheelchair (91m)</div><div class="slot" style="left:472.5px; width:78.0px; background-color:#ffff66;" title="Patient: 4025 | Age: 43
+Indication: stroke
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 13:15-14:07">Wheelchair (52m)</div><div class="slot" style="left:558.0px; width:114.0px; background-color:#ffff66;" title="Patient: 4043 | Age: 65
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 14:12-15:28">Wheelchair (76m)</div><div class="slot" style="left:679.5px; width:114.0px; background-color:#ffff66;" title="Patient: 4050 | Age: 47
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 15:33-16:49">Wheelchair (76m)</div><div class="slot" style="left:801.0px; width:111.0px; background-color:#e0e0e0;" title="Patient: 4052 | Age: 25
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: Poor mobility
+Time: 16:54-18:08">Poor (74m)</div><div class="slot" style="left:919.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4325 | Age: 43
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 18:13-19:06">Std</div><div class="slot" style="left:1006.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4452 | Age: 63
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 19:11-19:41">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 4062 | Age: 32
+Indication: stroke
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 08:00-08:52">Wheelchair (52m)</div><div class="slot" style="left:85.5px; width:78.0px; background-color:#ffff66;" title="Patient: 4241 | Age: 42
+Indication: stroke
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 08:57-09:49">Wheelchair (52m)</div><div class="slot" style="left:171.0px; width:78.0px; background-color:#ffff66;" title="Patient: 4245 | Age: 46
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Wheelchair user
+Time: 09:54-10:46">Wheelchair (52m)</div><div class="slot" style="left:256.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 4303 | Age: 40
+Indication: other
+Scan: Thoracic Spine
+Full Flag: Learning difficulty
+Time: 10:51-11:40">Learning (49m)</div><div class="slot" style="left:337.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 4324 | Age: 25
+Indication: infection
+Scan: Cervical Spine with Contrast
+Full Flag: Cognitive impairment
+Time: 11:45-12:57">Cognitive (72m)</div><div class="slot" style="left:453.0px; width:79.5px; background-color:#99ff99;" title="Patient: 4371 | Age: 29
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: None
+Time: 13:02-13:55">Std</div><div class="slot" style="left:540.0px; width:109.5px; background-color:#e0e0e0;" title="Patient: 4415 | Age: 75
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: Learning difficulty
+Time: 14:00-15:13">Learning (73m)</div><div class="slot" style="left:657.0px; width:130.5px; background-color:#e0e0e0;" title="Patient: 4450 | Age: 23
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: Cognitive impairment
+Time: 15:18-16:45">Cognitive (87m)</div><div class="slot" style="left:795.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4482 | Age: 34
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 16:50-17:20">Std</div><div class="slot" style="left:847.5px; width:97.5px; background-color:#66b3ff;" title="Patient: 4576 | Age: 47
+Indication: spinal cord injury
+Scan: Whole Spine
+Full Flag: Interpreter required
+Time: 17:25-18:30">Interpreter (65m)</div><div class="slot" style="left:952.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4608 | Age: 70
+Indication: multiple sclerosis
+Scan: Brain
+Full Flag: None
+Time: 18:35-19:05">Std</div><div class="slot" style="left:1005.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4680 | Age: 22
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 19:10-19:40">Std</div></div></div></div><div class="day-container"><h3>Wednesday (2025-01-08)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:73.5px; background-color:#e0e0e0;" title="Patient: 4657 | Age: 57
+Indication: dementia
+Scan: Brain
+Full Flag: Learning difficulty
+Time: 08:00-08:49">Learning (49m)</div><div class="slot" style="left:81.0px; width:114.0px; background-color:#ffff66;" title="Patient: 4682 | Age: 78
+Indication: infection
+Scan: Brain with Contrast
+Full Flag: Wheelchair user
+Time: 08:54-10:10">Wheelchair (76m)</div><div class="slot" style="left:202.5px; width:136.5px; background-color:#ffff66;" title="Patient: 4687 | Age: 68
+Indication: tumor
+Scan: Whole Spine with Contrast
+Full Flag: Wheelchair user
+Time: 10:15-11:46">Wheelchair (91m)</div><div class="slot" style="left:346.5px; width:100.5px; background-color:#ffff66;" title="Patient: 4693 | Age: 20
+Indication: other
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 11:51-12:58">Wheelchair (67m)</div><div class="slot" style="left:454.5px; width:78.0px; background-color:#ffff66;" title="Patient: 4694 | Age: 85
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: Wheelchair user
+Time: 13:03-13:55">Wheelchair (52m)</div><div class="slot" style="left:540.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4699 | Age: 46
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 14:00-14:30">Std</div><div class="slot" style="left:592.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4702 | Age: 72
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 14:35-15:05">Std</div><div class="slot" style="left:645.0px; width:111.0px; background-color:#e0e0e0;" title="Patient: 4708 | Age: 20
+Indication: neck pain
+Scan: Cervical Spine with Contrast
+Full Flag: Poor mobility
+Time: 15:10-16:24">Poor (74m)</div><div class="slot" style="left:763.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4720 | Age: 67
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 16:29-17:22">Std</div><div class="slot" style="left:850.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 4745 | Age: 24
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Cognitive impairment
+Time: 17:27-18:15">Cognitive (48m)</div><div class="slot" style="left:930.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4754 | Age: 80
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 18:20-18:50">Std</div><div class="slot" style="left:982.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4804 | Age: 41
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: None
+Time: 18:55-19:25">Std</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4862 | Age: 84
+Indication: headache
+Scan: Brain
+Full Flag: None
+Time: 19:30-20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#99ff99;" title="Patient: 4813 | Age: 18
+Indication: spinal cord injury
+Scan: Whole Spine with Contrast
+Full Flag: None
+Time: 08:00-09:08">Std</div><div class="slot" style="left:109.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4848 | Age: 43
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 09:13-10:06">Std</div><div class="slot" style="left:196.5px; width:79.5px; background-color:#99ff99;" title="Patient: 4850 | Age: 71
+Indication: back pain
+Scan: Lumbar Spine with Contrast
+Full Flag: None
+Time: 10:11-11:04">Std</div><div class="slot" style="left:283.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4945 | Age: 36
+Indication: dementia
+Scan: Brain
+Full Flag: None
+Time: 11:09-11:39">Std</div><div class="slot" style="left:336.0px; width:79.5px; background-color:#99ff99;" title="Patient: 4948 | Age: 70
+Indication: infection
+Scan: Thoracic Spine with Contrast
+Full Flag: None
+Time: 11:44-12:37">Std</div><div class="slot" style="left:423.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 4970 | Age: 31
+Indication: headache
+Scan: Brain
+Full Flag: Cognitive impairment
+Time: 12:42-13:30">Cognitive (48m)</div><div class="slot" style="left:502.5px; width:45.0px; background-color:#99ff99;" title="Patient: 9 | Age: 87
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: None
+Time: 13:35-14:05">Std</div><div class="slot" style="left:555.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 39 | Age: 36
+Indication: other
+Scan: Brain with Contrast
+Full Flag: Interpreter required
+Time: 14:10-15:24">Interpreter (74m)</div><div class="slot" style="left:673.5px; width:79.5px; background-color:#99ff99;" title="Patient: 113 | Age: 54
+Indication: aneurysm
+Scan: Brain with Contrast
+Full Flag: None
+Time: 15:29-16:22">Std</div><div class="slot" style="left:760.5px; width:111.0px; background-color:#66b3ff;" title="Patient: 118 | Age: 24
+Indication: infection
+Scan: Cervical Spine with Contrast
+Full Flag: Interpreter required
+Time: 16:27-17:41">Interpreter (74m)</div><div class="slot" style="left:879.0px; width:45.0px; background-color:#99ff99;" title="Patient: 119 | Age: 71
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 17:46-18:16">Std</div><div class="slot" style="left:931.5px; width:45.0px; background-color:#99ff99;" title="Patient: 204 | Age: 33
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 18:21-18:51">Std</div><div class="slot" style="left:984.0px; width:45.0px; background-color:#99ff99;" title="Patient: 232 | Age: 70
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 18:56-19:26">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:111.0px; background-color:#e0e0e0;" title="Patient: 4995 | Age: 20
+Indication: dementia
+Scan: Brain with Contrast
+Full Flag: Poor mobility
+Time: 08:00-09:14">Poor (74m)</div><div class="slot" style="left:118.5px; width:99.0px; background-color:#e0e0e0;" title="Patient: 59 | Age: 81
+Indication: spinal cord injury
+Scan: Whole Spine
+Full Flag: Poor mobility
+Time: 09:19-10:25">Poor (66m)</div><div class="slot" style="left:225.0px; width:78.0px; background-color:#ffff66;" title="Patient: 69 | Age: 46
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Wheelchair user
+Time: 10:30-11:22">Wheelchair (52m)</div><div class="slot" style="left:310.5px; width:78.0px; background-color:#ffff66;" title="Patient: 107 | Age: 19
+Indication: dementia
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 11:27-12:19">Wheelchair (52m)</div><div class="slot" style="left:396.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 122 | Age: 42
+Indication: neck pain
+Scan: Cervical Spine
+Full Flag: Cognitive impairment
+Time: 12:24-13:12">Cognitive (48m)</div><div class="slot" style="left:475.5px; width:76.5px; background-color:#e0e0e0;" title="Patient: 158 | Age: 61
+Indication: back pain
+Scan: Lumbar Spine
+Full Flag: Poor mobility
+Time: 13:17-14:08">Poor (51m)</div><div class="slot" style="left:559.5px; width:100.5px; background-color:#ffff66;" title="Patient: 193 | Age: 67
+Indication: other
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 14:13-15:20">Wheelchair (67m)</div><div class="slot" style="left:667.5px; width:78.0px; background-color:#ffff66;" title="Patient: 230 | Age: 65
+Indication: headache
+Scan: Brain
+Full Flag: Wheelchair user
+Time: 15:25-16:17">Wheelchair (52m)</div><div class="slot" style="left:753.0px; width:45.0px; background-color:#99ff99;" title="Patient: 275 | Age: 44
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 16:22-16:52">Std</div><div class="slot" style="left:805.5px; width:100.5px; background-color:#ffff66;" title="Patient: 312 | Age: 86
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: Wheelchair user
+Time: 16:57-18:04">Wheelchair (67m)</div><div class="slot" style="left:913.5px; width:111.0px; background-color:#e0e0e0;" title="Patient: 367 | Age: 52
+Indication: stroke
+Scan: Brain with Contrast
+Full Flag: Poor mobility
+Time: 18:09-19:23">Poor (74m)</div><div class="slot" style="left:1032.0px; width:45.0px; background-color:#99ff99;" title="Patient: 386 | Age: 77
+Indication: stroke
+Scan: Brain
+Full Flag: None
+Time: 19:28-19:58">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 462 | Age: 67
+Indication: sciatica
+Scan: Lumbar Spine
+Full Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:97.5px; background-color:#66b3ff;" title="Patient: 490 | Age: 76
+Indication: multiple sclerosis
+Scan: Whole Spine
+Full Flag: Interpreter required
+Time: 08:35-09:40">Interpreter (65m)</div><div class="slot" style="left:157.5px; width:79.5px; background-color:#99ff99;" title="Patient: 533 | Age: 34
+Indication: tumor
+Scan: Brain with Contrast
+Full Flag: None
+Time: 09:45-10:38">Std</div><div class="slot" style="left:244.5px; width:114.0px; background-color:#ffff66;" title="Patient: 542 | Age: 27
+Indication: infection
+Scan: Lumbar Spine with Contrast
+Full Flag: Wheelchair user
+Time: 10:43-11:59">Wheelchair (76m)</div></div></div></div></body></html>
