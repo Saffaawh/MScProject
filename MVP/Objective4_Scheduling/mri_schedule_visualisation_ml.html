@@ -1,0 +1,2282 @@
+<html><head><style>
+            body { font-family: Arial, sans-serif; font-size: 12px; }
+            h1 { text-align: center; }
+            .day-container { border: 1px solid #ccc; margin: 20px; padding: 10px; background: #fff; }
+            .scanner-row { display: flex; align-items: center; margin-bottom: 5px; border-bottom: 1px solid #eee; }
+            .scanner-label { width: 100px; font-weight: bold; }
+            .timeline { display: flex; flex-grow: 1; position: relative; height: 40px; background-color: #f0f0f0; border-radius: 4px; }
+            .slot { position: absolute; height: 30px; top: 5px; border-radius: 4px; font-size: 10px;
+                    overflow: hidden; white-space: nowrap; text-align: center; line-height: 30px;
+                    border: 1px solid #666; color: #000; cursor: help; }
+            .slot:hover { opacity: 0.8; border: 2px solid #000; z-index: 10; font-weight: bold;}
+            .legend { text-align: center; margin-bottom: 20px; }
+            .legend span { margin-right: 15px; padding: 5px 10px; border: 1px solid #ccc; }
+        </style></head><body><h1>MRI Schedule Visualisation (Balanced ML)</h1><div class="legend"><span style="background-color: #ff4d4d">Hoist</span><span style="background-color: #ff9933">Transport</span><span style="background-color: #ffff66">Wheelchair</span><span style="background-color: #cc99ff">Sedation</span><span style="background-color: #66b3ff">Interpreter</span><span style="background-color: #99ff99">None</span><span style="background-color: #99ff99">Standard</span></div><div class="day-container"><h3>Thursday (2025-01-02)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 599
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:112.5px; background-color:#ff4d4d;" title="Patient: 4779
+Scan: Lumbar Spine
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +44.6m
+Duration: 75m
+Complexity: medium
+Time: 08:50 - 10:05">Hoist</div><div class="slot" style="left:195.0px; width:94.5px; background-color:#e0e0e0;" title="Patient: 943
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +17.7m
+Duration: 63m
+Complexity: medium
+Time: 10:10 - 11:13">Cognitive Conditions</div><div class="slot" style="left:300.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4046
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:20 - 11:50">Std</div><div class="slot" style="left:352.5px; width:82.5px; background-color:#ff4d4d;" title="Patient: 3175
+Scan: Brain
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +25.5m
+Duration: 55m
+Complexity: medium
+Time: 11:55 - 12:50">Hoist</div><div class="slot" style="left:442.5px; width:99.0px; background-color:#ffff66;" title="Patient: 2675
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +21.3m
+Duration: 66m
+Complexity: medium
+Time: 12:55 - 14:01">Wheelchair</div><div class="slot" style="left:555.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4035
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:10 - 14:40">Std</div><div class="slot" style="left:607.5px; width:72.0px; background-color:#ffff66;" title="Patient: 1816
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.0m
+Duration: 48m
+Complexity: medium
+Time: 14:45 - 15:33">Wheelchair</div><div class="slot" style="left:690.0px; width:73.5px; background-color:#ffff66;" title="Patient: 2844
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.7m
+Duration: 49m
+Complexity: medium
+Time: 15:40 - 16:29">Wheelchair</div><div class="slot" style="left:772.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2329
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 16:35 - 17:05">Std</div><div class="slot" style="left:825.0px; width:114.0px; background-color:#66b3ff;" title="Patient: 526
+Scan: Whole Spine with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +16.4m
+Duration: 76m
+Complexity: medium
+Time: 17:10 - 18:26">Interpreter</div><div class="slot" style="left:952.5px; width:67.5px; background-color:#66b3ff;" title="Patient: 2704
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +14.7m
+Duration: 45m
+Complexity: medium
+Time: 18:35 - 19:20">Interpreter</div><div class="slot" style="left:1027.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4644
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:25 - 19:55">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 114
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 3027
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +19.2m
+Duration: 49m
+Complexity: medium
+Time: 08:35 - 09:24">Cognitive Conditions</div><div class="slot" style="left:135.0px; width:67.5px; background-color:#e0e0e0;" title="Patient: 906
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +14.7m
+Duration: 45m
+Complexity: medium
+Time: 09:30 - 10:15">Cognitive Conditions</div><div class="slot" style="left:210.0px; width:90.0px; background-color:#99ff99;" title="Patient: 4830
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 10:20 - 11:20">Std</div><div class="slot" style="left:307.5px; width:66.0px; background-color:#e0e0e0;" title="Patient: 4447
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +14.4m
+Duration: 44m
+Complexity: medium
+Time: 11:25 - 12:09">Cognitive Conditions</div><div class="slot" style="left:382.5px; width:96.0px; background-color:#ffff66;" title="Patient: 4831
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.1m
+Duration: 64m
+Complexity: medium
+Time: 12:15 - 13:19">Wheelchair</div><div class="slot" style="left:487.5px; width:67.5px; background-color:#99ff99;" title="Patient: 4328
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 13:25 - 14:10">Std</div><div class="slot" style="left:562.5px; width:126.0px; background-color:#ffff66;" title="Patient: 1756
+Scan: Whole Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +23.7m
+Duration: 84m
+Complexity: medium
+Time: 14:15 - 15:39">Wheelchair</div><div class="slot" style="left:697.5px; width:75.0px; background-color:#ffff66;" title="Patient: 229
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.2m
+Duration: 50m
+Complexity: medium
+Time: 15:45 - 16:35">Wheelchair</div><div class="slot" style="left:780.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4615
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 16:40 - 17:25">Std</div><div class="slot" style="left:855.0px; width:72.0px; background-color:#66b3ff;" title="Patient: 3555
+Scan: Cervical Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +18.2m
+Duration: 48m
+Complexity: medium
+Time: 17:30 - 18:18">Interpreter</div><div class="slot" style="left:937.5px; width:69.0px; background-color:#66b3ff;" title="Patient: 4821
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +15.7m
+Duration: 46m
+Complexity: medium
+Time: 18:25 - 19:11">Interpreter</div><div class="slot" style="left:1020.0px; width:45.0px; background-color:#99ff99;" title="Patient: 903
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:20 - 19:50">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4703
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:111.0px; background-color:#ff4d4d;" title="Patient: 989
+Scan: Brain with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +28.9m
+Duration: 74m
+Complexity: medium
+Time: 08:35 - 09:49">Hoist</div><div class="slot" style="left:172.5px; width:121.5px; background-color:#e0e0e0;" title="Patient: 706
+Scan: Whole Spine with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +20.7m
+Duration: 81m
+Complexity: medium
+Time: 09:55 - 11:16">Cognitive Conditions</div><div class="slot" style="left:307.5px; width:90.0px; background-color:#99ff99;" title="Patient: 3523
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 11:25 - 12:25">Std</div><div class="slot" style="left:405.0px; width:117.0px; background-color:#ffff66;" title="Patient: 3902
+Scan: Whole Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.9m
+Duration: 78m
+Complexity: medium
+Time: 12:30 - 13:48">Wheelchair</div><div class="slot" style="left:532.5px; width:73.5px; background-color:#ffff66;" title="Patient: 986
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.6m
+Duration: 49m
+Complexity: medium
+Time: 13:55 - 14:44">Wheelchair</div><div class="slot" style="left:615.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4044
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:50 - 15:20">Std</div><div class="slot" style="left:667.5px; width:97.5px; background-color:#ffff66;" title="Patient: 2052
+Scan: Lumbar Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.0m
+Duration: 65m
+Complexity: medium
+Time: 15:25 - 16:30">Wheelchair</div><div class="slot" style="left:772.5px; width:115.5px; background-color:#e0e0e0;" title="Patient: 514
+Scan: Brain
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +47.2m
+Duration: 77m
+Complexity: medium
+Time: 16:35 - 17:52">Hospital Transport</div><div class="slot" style="left:900.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2080
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 18:00 - 18:45">Std</div><div class="slot" style="left:975.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 3828
+Scan: Lumbar Spine
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +20.7m
+Duration: 51m
+Complexity: medium
+Time: 18:50 - 19:41">Difficult IV Access</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4508
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:154.5px; background-color:#ff4d4d;" title="Patient: 2100
+Scan: Whole Spine with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +43.0m
+Duration: 103m
+Complexity: medium
+Time: 08:50 - 10:33">Hoist</div><div class="slot" style="left:240.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 3118
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +18.5m
+Duration: 48m
+Complexity: medium
+Time: 10:40 - 11:28">Cognitive Conditions</div><div class="slot" style="left:322.5px; width:45.0px; background-color:#99ff99;" title="Patient: 220
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:35 - 12:05">Std</div><div class="slot" style="left:375.0px; width:70.5px; background-color:#ffff66;" title="Patient: 1555
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.3m
+Duration: 47m
+Complexity: medium
+Time: 12:10 - 12:57">Wheelchair</div><div class="slot" style="left:457.5px; width:117.0px; background-color:#ffff66;" title="Patient: 2360
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +32.7m
+Duration: 78m
+Complexity: medium
+Time: 13:05 - 14:23">Wheelchair</div><div class="slot" style="left:585.0px; width:67.5px; background-color:#99ff99;" title="Patient: 206
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 14:30 - 15:15">Std</div><div class="slot" style="left:660.0px; width:81.0px; background-color:#ffff66;" title="Patient: 4240
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +24.1m
+Duration: 54m
+Complexity: medium
+Time: 15:20 - 16:14">Wheelchair</div><div class="slot" style="left:750.0px; width:72.0px; background-color:#ffff66;" title="Patient: 4144
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.3m
+Duration: 48m
+Complexity: medium
+Time: 16:20 - 17:08">Wheelchair</div><div class="slot" style="left:832.5px; width:67.5px; background-color:#99ff99;" title="Patient: 42
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:15 - 18:00">Std</div><div class="slot" style="left:907.5px; width:121.5px; background-color:#66b3ff;" title="Patient: 1004
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +35.8m
+Duration: 81m
+Complexity: medium
+Time: 18:05 - 19:26">Interpreter</div></div></div></div><div class="day-container"><h3>Friday (2025-01-03)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 1782
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:99.0px; background-color:#e0e0e0;" title="Patient: 1364
+Scan: Lumbar Spine
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +36.1m
+Duration: 66m
+Complexity: medium
+Time: 08:50 - 09:56">Hospital Transport</div><div class="slot" style="left:187.5px; width:88.5px; background-color:#cc99ff;" title="Patient: 4947
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +29.3m
+Duration: 59m
+Complexity: medium
+Time: 10:05 - 11:04">Sedation</div><div class="slot" style="left:285.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2310
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:10 - 11:55">Std</div><div class="slot" style="left:360.0px; width:99.0px; background-color:#e0e0e0;" title="Patient: 4255
+Scan: Whole Spine
+Flags: Poor Mobility
+Risk Class: Class 3
+Predicted Overrun: +21.4m
+Duration: 66m
+Complexity: medium
+Time: 12:00 - 13:06">Poor Mobility</div><div class="slot" style="left:472.5px; width:102.0px; background-color:#ffff66;" title="Patient: 2698
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.5m
+Duration: 68m
+Complexity: medium
+Time: 13:15 - 14:23">Wheelchair</div><div class="slot" style="left:585.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3437
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:30 - 15:00">Std</div><div class="slot" style="left:637.5px; width:75.0px; background-color:#e0e0e0;" title="Patient: 3101
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +20.4m
+Duration: 50m
+Complexity: medium
+Time: 15:05 - 15:55">Cognitive Conditions</div><div class="slot" style="left:720.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 3790
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +20.7m
+Duration: 51m
+Complexity: medium
+Time: 16:00 - 16:51">Cognitive Conditions</div><div class="slot" style="left:810.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4836
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:00 - 17:30">Std</div><div class="slot" style="left:862.5px; width:133.5px; background-color:#e0e0e0;" title="Patient: 988
+Scan: Whole Spine with Contrast
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +28.8m
+Duration: 89m
+Complexity: medium
+Time: 17:35 - 19:04">Cognitive Conditions</div><div class="slot" style="left:1005.0px; width:70.5px; background-color:#ffff66;" title="Patient: 3347
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.3m
+Duration: 47m
+Complexity: medium
+Time: 19:10 - 19:57">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 2874
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:123.0px; background-color:#cc99ff;" title="Patient: 4787
+Scan: Brain with Contrast
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +37.4m
+Duration: 82m
+Complexity: medium
+Time: 09:05 - 10:27">Sedation</div><div class="slot" style="left:232.5px; width:76.5px; background-color:#e0e0e0;" title="Patient: 4396
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +20.8m
+Duration: 51m
+Complexity: medium
+Time: 10:35 - 11:26">Poor Mobility</div><div class="slot" style="left:322.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4066
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:35 - 12:05">Std</div><div class="slot" style="left:375.0px; width:87.0px; background-color:#66b3ff;" title="Patient: 2474
+Scan: Whole Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +13.0m
+Duration: 58m
+Complexity: medium
+Time: 12:10 - 13:08">Interpreter</div><div class="slot" style="left:472.5px; width:72.0px; background-color:#ffff66;" title="Patient: 1888
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.4m
+Duration: 48m
+Complexity: medium
+Time: 13:15 - 14:03">Wheelchair</div><div class="slot" style="left:555.0px; width:45.0px; background-color:#99ff99;" title="Patient: 439
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:10 - 14:40">Std</div><div class="slot" style="left:607.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 3149
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +18.6m
+Duration: 49m
+Complexity: medium
+Time: 14:45 - 15:34">Cognitive Conditions</div><div class="slot" style="left:690.0px; width:79.5px; background-color:#e0e0e0;" title="Patient: 1240
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +22.5m
+Duration: 53m
+Complexity: medium
+Time: 15:40 - 16:33">Cognitive Conditions</div><div class="slot" style="left:780.0px; width:45.0px; background-color:#99ff99;" title="Patient: 126
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 16:40 - 17:10">Std</div><div class="slot" style="left:832.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 2661
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +17.5m
+Duration: 48m
+Complexity: medium
+Time: 17:15 - 18:03">Cognitive Conditions</div><div class="slot" style="left:915.0px; width:112.5px; background-color:#ffff66;" title="Patient: 4681
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +30.0m
+Duration: 75m
+Complexity: medium
+Time: 18:10 - 19:25">Wheelchair</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3415
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:30 - 20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1589
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:121.5px; background-color:#e0e0e0;" title="Patient: 4302
+Scan: Brain with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +35.9m
+Duration: 81m
+Complexity: medium
+Time: 08:35 - 09:56">Hospital Transport</div><div class="slot" style="left:187.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 4120
+Scan: Cervical Spine with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +26.6m
+Duration: 72m
+Complexity: medium
+Time: 10:05 - 11:17">Difficult IV Access</div><div class="slot" style="left:307.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2331
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:25 - 11:55">Std</div><div class="slot" style="left:360.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 2778
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +21.0m
+Duration: 51m
+Complexity: medium
+Time: 12:00 - 12:51">Poor Mobility</div><div class="slot" style="left:450.0px; width:79.5px; background-color:#e0e0e0;" title="Patient: 251
+Scan: Brain
+Flags: Poor Mobility
+Risk Class: Class 3
+Predicted Overrun: +22.6m
+Duration: 53m
+Complexity: medium
+Time: 13:00 - 13:53">Poor Mobility</div><div class="slot" style="left:540.0px; width:67.5px; background-color:#99ff99;" title="Patient: 3346
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 14:00 - 14:45">Std</div><div class="slot" style="left:615.0px; width:127.5px; background-color:#ff4d4d;" title="Patient: 2427
+Scan: Lumbar Spine with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +40.0m
+Duration: 85m
+Complexity: medium
+Time: 14:50 - 16:15">Hoist</div><div class="slot" style="left:750.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 2380
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +42.0m
+Duration: 72m
+Complexity: medium
+Time: 16:20 - 17:32">Cognitive Conditions</div><div class="slot" style="left:870.0px; width:67.5px; background-color:#99ff99;" title="Patient: 1622
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:40 - 18:25">Std</div><div class="slot" style="left:945.0px; width:105.0px; background-color:#ffff66;" title="Patient: 1234
+Scan: Lumbar Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +24.6m
+Duration: 70m
+Complexity: medium
+Time: 18:30 - 19:40">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2010
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:127.5px; background-color:#e0e0e0;" title="Patient: 2014
+Scan: Brain with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +40.3m
+Duration: 85m
+Complexity: medium
+Time: 08:50 - 10:15">Hospital Transport</div><div class="slot" style="left:210.0px; width:109.5px; background-color:#cc99ff;" title="Patient: 3104
+Scan: Whole Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +28.5m
+Duration: 73m
+Complexity: medium
+Time: 10:20 - 11:33">Sedation</div><div class="slot" style="left:330.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1358
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:40 - 12:10">Std</div><div class="slot" style="left:382.5px; width:69.0px; background-color:#66b3ff;" title="Patient: 1012
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +16.5m
+Duration: 46m
+Complexity: medium
+Time: 12:15 - 13:01">Interpreter</div><div class="slot" style="left:465.0px; width:73.5px; background-color:#ffff66;" title="Patient: 4449
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.4m
+Duration: 49m
+Complexity: medium
+Time: 13:10 - 13:59">Wheelchair</div><div class="slot" style="left:547.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3845
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:05 - 14:35">Std</div><div class="slot" style="left:600.0px; width:127.5px; background-color:#ff4d4d;" title="Patient: 4121
+Scan: Brain with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +39.6m
+Duration: 85m
+Complexity: medium
+Time: 14:40 - 16:05">Hoist</div><div class="slot" style="left:735.0px; width:93.0px; background-color:#e0e0e0;" title="Patient: 1575
+Scan: Cervical Spine with Contrast
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +17.1m
+Duration: 62m
+Complexity: medium
+Time: 16:10 - 17:12">Cognitive Conditions</div><div class="slot" style="left:840.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4441
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:20 - 18:05">Std</div><div class="slot" style="left:915.0px; width:76.5px; background-color:#ffff66;" title="Patient: 4478
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.9m
+Duration: 51m
+Complexity: medium
+Time: 18:10 - 19:01">Wheelchair</div><div class="slot" style="left:1005.0px; width:73.5px; background-color:#ffff66;" title="Patient: 1556
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.4m
+Duration: 49m
+Complexity: medium
+Time: 19:10 - 19:59">Wheelchair</div></div></div></div><div class="day-container"><h3>Saturday (2025-01-04)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 441
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:67.5px; background-color:#ffff66;" title="Patient: 675
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +14.9m
+Duration: 45m
+Complexity: medium
+Time: 09:05 - 09:50">Wheelchair</div><div class="slot" style="left:172.5px; width:85.5px; background-color:#ffff66;" title="Patient: 3983
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +26.6m
+Duration: 57m
+Complexity: medium
+Time: 09:55 - 10:52">Wheelchair</div><div class="slot" style="left:270.0px; width:67.5px; background-color:#99ff99;" title="Patient: 3470
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:00 - 11:45">Std</div><div class="slot" style="left:345.0px; width:114.0px; background-color:#66b3ff;" title="Patient: 4185
+Scan: Whole Spine with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +16.3m
+Duration: 76m
+Complexity: medium
+Time: 11:50 - 13:06">Interpreter</div><div class="slot" style="left:472.5px; width:76.5px; background-color:#e0e0e0;" title="Patient: 362
+Scan: Brain
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +21.2m
+Duration: 51m
+Complexity: medium
+Time: 13:15 - 14:06">Difficult IV Access</div><div class="slot" style="left:562.5px; width:67.5px; background-color:#99ff99;" title="Patient: 4717
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 14:15 - 15:00">Std</div><div class="slot" style="left:637.5px; width:97.5px; background-color:#e0e0e0;" title="Patient: 2363
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +20.2m
+Duration: 65m
+Complexity: medium
+Time: 15:05 - 16:10">Cognitive Conditions</div><div class="slot" style="left:742.5px; width:88.5px; background-color:#e0e0e0;" title="Patient: 817
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +14.4m
+Duration: 59m
+Complexity: medium
+Time: 16:15 - 17:14">Cognitive Conditions</div><div class="slot" style="left:840.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4135
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:20 - 17:50">Std</div><div class="slot" style="left:892.5px; width:79.5px; background-color:#ffff66;" title="Patient: 4679
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.5m
+Duration: 53m
+Complexity: medium
+Time: 17:55 - 18:48">Wheelchair</div><div class="slot" style="left:982.5px; width:69.0px; background-color:#ffff66;" title="Patient: 1016
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +16.5m
+Duration: 46m
+Complexity: medium
+Time: 18:55 - 19:41">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 3490
+Scan: Cervical Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:99.0px; background-color:#ffff66;" title="Patient: 538
+Scan: Lumbar Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.9m
+Duration: 66m
+Complexity: medium
+Time: 08:50 - 09:56">Wheelchair</div><div class="slot" style="left:187.5px; width:108.0px; background-color:#66b3ff;" title="Patient: 98
+Scan: Whole Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +27.5m
+Duration: 72m
+Complexity: medium
+Time: 10:05 - 11:17">Interpreter</div><div class="slot" style="left:307.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2213
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:25 - 11:55">Std</div><div class="slot" style="left:360.0px; width:121.5px; background-color:#66b3ff;" title="Patient: 368
+Scan: Whole Spine with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +21.0m
+Duration: 81m
+Complexity: medium
+Time: 12:00 - 13:21">Interpreter</div><div class="slot" style="left:495.0px; width:63.0px; background-color:#e0e0e0;" title="Patient: 753
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +12.3m
+Duration: 42m
+Complexity: medium
+Time: 13:30 - 14:12">Poor Mobility</div><div class="slot" style="left:570.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1713
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:20 - 14:50">Std</div><div class="slot" style="left:622.5px; width:79.5px; background-color:#ffff66;" title="Patient: 2780
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.8m
+Duration: 53m
+Complexity: medium
+Time: 14:55 - 15:48">Wheelchair</div><div class="slot" style="left:712.5px; width:85.5px; background-color:#e0e0e0;" title="Patient: 524
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +27.1m
+Duration: 57m
+Complexity: medium
+Time: 15:55 - 16:52">Cognitive Conditions</div><div class="slot" style="left:810.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4115
+Scan: Cervical Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:00 - 17:45">Std</div><div class="slot" style="left:885.0px; width:94.5px; background-color:#ffff66;" title="Patient: 1875
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.7m
+Duration: 63m
+Complexity: medium
+Time: 17:50 - 18:53">Wheelchair</div><div class="slot" style="left:990.0px; width:79.5px; background-color:#ffff66;" title="Patient: 3088
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +23.4m
+Duration: 53m
+Complexity: medium
+Time: 19:00 - 19:53">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2293
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:96.0px; background-color:#ffff66;" title="Patient: 4686
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.1m
+Duration: 64m
+Complexity: medium
+Time: 08:50 - 09:54">Wheelchair</div><div class="slot" style="left:180.0px; width:82.5px; background-color:#ffff66;" title="Patient: 1546
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +24.9m
+Duration: 55m
+Complexity: medium
+Time: 10:00 - 10:55">Wheelchair</div><div class="slot" style="left:270.0px; width:45.0px; background-color:#99ff99;" title="Patient: 24
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:00 - 11:30">Std</div><div class="slot" style="left:322.5px; width:90.0px; background-color:#66b3ff;" title="Patient: 4133
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +15.4m
+Duration: 60m
+Complexity: medium
+Time: 11:35 - 12:35">Interpreter</div><div class="slot" style="left:420.0px; width:88.5px; background-color:#e0e0e0;" title="Patient: 2358
+Scan: Brain with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +14.3m
+Duration: 59m
+Complexity: medium
+Time: 12:40 - 13:39">Difficult IV Access</div><div class="slot" style="left:517.5px; width:67.5px; background-color:#99ff99;" title="Patient: 2217
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 13:45 - 14:30">Std</div><div class="slot" style="left:592.5px; width:97.5px; background-color:#ffff66;" title="Patient: 4997
+Scan: Lumbar Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.5m
+Duration: 65m
+Complexity: medium
+Time: 14:35 - 15:40">Wheelchair</div><div class="slot" style="left:697.5px; width:91.5px; background-color:#e0e0e0;" title="Patient: 2402
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +15.9m
+Duration: 61m
+Complexity: medium
+Time: 15:45 - 16:46">Cognitive Conditions</div><div class="slot" style="left:802.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4098
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 16:55 - 17:25">Std</div><div class="slot" style="left:855.0px; width:61.5px; background-color:#e0e0e0;" title="Patient: 3299
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +11.4m
+Duration: 41m
+Complexity: medium
+Time: 17:30 - 18:11">Cognitive Conditions</div><div class="slot" style="left:930.0px; width:75.0px; background-color:#ffff66;" title="Patient: 2161
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.2m
+Duration: 50m
+Complexity: medium
+Time: 18:20 - 19:10">Wheelchair</div><div class="slot" style="left:1012.5px; width:45.0px; background-color:#99ff99;" title="Patient: 482
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:15 - 19:45">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4559
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:112.5px; background-color:#ffff66;" title="Patient: 1818
+Scan: Whole Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +14.5m
+Duration: 75m
+Complexity: medium
+Time: 08:35 - 09:50">Wheelchair</div><div class="slot" style="left:172.5px; width:72.0px; background-color:#ffff66;" title="Patient: 1620
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.2m
+Duration: 48m
+Complexity: medium
+Time: 09:55 - 10:43">Wheelchair</div><div class="slot" style="left:255.0px; width:90.0px; background-color:#99ff99;" title="Patient: 474
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 10:50 - 11:50">Std</div><div class="slot" style="left:352.5px; width:109.5px; background-color:#66b3ff;" title="Patient: 3795
+Scan: Whole Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +27.7m
+Duration: 73m
+Complexity: medium
+Time: 11:55 - 13:08">Interpreter</div><div class="slot" style="left:472.5px; width:87.0px; background-color:#e0e0e0;" title="Patient: 4566
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +28.5m
+Duration: 58m
+Complexity: medium
+Time: 13:15 - 14:13">Poor Mobility</div><div class="slot" style="left:570.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4515
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:20 - 14:50">Std</div><div class="slot" style="left:622.5px; width:97.5px; background-color:#ffff66;" title="Patient: 2313
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.9m
+Duration: 65m
+Complexity: medium
+Time: 14:55 - 16:00">Wheelchair</div><div class="slot" style="left:727.5px; width:91.5px; background-color:#e0e0e0;" title="Patient: 1508
+Scan: Whole Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +15.7m
+Duration: 61m
+Complexity: medium
+Time: 16:05 - 17:06">Cognitive Conditions</div><div class="slot" style="left:832.5px; width:45.0px; background-color:#99ff99;" title="Patient: 111
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:15 - 17:45">Std</div><div class="slot" style="left:885.0px; width:73.5px; background-color:#ffff66;" title="Patient: 1301
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.0m
+Duration: 49m
+Complexity: medium
+Time: 17:50 - 18:39">Wheelchair</div><div class="slot" style="left:967.5px; width:75.0px; background-color:#ffff66;" title="Patient: 2114
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.2m
+Duration: 50m
+Complexity: medium
+Time: 18:45 - 19:35">Wheelchair</div></div></div></div><div class="day-container"><h3>Sunday (2025-01-05)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 81
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:94.5px; background-color:#ffff66;" title="Patient: 3110
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.9m
+Duration: 63m
+Complexity: medium
+Time: 08:50 - 09:53">Wheelchair</div><div class="slot" style="left:180.0px; width:105.0px; background-color:#66b3ff;" title="Patient: 2065
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +25.4m
+Duration: 70m
+Complexity: medium
+Time: 10:00 - 11:10">Interpreter</div><div class="slot" style="left:292.5px; width:67.5px; background-color:#99ff99;" title="Patient: 4755
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:15 - 12:00">Std</div><div class="slot" style="left:367.5px; width:67.5px; background-color:#e0e0e0;" title="Patient: 113
+Scan: Cervical Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +15.4m
+Duration: 45m
+Complexity: medium
+Time: 12:05 - 12:50">Poor Mobility</div><div class="slot" style="left:442.5px; width:84.0px; background-color:#e0e0e0;" title="Patient: 1688
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +26.2m
+Duration: 56m
+Complexity: medium
+Time: 12:55 - 13:51">Cognitive Conditions</div><div class="slot" style="left:540.0px; width:90.0px; background-color:#99ff99;" title="Patient: 1655
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 14:00 - 15:00">Std</div><div class="slot" style="left:637.5px; width:96.0px; background-color:#e0e0e0;" title="Patient: 4530
+Scan: Cervical Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +34.1m
+Duration: 64m
+Complexity: medium
+Time: 15:05 - 16:09">Cognitive Conditions</div><div class="slot" style="left:742.5px; width:69.0px; background-color:#ffff66;" title="Patient: 4617
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +16.4m
+Duration: 46m
+Complexity: medium
+Time: 16:15 - 17:01">Wheelchair</div><div class="slot" style="left:825.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4518
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:10 - 17:55">Std</div><div class="slot" style="left:900.0px; width:70.5px; background-color:#ffff66;" title="Patient: 815
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.3m
+Duration: 47m
+Complexity: medium
+Time: 18:00 - 18:47">Wheelchair</div><div class="slot" style="left:982.5px; width:72.0px; background-color:#ffff66;" title="Patient: 90
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.0m
+Duration: 48m
+Complexity: medium
+Time: 18:55 - 19:43">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2691
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:99.0px; background-color:#ffff66;" title="Patient: 2643
+Scan: Cervical Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +21.2m
+Duration: 66m
+Complexity: medium
+Time: 08:35 - 09:41">Wheelchair</div><div class="slot" style="left:165.0px; width:70.5px; background-color:#ffff66;" title="Patient: 4317
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.0m
+Duration: 47m
+Complexity: medium
+Time: 09:50 - 10:37">Wheelchair</div><div class="slot" style="left:247.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4619
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 10:45 - 11:15">Std</div><div class="slot" style="left:300.0px; width:100.5px; background-color:#66b3ff;" title="Patient: 296
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +22.4m
+Duration: 67m
+Complexity: medium
+Time: 11:20 - 12:27">Interpreter</div><div class="slot" style="left:412.5px; width:82.5px; background-color:#66b3ff;" title="Patient: 4165
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +25.3m
+Duration: 55m
+Complexity: medium
+Time: 12:35 - 13:30">Interpreter</div><div class="slot" style="left:502.5px; width:90.0px; background-color:#99ff99;" title="Patient: 4465
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 13:35 - 14:35">Std</div><div class="slot" style="left:600.0px; width:84.0px; background-color:#e0e0e0;" title="Patient: 4937
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +26.4m
+Duration: 56m
+Complexity: medium
+Time: 14:40 - 15:36">Cognitive Conditions</div><div class="slot" style="left:697.5px; width:100.5px; background-color:#ffff66;" title="Patient: 4182
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.0m
+Duration: 67m
+Complexity: medium
+Time: 15:45 - 16:52">Wheelchair</div><div class="slot" style="left:810.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3970
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:00 - 17:30">Std</div><div class="slot" style="left:862.5px; width:97.5px; background-color:#ffff66;" title="Patient: 4751
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.6m
+Duration: 65m
+Complexity: medium
+Time: 17:35 - 18:40">Wheelchair</div><div class="slot" style="left:967.5px; width:93.0px; background-color:#ffff66;" title="Patient: 561
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +16.5m
+Duration: 62m
+Complexity: medium
+Time: 18:45 - 19:47">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2725
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:118.5px; background-color:#ffff66;" title="Patient: 2553
+Scan: Whole Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.5m
+Duration: 79m
+Complexity: medium
+Time: 08:50 - 10:09">Wheelchair</div><div class="slot" style="left:202.5px; width:90.0px; background-color:#66b3ff;" title="Patient: 1928
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +15.2m
+Duration: 60m
+Complexity: medium
+Time: 10:15 - 11:15">Interpreter</div><div class="slot" style="left:300.0px; width:67.5px; background-color:#99ff99;" title="Patient: 484
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:20 - 12:05">Std</div><div class="slot" style="left:375.0px; width:115.5px; background-color:#e0e0e0;" title="Patient: 1033
+Scan: Brain with Contrast
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +32.4m
+Duration: 77m
+Complexity: medium
+Time: 12:10 - 13:27">Poor Mobility</div><div class="slot" style="left:502.5px; width:93.0px; background-color:#e0e0e0;" title="Patient: 1985
+Scan: Whole Spine
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +17.3m
+Duration: 62m
+Complexity: medium
+Time: 13:35 - 14:37">Cognitive Conditions</div><div class="slot" style="left:607.5px; width:45.0px; background-color:#99ff99;" title="Patient: 84
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:45 - 15:15">Std</div><div class="slot" style="left:660.0px; width:91.5px; background-color:#ffff66;" title="Patient: 2459
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +16.4m
+Duration: 61m
+Complexity: medium
+Time: 15:20 - 16:21">Wheelchair</div><div class="slot" style="left:765.0px; width:100.5px; background-color:#ffff66;" title="Patient: 3756
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.0m
+Duration: 67m
+Complexity: medium
+Time: 16:30 - 17:37">Wheelchair</div><div class="slot" style="left:877.5px; width:45.0px; background-color:#99ff99;" title="Patient: 46
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:45 - 18:15">Std</div><div class="slot" style="left:930.0px; width:94.5px; background-color:#ffff66;" title="Patient: 4127
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.3m
+Duration: 63m
+Complexity: medium
+Time: 18:20 - 19:23">Wheelchair</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1266
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:30 - 20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1141
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:100.5px; background-color:#ffff66;" title="Patient: 3051
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.4m
+Duration: 67m
+Complexity: medium
+Time: 08:35 - 09:42">Wheelchair</div><div class="slot" style="left:165.0px; width:96.0px; background-color:#ffff66;" title="Patient: 385
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.9m
+Duration: 64m
+Complexity: medium
+Time: 09:50 - 10:54">Wheelchair</div><div class="slot" style="left:270.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4944
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:00 - 11:45">Std</div><div class="slot" style="left:345.0px; width:111.0px; background-color:#e0e0e0;" title="Patient: 2530
+Scan: Whole Spine with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +13.8m
+Duration: 74m
+Complexity: medium
+Time: 11:50 - 13:04">Difficult IV Access</div><div class="slot" style="left:465.0px; width:94.5px; background-color:#e0e0e0;" title="Patient: 3099
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +17.7m
+Duration: 63m
+Complexity: medium
+Time: 13:10 - 14:13">Cognitive Conditions</div><div class="slot" style="left:570.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4316
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:20 - 14:50">Std</div><div class="slot" style="left:622.5px; width:85.5px; background-color:#e0e0e0;" title="Patient: 3487
+Scan: Whole Spine
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +12.2m
+Duration: 57m
+Complexity: medium
+Time: 14:55 - 15:52">Cognitive Conditions</div><div class="slot" style="left:720.0px; width:102.0px; background-color:#ffff66;" title="Patient: 578
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +22.6m
+Duration: 68m
+Complexity: medium
+Time: 16:00 - 17:08">Wheelchair</div><div class="slot" style="left:832.5px; width:67.5px; background-color:#99ff99;" title="Patient: 3413
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:15 - 18:00">Std</div><div class="slot" style="left:907.5px; width:84.0px; background-color:#ffff66;" title="Patient: 1789
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +25.9m
+Duration: 56m
+Complexity: medium
+Time: 18:05 - 19:01">Wheelchair</div><div class="slot" style="left:1005.0px; width:70.5px; background-color:#ffff66;" title="Patient: 4646
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.4m
+Duration: 47m
+Complexity: medium
+Time: 19:10 - 19:57">Wheelchair</div></div></div></div><div class="day-container"><h3>Monday (2025-01-06)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 811
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:121.5px; background-color:#e0e0e0;" title="Patient: 399
+Scan: Brain with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +36.0m
+Duration: 81m
+Complexity: medium
+Time: 08:50 - 10:11">Hospital Transport</div><div class="slot" style="left:210.0px; width:100.5px; background-color:#cc99ff;" title="Patient: 679
+Scan: Brain
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +37.0m
+Duration: 67m
+Complexity: medium
+Time: 10:20 - 11:27">Sedation</div><div class="slot" style="left:322.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1577
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:35 - 12:05">Std</div><div class="slot" style="left:375.0px; width:102.0px; background-color:#cc99ff;" title="Patient: 2937
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +38.5m
+Duration: 68m
+Complexity: medium
+Time: 12:10 - 13:18">Sedation</div><div class="slot" style="left:487.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 4484
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +34.9m
+Duration: 65m
+Complexity: medium
+Time: 13:25 - 14:30">Sedation</div><div class="slot" style="left:592.5px; width:45.0px; background-color:#99ff99;" title="Patient: 4535
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:35 - 15:05">Std</div><div class="slot" style="left:645.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2518
+Scan: Lumbar Spine
+Flags: Interpreter
+Risk Class: Class 3
+Predicted Overrun: +19.9m
+Duration: 50m
+Complexity: medium
+Time: 15:10 - 16:00">Interpreter</div><div class="slot" style="left:727.5px; width:100.5px; background-color:#e0e0e0;" title="Patient: 4208
+Scan: Whole Spine
+Flags: Poor Mobility
+Risk Class: Class 3
+Predicted Overrun: +22.1m
+Duration: 67m
+Complexity: medium
+Time: 16:05 - 17:12">Poor Mobility</div><div class="slot" style="left:840.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2126
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:20 - 17:50">Std</div><div class="slot" style="left:892.5px; width:94.5px; background-color:#ffff66;" title="Patient: 1007
+Scan: Cervical Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.4m
+Duration: 63m
+Complexity: medium
+Time: 17:55 - 18:58">Wheelchair</div><div class="slot" style="left:997.5px; width:73.5px; background-color:#66b3ff;" title="Patient: 4693
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +19.3m
+Duration: 49m
+Complexity: medium
+Time: 19:05 - 19:54">Interpreter</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2220
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:103.5px; background-color:#e0e0e0;" title="Patient: 800
+Scan: Brain
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +39.1m
+Duration: 69m
+Complexity: medium
+Time: 08:35 - 09:44">Hospital Transport</div><div class="slot" style="left:165.0px; width:100.5px; background-color:#ffff66;" title="Patient: 3729
+Scan: Cervical Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +21.7m
+Duration: 67m
+Complexity: medium
+Time: 09:50 - 10:57">Wheelchair</div><div class="slot" style="left:277.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2240
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:05 - 11:35">Std</div><div class="slot" style="left:330.0px; width:169.5px; background-color:#cc99ff;" title="Patient: 3536
+Scan: Whole Spine with Contrast
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +52.8m
+Duration: 113m
+Complexity: medium
+Time: 11:40 - 13:33">Sedation</div><div class="slot" style="left:510.0px; width:93.0px; background-color:#cc99ff;" title="Patient: 1615
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +32.1m
+Duration: 62m
+Complexity: medium
+Time: 13:40 - 14:42">Sedation</div><div class="slot" style="left:615.0px; width:90.0px; background-color:#99ff99;" title="Patient: 1531
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 14:50 - 15:50">Std</div><div class="slot" style="left:712.5px; width:79.5px; background-color:#e0e0e0;" title="Patient: 1543
+Scan: Brain
+Flags: Difficult IV Access
+Risk Class: Class 3
+Predicted Overrun: +23.5m
+Duration: 53m
+Complexity: medium
+Time: 15:55 - 16:48">Difficult IV Access</div><div class="slot" style="left:802.5px; width:75.0px; background-color:#ffff66;" title="Patient: 572
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.4m
+Duration: 50m
+Complexity: medium
+Time: 16:55 - 17:45">Wheelchair</div><div class="slot" style="left:885.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2794
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:50 - 18:35">Std</div><div class="slot" style="left:960.0px; width:106.5px; background-color:#66b3ff;" title="Patient: 3474
+Scan: Whole Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +26.2m
+Duration: 71m
+Complexity: medium
+Time: 18:40 - 19:51">Interpreter</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3896
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:112.5px; background-color:#e0e0e0;" title="Patient: 3956
+Scan: Brain with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +30.2m
+Duration: 75m
+Complexity: medium
+Time: 08:35 - 09:50">Hospital Transport</div><div class="slot" style="left:172.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 1255
+Scan: Cervical Spine
+Flags: Poor Mobility
+Risk Class: Class 3
+Predicted Overrun: +16.3m
+Duration: 46m
+Complexity: medium
+Time: 09:55 - 10:41">Poor Mobility</div><div class="slot" style="left:255.0px; width:67.5px; background-color:#99ff99;" title="Patient: 1052
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 10:50 - 11:35">Std</div><div class="slot" style="left:330.0px; width:123.0px; background-color:#ff4d4d;" title="Patient: 3432
+Scan: Whole Spine
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +37.4m
+Duration: 82m
+Complexity: medium
+Time: 11:40 - 13:02">Hoist</div><div class="slot" style="left:465.0px; width:94.5px; background-color:#ff4d4d;" title="Patient: 384
+Scan: Brain
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +32.8m
+Duration: 63m
+Complexity: medium
+Time: 13:10 - 14:13">Hoist</div><div class="slot" style="left:570.0px; width:67.5px; background-color:#99ff99;" title="Patient: 531
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 14:20 - 15:05">Std</div><div class="slot" style="left:645.0px; width:117.0px; background-color:#66b3ff;" title="Patient: 4936
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 3
+Predicted Overrun: +48.3m
+Duration: 78m
+Complexity: medium
+Time: 15:10 - 16:28">Interpreter</div><div class="slot" style="left:772.5px; width:96.0px; background-color:#e0e0e0;" title="Patient: 3181
+Scan: Lumbar Spine
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 3
+Predicted Overrun: +33.5m
+Duration: 64m
+Complexity: medium
+Time: 16:35 - 17:39">Cognitive Conditions</div><div class="slot" style="left:877.5px; width:67.5px; background-color:#99ff99;" title="Patient: 4692
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 17:45 - 18:30">Std</div><div class="slot" style="left:952.5px; width:67.5px; background-color:#66b3ff;" title="Patient: 128
+Scan: Cervical Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +15.3m
+Duration: 45m
+Complexity: medium
+Time: 18:35 - 19:20">Interpreter</div><div class="slot" style="left:1027.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2575
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:25 - 19:55">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 3787
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:97.5px; background-color:#ffff66;" title="Patient: 2448
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +20.0m
+Duration: 65m
+Complexity: medium
+Time: 09:05 - 10:10">Wheelchair</div><div class="slot" style="left:202.5px; width:159.0px; background-color:#cc99ff;" title="Patient: 38
+Scan: Whole Spine with Contrast
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +46.1m
+Duration: 106m
+Complexity: medium
+Time: 10:15 - 12:01">Sedation</div><div class="slot" style="left:375.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4696
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 12:10 - 12:40">Std</div><div class="slot" style="left:427.5px; width:130.5px; background-color:#ff4d4d;" title="Patient: 2359
+Scan: Whole Spine
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +41.9m
+Duration: 87m
+Complexity: medium
+Time: 12:45 - 14:12">Hoist</div><div class="slot" style="left:570.0px; width:96.0px; background-color:#cc99ff;" title="Patient: 2678
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +34.5m
+Duration: 64m
+Complexity: medium
+Time: 14:20 - 15:24">Sedation</div><div class="slot" style="left:675.0px; width:67.5px; background-color:#99ff99;" title="Patient: 962
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 15:30 - 16:15">Std</div><div class="slot" style="left:750.0px; width:129.0px; background-color:#ff4d4d;" title="Patient: 4526
+Scan: Brain with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +40.7m
+Duration: 86m
+Complexity: medium
+Time: 16:20 - 17:46">Hoist</div><div class="slot" style="left:892.5px; width:114.0px; background-color:#66b3ff;" title="Patient: 2379
+Scan: Whole Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +31.5m
+Duration: 76m
+Complexity: medium
+Time: 17:55 - 19:11">Interpreter</div><div class="slot" style="left:1020.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1813
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:20 - 19:50">Std</div></div></div></div><div class="day-container"><h3>Tuesday (2025-01-07)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 259
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:144.0px; background-color:#e0e0e0;" title="Patient: 1669
+Scan: Whole Spine with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +36.2m
+Duration: 96m
+Complexity: medium
+Time: 09:05 - 10:41">Hospital Transport</div><div class="slot" style="left:255.0px; width:99.0px; background-color:#cc99ff;" title="Patient: 1802
+Scan: Brain
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +36.2m
+Duration: 66m
+Complexity: medium
+Time: 10:50 - 11:56">Sedation</div><div class="slot" style="left:367.5px; width:67.5px; background-color:#99ff99;" title="Patient: 2882
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 12:05 - 12:50">Std</div><div class="slot" style="left:442.5px; width:127.5px; background-color:#e0e0e0;" title="Patient: 2467
+Scan: Whole Spine with Contrast
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +24.6m
+Duration: 85m
+Complexity: medium
+Time: 12:55 - 14:20">Poor Mobility</div><div class="slot" style="left:577.5px; width:70.5px; background-color:#ffff66;" title="Patient: 625
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +17.2m
+Duration: 47m
+Complexity: medium
+Time: 14:25 - 15:12">Wheelchair</div><div class="slot" style="left:660.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2102
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 15:20 - 16:05">Std</div><div class="slot" style="left:735.0px; width:121.5px; background-color:#ff4d4d;" title="Patient: 1441
+Scan: Cervical Spine
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +51.3m
+Duration: 81m
+Complexity: medium
+Time: 16:10 - 17:31">Hoist</div><div class="slot" style="left:870.0px; width:69.0px; background-color:#e0e0e0;" title="Patient: 669
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +15.8m
+Duration: 46m
+Complexity: medium
+Time: 17:40 - 18:26">Cognitive Conditions</div><div class="slot" style="left:952.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3980
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 18:35 - 19:05">Std</div><div class="slot" style="left:1005.0px; width:72.0px; background-color:#ffff66;" title="Patient: 2454
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +18.4m
+Duration: 48m
+Complexity: medium
+Time: 19:10 - 19:58">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 1962
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:159.0px; background-color:#e0e0e0;" title="Patient: 3808
+Scan: Whole Spine with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +46.4m
+Duration: 106m
+Complexity: medium
+Time: 09:05 - 10:51">Hospital Transport</div><div class="slot" style="left:270.0px; width:81.0px; background-color:#cc99ff;" title="Patient: 87
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +23.6m
+Duration: 54m
+Complexity: medium
+Time: 11:00 - 11:54">Sedation</div><div class="slot" style="left:360.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3063
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 12:00 - 12:30">Std</div><div class="slot" style="left:412.5px; width:111.0px; background-color:#e0e0e0;" title="Patient: 3813
+Scan: Whole Spine with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +14.1m
+Duration: 74m
+Complexity: medium
+Time: 12:35 - 13:49">Difficult IV Access</div><div class="slot" style="left:532.5px; width:75.0px; background-color:#e0e0e0;" title="Patient: 35
+Scan: Lumbar Spine
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +20.3m
+Duration: 50m
+Complexity: medium
+Time: 13:55 - 14:45">Difficult IV Access</div><div class="slot" style="left:615.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4687
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 14:50 - 15:35">Std</div><div class="slot" style="left:690.0px; width:97.5px; background-color:#e0e0e0;" title="Patient: 2957
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +20.1m
+Duration: 65m
+Complexity: medium
+Time: 15:40 - 16:45">Cognitive Conditions</div><div class="slot" style="left:795.0px; width:67.5px; background-color:#e0e0e0;" title="Patient: 3152
+Scan: Brain
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +14.7m
+Duration: 45m
+Complexity: medium
+Time: 16:50 - 17:35">Cognitive Conditions</div><div class="slot" style="left:870.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3562
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 17:40 - 18:10">Std</div><div class="slot" style="left:922.5px; width:67.5px; background-color:#e0e0e0;" title="Patient: 448
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +15.4m
+Duration: 45m
+Complexity: medium
+Time: 18:15 - 19:00">Cognitive Conditions</div><div class="slot" style="left:997.5px; width:75.0px; background-color:#ffff66;" title="Patient: 2060
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.6m
+Duration: 50m
+Complexity: medium
+Time: 19:05 - 19:55">Wheelchair</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 1413
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:126.0px; background-color:#ff4d4d;" title="Patient: 3686
+Scan: Brain with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +38.6m
+Duration: 84m
+Complexity: medium
+Time: 09:05 - 10:29">Hoist</div><div class="slot" style="left:232.5px; width:118.5px; background-color:#66b3ff;" title="Patient: 632
+Scan: Whole Spine with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +19.2m
+Duration: 79m
+Complexity: medium
+Time: 10:35 - 11:54">Interpreter</div><div class="slot" style="left:360.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3001
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 12:00 - 12:30">Std</div><div class="slot" style="left:412.5px; width:88.5px; background-color:#e0e0e0;" title="Patient: 975
+Scan: Brain with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +14.1m
+Duration: 59m
+Complexity: medium
+Time: 12:35 - 13:34">Difficult IV Access</div><div class="slot" style="left:510.0px; width:115.5px; background-color:#e0e0e0;" title="Patient: 1075
+Scan: Brain with Contrast
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +31.8m
+Duration: 77m
+Complexity: medium
+Time: 13:40 - 14:57">Poor Mobility</div><div class="slot" style="left:637.5px; width:90.0px; background-color:#99ff99;" title="Patient: 3535
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 15:05 - 16:05">Std</div><div class="slot" style="left:735.0px; width:118.5px; background-color:#ff4d4d;" title="Patient: 1712
+Scan: Lumbar Spine
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +48.6m
+Duration: 79m
+Complexity: medium
+Time: 16:10 - 17:29">Hoist</div><div class="slot" style="left:862.5px; width:96.0px; background-color:#e0e0e0;" title="Patient: 750
+Scan: Brain with Contrast
+Flags: Cognitive Conditions, Cognitive Impairment
+Risk Class: Class 2
+Predicted Overrun: +18.7m
+Duration: 64m
+Complexity: medium
+Time: 17:35 - 18:39">Cognitive Conditions</div><div class="slot" style="left:967.5px; width:45.0px; background-color:#99ff99;" title="Patient: 3538
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 18:45 - 19:15">Std</div><div class="slot" style="left:1020.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2570
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:20 - 19:50">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2616
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:84.0px; background-color:#e0e0e0;" title="Patient: 2175
+Scan: Lumbar Spine
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +26.5m
+Duration: 56m
+Complexity: medium
+Time: 08:35 - 09:31">Hospital Transport</div><div class="slot" style="left:150.0px; width:79.5px; background-color:#ff4d4d;" title="Patient: 4014
+Scan: Brain
+Flags: Hoist, Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +23.3m
+Duration: 53m
+Complexity: medium
+Time: 09:40 - 10:33">Hoist</div><div class="slot" style="left:240.0px; width:90.0px; background-color:#99ff99;" title="Patient: 646
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 10:40 - 11:40">Std</div><div class="slot" style="left:337.5px; width:81.0px; background-color:#cc99ff;" title="Patient: 4626
+Scan: Lumbar Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +23.5m
+Duration: 54m
+Complexity: medium
+Time: 11:45 - 12:39">Sedation</div><div class="slot" style="left:427.5px; width:87.0px; background-color:#e0e0e0;" title="Patient: 4597
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 3
+Predicted Overrun: +28.5m
+Duration: 58m
+Complexity: medium
+Time: 12:45 - 13:43">Poor Mobility</div><div class="slot" style="left:525.0px; width:45.0px; background-color:#99ff99;" title="Patient: 75
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 13:50 - 14:20">Std</div><div class="slot" style="left:577.5px; width:72.0px; background-color:#66b3ff;" title="Patient: 4781
+Scan: Lumbar Spine
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +17.7m
+Duration: 48m
+Complexity: medium
+Time: 14:25 - 15:13">Interpreter</div><div class="slot" style="left:660.0px; width:73.5px; background-color:#ffff66;" title="Patient: 3444
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.0m
+Duration: 49m
+Complexity: medium
+Time: 15:20 - 16:09">Wheelchair</div><div class="slot" style="left:742.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2964
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 16:15 - 16:45">Std</div><div class="slot" style="left:795.0px; width:108.0px; background-color:#ff4d4d;" title="Patient: 1872
+Scan: Brain with Contrast
+Flags: Hoist, Wheelchair
+Risk Class: Class 3
+Predicted Overrun: +26.5m
+Duration: 72m
+Complexity: medium
+Time: 16:50 - 18:02">Hoist</div><div class="slot" style="left:915.0px; width:61.5px; background-color:#e0e0e0;" title="Patient: 304
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +10.9m
+Duration: 41m
+Complexity: medium
+Time: 18:10 - 18:51">Cognitive Conditions</div><div class="slot" style="left:990.0px; width:67.5px; background-color:#99ff99;" title="Patient: 664
+Scan: Lumbar Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 19:00 - 19:45">Std</div></div></div></div><div class="day-container"><h3>Wednesday (2025-01-08)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:90.0px; background-color:#99ff99;" title="Patient: 2521
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 08:00 - 09:00">Std</div><div class="slot" style="left:97.5px; width:99.0px; background-color:#ff4d4d;" title="Patient: 983
+Scan: Brain
+Flags: Hoist, Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +35.9m
+Duration: 66m
+Complexity: medium
+Time: 09:05 - 10:11">Hoist</div><div class="slot" style="left:210.0px; width:97.5px; background-color:#ffff66;" title="Patient: 4859
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.6m
+Duration: 65m
+Complexity: medium
+Time: 10:20 - 11:25">Wheelchair</div><div class="slot" style="left:315.0px; width:90.0px; background-color:#99ff99;" title="Patient: 3507
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 11:30 - 12:30">Std</div><div class="slot" style="left:412.5px; width:124.5px; background-color:#ffff66;" title="Patient: 3607
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +37.8m
+Duration: 83m
+Complexity: medium
+Time: 12:35 - 13:58">Wheelchair</div><div class="slot" style="left:547.5px; width:123.0px; background-color:#cc99ff;" title="Patient: 862
+Scan: Brain with Contrast
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +36.8m
+Duration: 82m
+Complexity: medium
+Time: 14:05 - 15:27">Sedation</div><div class="slot" style="left:682.5px; width:67.5px; background-color:#99ff99;" title="Patient: 447
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 15:35 - 16:20">Std</div><div class="slot" style="left:757.5px; width:115.5px; background-color:#cc99ff;" title="Patient: 3917
+Scan: Brain with Contrast
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +32.3m
+Duration: 77m
+Complexity: medium
+Time: 16:25 - 17:42">Sedation</div><div class="slot" style="left:885.0px; width:88.5px; background-color:#e0e0e0;" title="Patient: 3731
+Scan: Brain with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +14.4m
+Duration: 59m
+Complexity: medium
+Time: 17:50 - 18:49">Difficult IV Access</div><div class="slot" style="left:982.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1476
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 18:55 - 19:25">Std</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4089
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 19:30 - 20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:67.5px; background-color:#99ff99;" title="Patient: 4542
+Scan: Whole Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 08:00 - 08:45">Std</div><div class="slot" style="left:75.0px; width:156.0px; background-color:#e0e0e0;" title="Patient: 1433
+Scan: Whole Spine with Contrast
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +43.8m
+Duration: 104m
+Complexity: medium
+Time: 08:50 - 10:34">Hospital Transport</div><div class="slot" style="left:240.0px; width:85.5px; background-color:#ffff66;" title="Patient: 2966
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +27.3m
+Duration: 57m
+Complexity: medium
+Time: 10:40 - 11:37">Wheelchair</div><div class="slot" style="left:337.5px; width:67.5px; background-color:#99ff99;" title="Patient: 3981
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 11:45 - 12:30">Std</div><div class="slot" style="left:412.5px; width:75.0px; background-color:#ffff66;" title="Patient: 451
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +20.2m
+Duration: 50m
+Complexity: medium
+Time: 12:35 - 13:25">Wheelchair</div><div class="slot" style="left:495.0px; width:97.5px; background-color:#ffff66;" title="Patient: 2233
+Scan: Brain with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.9m
+Duration: 65m
+Complexity: medium
+Time: 13:30 - 14:35">Wheelchair</div><div class="slot" style="left:600.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4365
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 14:40 - 15:10">Std</div><div class="slot" style="left:652.5px; width:118.5px; background-color:#cc99ff;" title="Patient: 4343
+Scan: Whole Spine
+Flags: Sedation
+Risk Class: Class 3
+Predicted Overrun: +34.0m
+Duration: 79m
+Complexity: medium
+Time: 15:15 - 16:34">Sedation</div><div class="slot" style="left:780.0px; width:108.0px; background-color:#66b3ff;" title="Patient: 2514
+Scan: Brain
+Flags: Interpreter
+Risk Class: Class 3
+Predicted Overrun: +41.9m
+Duration: 72m
+Complexity: medium
+Time: 16:40 - 17:52">Interpreter</div><div class="slot" style="left:900.0px; width:45.0px; background-color:#99ff99;" title="Patient: 292
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 18:00 - 18:30">Std</div><div class="slot" style="left:952.5px; width:88.5px; background-color:#e0e0e0;" title="Patient: 350
+Scan: Brain with Contrast
+Flags: Difficult IV Access
+Risk Class: Class 2
+Predicted Overrun: +13.8m
+Duration: 59m
+Complexity: medium
+Time: 18:35 - 19:34">Difficult IV Access</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3450
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:106.5px; background-color:#e0e0e0;" title="Patient: 3553
+Scan: Brain
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +40.7m
+Duration: 71m
+Complexity: medium
+Time: 08:35 - 09:46">Hospital Transport</div><div class="slot" style="left:172.5px; width:99.0px; background-color:#e0e0e0;" title="Patient: 888
+Scan: Brain
+Flags: Cognitive Conditions, Learning Difficulty
+Risk Class: Class 2
+Predicted Overrun: +35.5m
+Duration: 66m
+Complexity: medium
+Time: 09:55 - 11:01">Cognitive Conditions</div><div class="slot" style="left:285.0px; width:45.0px; background-color:#99ff99;" title="Patient: 4725
+Scan: Brain
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:10 - 11:40">Std</div><div class="slot" style="left:337.5px; width:124.5px; background-color:#ffff66;" title="Patient: 3554
+Scan: Whole Spine with Contrast
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +23.2m
+Duration: 83m
+Complexity: medium
+Time: 11:45 - 13:08">Wheelchair</div><div class="slot" style="left:472.5px; width:78.0px; background-color:#ffff66;" title="Patient: 4407
+Scan: Brain
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +21.6m
+Duration: 52m
+Complexity: medium
+Time: 13:15 - 14:07">Wheelchair</div><div class="slot" style="left:562.5px; width:90.0px; background-color:#99ff99;" title="Patient: 2929
+Scan: Whole Spine with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 60m
+Complexity: low
+Time: 14:15 - 15:15">Std</div><div class="slot" style="left:660.0px; width:88.5px; background-color:#66b3ff;" title="Patient: 2214
+Scan: Brain with Contrast
+Flags: Interpreter
+Risk Class: Class 2
+Predicted Overrun: +13.7m
+Duration: 59m
+Complexity: medium
+Time: 15:20 - 16:19">Interpreter</div><div class="slot" style="left:757.5px; width:141.0px; background-color:#66b3ff;" title="Patient: 2946
+Scan: Whole Spine with Contrast
+Flags: Interpreter
+Risk Class: Class 3
+Predicted Overrun: +34.1m
+Duration: 94m
+Complexity: medium
+Time: 16:25 - 17:59">Interpreter</div><div class="slot" style="left:907.5px; width:67.5px; background-color:#99ff99;" title="Patient: 2324
+Scan: Brain with Contrast
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 45m
+Complexity: low
+Time: 18:05 - 18:50">Std</div><div class="slot" style="left:982.5px; width:64.5px; background-color:#e0e0e0;" title="Patient: 450
+Scan: Lumbar Spine
+Flags: Poor Mobility
+Risk Class: Class 2
+Predicted Overrun: +13.3m
+Duration: 43m
+Complexity: medium
+Time: 18:55 - 19:38">Poor Mobility</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3036
+Scan: Lumbar Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 08:00 - 08:30">Std</div><div class="slot" style="left:52.5px; width:120.0px; background-color:#e0e0e0;" title="Patient: 1217
+Scan: Brain
+Flags: Hospital Transport
+Risk Class: Class 3
+Predicted Overrun: +50.2m
+Duration: 80m
+Complexity: medium
+Time: 08:35 - 09:55">Hospital Transport</div><div class="slot" style="left:180.0px; width:96.0px; background-color:#ffff66;" title="Patient: 2281
+Scan: Whole Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.3m
+Duration: 64m
+Complexity: medium
+Time: 10:00 - 11:04">Wheelchair</div><div class="slot" style="left:285.0px; width:45.0px; background-color:#99ff99;" title="Patient: 3275
+Scan: Cervical Spine
+Flags: None
+Risk Class: Class 1
+Predicted Overrun: +0.0m
+Duration: 30m
+Complexity: low
+Time: 11:10 - 11:40">Std</div><div class="slot" style="left:337.5px; width:73.5px; background-color:#ffff66;" title="Patient: 4594
+Scan: Cervical Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +19.0m
+Duration: 49m
+Complexity: medium
+Time: 11:45 - 12:34">Wheelchair</div><div class="slot" style="left:420.0px; width:93.0px; background-color:#ffff66;" title="Patient: 3802
+Scan: Lumbar Spine
+Flags: Wheelchair
+Risk Class: Class 2
+Predicted Overrun: +32.2m
+Duration: 62m
+Complexity: medium
+Time: 12:40 - 13:42">Wheelchair</div></div></div></div></body></html>

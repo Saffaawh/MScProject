@@ -1,0 +1,501 @@
+Scanner,Date,Start Time,End Time,Patient Number,Scan Type,Flags,Predicted_Overrun,Predicted_Class,Duration,Complexity
+MRI Scanner 1,2025-01-02,08:00,08:45,599,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-02,08:00,08:30,114,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-02,08:00,08:30,4703,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-02,08:00,08:45,4508,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-02,08:35,09:24,3027,Brain,"Cognitive Conditions, Cognitive Impairment",19.2,Class 2,49,medium
+MRI Scanner 3,2025-01-02,08:35,09:49,989,Brain with Contrast,"Hoist, Wheelchair",28.9,Class 3,74,medium
+MRI Scanner 1,2025-01-02,08:50,10:05,4779,Lumbar Spine,"Hoist, Wheelchair",44.6,Class 3,75,medium
+MRI Scanner 4,2025-01-02,08:50,10:33,2100,Whole Spine with Contrast,"Hoist, Wheelchair",43.0,Class 3,103,medium
+MRI Scanner 2,2025-01-02,09:30,10:15,906,Brain,"Cognitive Conditions, Cognitive Impairment",14.7,Class 2,45,medium
+MRI Scanner 3,2025-01-02,09:55,11:16,706,Whole Spine with Contrast,"Cognitive Conditions, Cognitive Impairment",20.7,Class 2,81,medium
+MRI Scanner 1,2025-01-02,10:10,11:13,943,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",17.7,Class 2,63,medium
+MRI Scanner 2,2025-01-02,10:20,11:20,4830,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-02,10:40,11:28,3118,Lumbar Spine,"Cognitive Conditions, Learning Difficulty",18.5,Class 2,48,medium
+MRI Scanner 1,2025-01-02,11:20,11:50,4046,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-02,11:25,12:09,4447,Brain,"Cognitive Conditions, Learning Difficulty",14.4,Class 2,44,medium
+MRI Scanner 3,2025-01-02,11:25,12:25,3523,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-02,11:35,12:05,220,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-02,11:55,12:50,3175,Brain,"Hoist, Wheelchair",25.5,Class 3,55,medium
+MRI Scanner 4,2025-01-02,12:10,12:57,1555,Brain,Wheelchair,17.3,Class 2,47,medium
+MRI Scanner 2,2025-01-02,12:15,13:19,4831,Whole Spine,Wheelchair,19.1,Class 2,64,medium
+MRI Scanner 3,2025-01-02,12:30,13:48,3902,Whole Spine with Contrast,Wheelchair,17.9,Class 2,78,medium
+MRI Scanner 1,2025-01-02,12:55,14:01,2675,Brain with Contrast,Wheelchair,21.3,Class 2,66,medium
+MRI Scanner 4,2025-01-02,13:05,14:23,2360,Brain with Contrast,Wheelchair,32.7,Class 3,78,medium
+MRI Scanner 2,2025-01-02,13:25,14:10,4328,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-02,13:55,14:44,986,Brain,Wheelchair,18.6,Class 2,49,medium
+MRI Scanner 1,2025-01-02,14:10,14:40,4035,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-02,14:15,15:39,1756,Whole Spine with Contrast,Wheelchair,23.7,Class 3,84,medium
+MRI Scanner 4,2025-01-02,14:30,15:15,206,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-02,14:45,15:33,1816,Brain,Wheelchair,18.0,Class 2,48,medium
+MRI Scanner 3,2025-01-02,14:50,15:20,4044,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-02,15:20,16:14,4240,Brain,Wheelchair,24.1,Class 2,54,medium
+MRI Scanner 3,2025-01-02,15:25,16:30,2052,Lumbar Spine with Contrast,Wheelchair,20.0,Class 2,65,medium
+MRI Scanner 1,2025-01-02,15:40,16:29,2844,Brain,Wheelchair,18.7,Class 2,49,medium
+MRI Scanner 2,2025-01-02,15:45,16:35,229,Cervical Spine,Wheelchair,20.2,Class 2,50,medium
+MRI Scanner 4,2025-01-02,16:20,17:08,4144,Cervical Spine,Wheelchair,18.3,Class 2,48,medium
+MRI Scanner 1,2025-01-02,16:35,17:05,2329,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-02,16:35,17:52,514,Brain,Hospital Transport,47.2,Class 3,77,medium
+MRI Scanner 2,2025-01-02,16:40,17:25,4615,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-02,17:10,18:26,526,Whole Spine with Contrast,Interpreter,16.4,Class 2,76,medium
+MRI Scanner 4,2025-01-02,17:15,18:00,42,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-02,17:30,18:18,3555,Cervical Spine,Interpreter,18.2,Class 2,48,medium
+MRI Scanner 3,2025-01-02,18:00,18:45,2080,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-02,18:05,19:26,1004,Brain with Contrast,Interpreter,35.8,Class 2,81,medium
+MRI Scanner 2,2025-01-02,18:25,19:11,4821,Brain,Interpreter,15.7,Class 2,46,medium
+MRI Scanner 1,2025-01-02,18:35,19:20,2704,Brain,Interpreter,14.7,Class 2,45,medium
+MRI Scanner 3,2025-01-02,18:50,19:41,3828,Lumbar Spine,Difficult IV Access,20.7,Class 2,51,medium
+MRI Scanner 2,2025-01-02,19:20,19:50,903,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-02,19:25,19:55,4644,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-03,08:00,08:45,1782,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-03,08:00,09:00,2874,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-03,08:00,08:30,1589,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-03,08:00,08:45,2010,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-03,08:35,09:56,4302,Brain with Contrast,Hospital Transport,35.9,Class 3,81,medium
+MRI Scanner 1,2025-01-03,08:50,09:56,1364,Lumbar Spine,Hospital Transport,36.1,Class 3,66,medium
+MRI Scanner 4,2025-01-03,08:50,10:15,2014,Brain with Contrast,Hospital Transport,40.3,Class 3,85,medium
+MRI Scanner 2,2025-01-03,09:05,10:27,4787,Brain with Contrast,Sedation,37.4,Class 3,82,medium
+MRI Scanner 1,2025-01-03,10:05,11:04,4947,Lumbar Spine,Sedation,29.3,Class 3,59,medium
+MRI Scanner 3,2025-01-03,10:05,11:17,4120,Cervical Spine with Contrast,Difficult IV Access,26.6,Class 2,72,medium
+MRI Scanner 4,2025-01-03,10:20,11:33,3104,Whole Spine,Sedation,28.5,Class 3,73,medium
+MRI Scanner 2,2025-01-03,10:35,11:26,4396,Lumbar Spine,Poor Mobility,20.8,Class 2,51,medium
+MRI Scanner 1,2025-01-03,11:10,11:55,2310,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-03,11:25,11:55,2331,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-03,11:35,12:05,4066,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-03,11:40,12:10,1358,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-03,12:00,13:06,4255,Whole Spine,Poor Mobility,21.4,Class 3,66,medium
+MRI Scanner 3,2025-01-03,12:00,12:51,2778,Lumbar Spine,Poor Mobility,21.0,Class 2,51,medium
+MRI Scanner 2,2025-01-03,12:10,13:08,2474,Whole Spine,Interpreter,13.0,Class 2,58,medium
+MRI Scanner 4,2025-01-03,12:15,13:01,1012,Brain,Interpreter,16.5,Class 2,46,medium
+MRI Scanner 3,2025-01-03,13:00,13:53,251,Brain,Poor Mobility,22.6,Class 3,53,medium
+MRI Scanner 4,2025-01-03,13:10,13:59,4449,Lumbar Spine,Wheelchair,19.4,Class 2,49,medium
+MRI Scanner 1,2025-01-03,13:15,14:23,2698,Whole Spine,Wheelchair,22.5,Class 2,68,medium
+MRI Scanner 2,2025-01-03,13:15,14:03,1888,Brain,Wheelchair,18.4,Class 2,48,medium
+MRI Scanner 3,2025-01-03,14:00,14:45,3346,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-03,14:05,14:35,3845,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-03,14:10,14:40,439,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-03,14:30,15:00,3437,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-03,14:40,16:05,4121,Brain with Contrast,"Hoist, Wheelchair",39.6,Class 3,85,medium
+MRI Scanner 2,2025-01-03,14:45,15:34,3149,Brain,"Cognitive Conditions, Cognitive Impairment",18.6,Class 2,49,medium
+MRI Scanner 3,2025-01-03,14:50,16:15,2427,Lumbar Spine with Contrast,"Hoist, Wheelchair",40.0,Class 3,85,medium
+MRI Scanner 1,2025-01-03,15:05,15:55,3101,Lumbar Spine,"Cognitive Conditions, Cognitive Impairment",20.4,Class 2,50,medium
+MRI Scanner 2,2025-01-03,15:40,16:33,1240,Lumbar Spine,"Cognitive Conditions, Cognitive Impairment",22.5,Class 2,53,medium
+MRI Scanner 1,2025-01-03,16:00,16:51,3790,Brain,"Cognitive Conditions, Cognitive Impairment",20.7,Class 2,51,medium
+MRI Scanner 4,2025-01-03,16:10,17:12,1575,Cervical Spine with Contrast,"Cognitive Conditions, Learning Difficulty",17.1,Class 2,62,medium
+MRI Scanner 3,2025-01-03,16:20,17:32,2380,Brain,"Cognitive Conditions, Learning Difficulty",42.0,Class 2,72,medium
+MRI Scanner 2,2025-01-03,16:40,17:10,126,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-03,17:00,17:30,4836,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-03,17:15,18:03,2661,Lumbar Spine,"Cognitive Conditions, Cognitive Impairment",17.5,Class 2,48,medium
+MRI Scanner 4,2025-01-03,17:20,18:05,4441,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-03,17:35,19:04,988,Whole Spine with Contrast,"Cognitive Conditions, Learning Difficulty",28.8,Class 2,89,medium
+MRI Scanner 3,2025-01-03,17:40,18:25,1622,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-03,18:10,19:25,4681,Brain with Contrast,Wheelchair,30.0,Class 2,75,medium
+MRI Scanner 4,2025-01-03,18:10,19:01,4478,Brain,Wheelchair,20.9,Class 2,51,medium
+MRI Scanner 3,2025-01-03,18:30,19:40,1234,Lumbar Spine with Contrast,Wheelchair,24.6,Class 2,70,medium
+MRI Scanner 1,2025-01-03,19:10,19:57,3347,Brain,Wheelchair,17.3,Class 2,47,medium
+MRI Scanner 4,2025-01-03,19:10,19:59,1556,Brain,Wheelchair,19.4,Class 2,49,medium
+MRI Scanner 2,2025-01-03,19:30,20:00,3415,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-04,08:00,09:00,441,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-04,08:00,08:45,3490,Cervical Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-04,08:00,08:45,2293,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-04,08:00,08:30,4559,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-04,08:35,09:50,1818,Whole Spine with Contrast,Wheelchair,14.5,Class 2,75,medium
+MRI Scanner 2,2025-01-04,08:50,09:56,538,Lumbar Spine with Contrast,Wheelchair,20.9,Class 2,66,medium
+MRI Scanner 3,2025-01-04,08:50,09:54,4686,Brain with Contrast,Wheelchair,19.1,Class 2,64,medium
+MRI Scanner 1,2025-01-04,09:05,09:50,675,Brain,Wheelchair,14.9,Class 2,45,medium
+MRI Scanner 1,2025-01-04,09:55,10:52,3983,Lumbar Spine,Wheelchair,26.6,Class 2,57,medium
+MRI Scanner 4,2025-01-04,09:55,10:43,1620,Brain,Wheelchair,18.2,Class 2,48,medium
+MRI Scanner 3,2025-01-04,10:00,10:55,1546,Lumbar Spine,Wheelchair,24.9,Class 2,55,medium
+MRI Scanner 2,2025-01-04,10:05,11:17,98,Whole Spine,Interpreter,27.5,Class 2,72,medium
+MRI Scanner 4,2025-01-04,10:50,11:50,474,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-04,11:00,11:45,3470,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-04,11:00,11:30,24,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-04,11:25,11:55,2213,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-04,11:35,12:35,4133,Brain with Contrast,Interpreter,15.4,Class 2,60,medium
+MRI Scanner 1,2025-01-04,11:50,13:06,4185,Whole Spine with Contrast,Interpreter,16.3,Class 2,76,medium
+MRI Scanner 4,2025-01-04,11:55,13:08,3795,Whole Spine,Interpreter,27.7,Class 2,73,medium
+MRI Scanner 2,2025-01-04,12:00,13:21,368,Whole Spine with Contrast,Interpreter,21.0,Class 2,81,medium
+MRI Scanner 3,2025-01-04,12:40,13:39,2358,Brain with Contrast,Difficult IV Access,14.3,Class 2,59,medium
+MRI Scanner 1,2025-01-04,13:15,14:06,362,Brain,Difficult IV Access,21.2,Class 2,51,medium
+MRI Scanner 4,2025-01-04,13:15,14:13,4566,Lumbar Spine,Poor Mobility,28.5,Class 2,58,medium
+MRI Scanner 2,2025-01-04,13:30,14:12,753,Lumbar Spine,Poor Mobility,12.3,Class 2,42,medium
+MRI Scanner 3,2025-01-04,13:45,14:30,2217,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-04,14:15,15:00,4717,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-04,14:20,14:50,1713,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-04,14:20,14:50,4515,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-04,14:35,15:40,4997,Lumbar Spine with Contrast,Wheelchair,19.5,Class 2,65,medium
+MRI Scanner 2,2025-01-04,14:55,15:48,2780,Cervical Spine,Wheelchair,22.8,Class 2,53,medium
+MRI Scanner 4,2025-01-04,14:55,16:00,2313,Brain with Contrast,Wheelchair,19.9,Class 2,65,medium
+MRI Scanner 1,2025-01-04,15:05,16:10,2363,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",20.2,Class 2,65,medium
+MRI Scanner 3,2025-01-04,15:45,16:46,2402,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",15.9,Class 2,61,medium
+MRI Scanner 2,2025-01-04,15:55,16:52,524,Lumbar Spine,"Cognitive Conditions, Cognitive Impairment",27.1,Class 2,57,medium
+MRI Scanner 4,2025-01-04,16:05,17:06,1508,Whole Spine,"Cognitive Conditions, Cognitive Impairment",15.7,Class 2,61,medium
+MRI Scanner 1,2025-01-04,16:15,17:14,817,Brain with Contrast,"Cognitive Conditions, Learning Difficulty",14.4,Class 2,59,medium
+MRI Scanner 3,2025-01-04,16:55,17:25,4098,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-04,17:00,17:45,4115,Cervical Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-04,17:15,17:45,111,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-04,17:20,17:50,4135,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-04,17:30,18:11,3299,Brain,"Cognitive Conditions, Learning Difficulty",11.4,Class 2,41,medium
+MRI Scanner 2,2025-01-04,17:50,18:53,1875,Brain with Contrast,Wheelchair,17.7,Class 2,63,medium
+MRI Scanner 4,2025-01-04,17:50,18:39,1301,Cervical Spine,Wheelchair,19.0,Class 2,49,medium
+MRI Scanner 1,2025-01-04,17:55,18:48,4679,Brain,Wheelchair,22.5,Class 2,53,medium
+MRI Scanner 3,2025-01-04,18:20,19:10,2161,Brain,Wheelchair,20.2,Class 2,50,medium
+MRI Scanner 4,2025-01-04,18:45,19:35,2114,Brain,Wheelchair,20.2,Class 2,50,medium
+MRI Scanner 1,2025-01-04,18:55,19:41,1016,Cervical Spine,Wheelchair,16.5,Class 2,46,medium
+MRI Scanner 2,2025-01-04,19:00,19:53,3088,Lumbar Spine,Wheelchair,23.4,Class 2,53,medium
+MRI Scanner 3,2025-01-04,19:15,19:45,482,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-05,08:00,08:45,81,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-05,08:00,08:30,2691,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-05,08:00,08:45,2725,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-05,08:00,08:30,1141,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-05,08:35,09:41,2643,Cervical Spine with Contrast,Wheelchair,21.2,Class 2,66,medium
+MRI Scanner 4,2025-01-05,08:35,09:42,3051,Whole Spine,Wheelchair,22.4,Class 2,67,medium
+MRI Scanner 1,2025-01-05,08:50,09:53,3110,Whole Spine,Wheelchair,17.9,Class 2,63,medium
+MRI Scanner 3,2025-01-05,08:50,10:09,2553,Whole Spine with Contrast,Wheelchair,18.5,Class 2,79,medium
+MRI Scanner 2,2025-01-05,09:50,10:37,4317,Lumbar Spine,Wheelchair,17.0,Class 2,47,medium
+MRI Scanner 4,2025-01-05,09:50,10:54,385,Whole Spine,Wheelchair,18.9,Class 2,64,medium
+MRI Scanner 1,2025-01-05,10:00,11:10,2065,Brain with Contrast,Interpreter,25.4,Class 2,70,medium
+MRI Scanner 3,2025-01-05,10:15,11:15,1928,Brain with Contrast,Interpreter,15.2,Class 2,60,medium
+MRI Scanner 2,2025-01-05,10:45,11:15,4619,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-05,11:00,11:45,4944,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-05,11:15,12:00,4755,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-05,11:20,12:27,296,Brain with Contrast,Interpreter,22.4,Class 2,67,medium
+MRI Scanner 3,2025-01-05,11:20,12:05,484,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-05,11:50,13:04,2530,Whole Spine with Contrast,Difficult IV Access,13.8,Class 2,74,medium
+MRI Scanner 1,2025-01-05,12:05,12:50,113,Cervical Spine,Poor Mobility,15.4,Class 2,45,medium
+MRI Scanner 3,2025-01-05,12:10,13:27,1033,Brain with Contrast,Poor Mobility,32.4,Class 2,77,medium
+MRI Scanner 2,2025-01-05,12:35,13:30,4165,Brain,Interpreter,25.3,Class 2,55,medium
+MRI Scanner 1,2025-01-05,12:55,13:51,1688,Lumbar Spine,"Cognitive Conditions, Cognitive Impairment",26.2,Class 2,56,medium
+MRI Scanner 4,2025-01-05,13:10,14:13,3099,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",17.7,Class 2,63,medium
+MRI Scanner 2,2025-01-05,13:35,14:35,4465,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-05,13:35,14:37,1985,Whole Spine,"Cognitive Conditions, Cognitive Impairment",17.3,Class 2,62,medium
+MRI Scanner 1,2025-01-05,14:00,15:00,1655,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-05,14:20,14:50,4316,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-05,14:40,15:36,4937,Brain,"Cognitive Conditions, Cognitive Impairment",26.4,Class 2,56,medium
+MRI Scanner 3,2025-01-05,14:45,15:15,84,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-05,14:55,15:52,3487,Whole Spine,"Cognitive Conditions, Learning Difficulty",12.2,Class 2,57,medium
+MRI Scanner 1,2025-01-05,15:05,16:09,4530,Cervical Spine,"Cognitive Conditions, Cognitive Impairment",34.1,Class 2,64,medium
+MRI Scanner 3,2025-01-05,15:20,16:21,2459,Brain with Contrast,Wheelchair,16.4,Class 2,61,medium
+MRI Scanner 2,2025-01-05,15:45,16:52,4182,Brain with Contrast,Wheelchair,22.0,Class 2,67,medium
+MRI Scanner 4,2025-01-05,16:00,17:08,578,Brain with Contrast,Wheelchair,22.6,Class 2,68,medium
+MRI Scanner 1,2025-01-05,16:15,17:01,4617,Brain,Wheelchair,16.4,Class 2,46,medium
+MRI Scanner 3,2025-01-05,16:30,17:37,3756,Brain with Contrast,Wheelchair,22.0,Class 2,67,medium
+MRI Scanner 2,2025-01-05,17:00,17:30,3970,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-05,17:10,17:55,4518,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-05,17:15,18:00,3413,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-05,17:35,18:40,4751,Brain with Contrast,Wheelchair,19.6,Class 2,65,medium
+MRI Scanner 3,2025-01-05,17:45,18:15,46,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-05,18:00,18:47,815,Brain,Wheelchair,17.3,Class 2,47,medium
+MRI Scanner 4,2025-01-05,18:05,19:01,1789,Lumbar Spine,Wheelchair,25.9,Class 2,56,medium
+MRI Scanner 3,2025-01-05,18:20,19:23,4127,Brain with Contrast,Wheelchair,18.3,Class 2,63,medium
+MRI Scanner 2,2025-01-05,18:45,19:47,561,Brain with Contrast,Wheelchair,16.5,Class 2,62,medium
+MRI Scanner 1,2025-01-05,18:55,19:43,90,Brain,Wheelchair,18.0,Class 2,48,medium
+MRI Scanner 4,2025-01-05,19:10,19:57,4646,Brain,Wheelchair,17.4,Class 2,47,medium
+MRI Scanner 3,2025-01-05,19:30,20:00,1266,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-06,08:00,08:45,811,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-06,08:00,08:30,2220,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-06,08:00,08:30,3896,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-06,08:00,09:00,3787,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-06,08:35,09:44,800,Brain,Hospital Transport,39.1,Class 3,69,medium
+MRI Scanner 3,2025-01-06,08:35,09:50,3956,Brain with Contrast,Hospital Transport,30.2,Class 3,75,medium
+MRI Scanner 1,2025-01-06,08:50,10:11,399,Brain with Contrast,Hospital Transport,36.0,Class 3,81,medium
+MRI Scanner 4,2025-01-06,09:05,10:10,2448,Brain with Contrast,Wheelchair,20.0,Class 3,65,medium
+MRI Scanner 2,2025-01-06,09:50,10:57,3729,Cervical Spine with Contrast,Wheelchair,21.7,Class 3,67,medium
+MRI Scanner 3,2025-01-06,09:55,10:41,1255,Cervical Spine,Poor Mobility,16.3,Class 3,46,medium
+MRI Scanner 4,2025-01-06,10:15,12:01,38,Whole Spine with Contrast,Sedation,46.1,Class 3,106,medium
+MRI Scanner 1,2025-01-06,10:20,11:27,679,Brain,Sedation,37.0,Class 3,67,medium
+MRI Scanner 3,2025-01-06,10:50,11:35,1052,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-06,11:05,11:35,2240,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-06,11:35,12:05,1577,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-06,11:40,13:33,3536,Whole Spine with Contrast,Sedation,52.8,Class 3,113,medium
+MRI Scanner 3,2025-01-06,11:40,13:02,3432,Whole Spine,"Hoist, Wheelchair",37.4,Class 3,82,medium
+MRI Scanner 1,2025-01-06,12:10,13:18,2937,Lumbar Spine,Sedation,38.5,Class 3,68,medium
+MRI Scanner 4,2025-01-06,12:10,12:40,4696,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-06,12:45,14:12,2359,Whole Spine,"Hoist, Wheelchair",41.9,Class 3,87,medium
+MRI Scanner 3,2025-01-06,13:10,14:13,384,Brain,"Hoist, Wheelchair",32.8,Class 3,63,medium
+MRI Scanner 1,2025-01-06,13:25,14:30,4484,Lumbar Spine,Sedation,34.9,Class 3,65,medium
+MRI Scanner 2,2025-01-06,13:40,14:42,1615,Lumbar Spine,Sedation,32.1,Class 3,62,medium
+MRI Scanner 3,2025-01-06,14:20,15:05,531,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-06,14:20,15:24,2678,Lumbar Spine,Sedation,34.5,Class 3,64,medium
+MRI Scanner 1,2025-01-06,14:35,15:05,4535,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-06,14:50,15:50,1531,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-06,15:10,16:00,2518,Lumbar Spine,Interpreter,19.9,Class 3,50,medium
+MRI Scanner 3,2025-01-06,15:10,16:28,4936,Brain,Interpreter,48.3,Class 3,78,medium
+MRI Scanner 4,2025-01-06,15:30,16:15,962,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-06,15:55,16:48,1543,Brain,Difficult IV Access,23.5,Class 3,53,medium
+MRI Scanner 1,2025-01-06,16:05,17:12,4208,Whole Spine,Poor Mobility,22.1,Class 3,67,medium
+MRI Scanner 4,2025-01-06,16:20,17:46,4526,Brain with Contrast,"Hoist, Wheelchair",40.7,Class 2,86,medium
+MRI Scanner 3,2025-01-06,16:35,17:39,3181,Lumbar Spine,"Cognitive Conditions, Learning Difficulty",33.5,Class 3,64,medium
+MRI Scanner 2,2025-01-06,16:55,17:45,572,Cervical Spine,Wheelchair,20.4,Class 2,50,medium
+MRI Scanner 1,2025-01-06,17:20,17:50,2126,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-06,17:45,18:30,4692,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-06,17:50,18:35,2794,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-06,17:55,18:58,1007,Cervical Spine with Contrast,Wheelchair,18.4,Class 2,63,medium
+MRI Scanner 4,2025-01-06,17:55,19:11,2379,Whole Spine,Interpreter,31.5,Class 2,76,medium
+MRI Scanner 3,2025-01-06,18:35,19:20,128,Cervical Spine,Interpreter,15.3,Class 2,45,medium
+MRI Scanner 2,2025-01-06,18:40,19:51,3474,Whole Spine,Interpreter,26.2,Class 2,71,medium
+MRI Scanner 1,2025-01-06,19:05,19:54,4693,Brain,Interpreter,19.3,Class 2,49,medium
+MRI Scanner 4,2025-01-06,19:20,19:50,1813,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-06,19:25,19:55,2575,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-07,08:00,09:00,259,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-07,08:00,09:00,1962,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-07,08:00,09:00,1413,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-07,08:00,08:30,2616,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-07,08:35,09:31,2175,Lumbar Spine,Hospital Transport,26.5,Class 3,56,medium
+MRI Scanner 1,2025-01-07,09:05,10:41,1669,Whole Spine with Contrast,Hospital Transport,36.2,Class 3,96,medium
+MRI Scanner 2,2025-01-07,09:05,10:51,3808,Whole Spine with Contrast,Hospital Transport,46.4,Class 3,106,medium
+MRI Scanner 3,2025-01-07,09:05,10:29,3686,Brain with Contrast,"Hoist, Wheelchair",38.6,Class 3,84,medium
+MRI Scanner 4,2025-01-07,09:40,10:33,4014,Brain,"Hoist, Wheelchair",23.3,Class 2,53,medium
+MRI Scanner 3,2025-01-07,10:35,11:54,632,Whole Spine with Contrast,Interpreter,19.2,Class 2,79,medium
+MRI Scanner 4,2025-01-07,10:40,11:40,646,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-07,10:50,11:56,1802,Brain,Sedation,36.2,Class 3,66,medium
+MRI Scanner 2,2025-01-07,11:00,11:54,87,Lumbar Spine,Sedation,23.6,Class 3,54,medium
+MRI Scanner 4,2025-01-07,11:45,12:39,4626,Lumbar Spine,Sedation,23.5,Class 3,54,medium
+MRI Scanner 2,2025-01-07,12:00,12:30,3063,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-07,12:00,12:30,3001,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-07,12:05,12:50,2882,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-07,12:35,13:49,3813,Whole Spine with Contrast,Difficult IV Access,14.1,Class 2,74,medium
+MRI Scanner 3,2025-01-07,12:35,13:34,975,Brain with Contrast,Difficult IV Access,14.1,Class 2,59,medium
+MRI Scanner 4,2025-01-07,12:45,13:43,4597,Lumbar Spine,Poor Mobility,28.5,Class 3,58,medium
+MRI Scanner 1,2025-01-07,12:55,14:20,2467,Whole Spine with Contrast,Poor Mobility,24.6,Class 2,85,medium
+MRI Scanner 3,2025-01-07,13:40,14:57,1075,Brain with Contrast,Poor Mobility,31.8,Class 2,77,medium
+MRI Scanner 4,2025-01-07,13:50,14:20,75,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-07,13:55,14:45,35,Lumbar Spine,Difficult IV Access,20.3,Class 2,50,medium
+MRI Scanner 1,2025-01-07,14:25,15:12,625,Brain,Wheelchair,17.2,Class 2,47,medium
+MRI Scanner 4,2025-01-07,14:25,15:13,4781,Lumbar Spine,Interpreter,17.7,Class 2,48,medium
+MRI Scanner 2,2025-01-07,14:50,15:35,4687,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-07,15:05,16:05,3535,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-07,15:20,16:05,2102,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-07,15:20,16:09,3444,Cervical Spine,Wheelchair,19.0,Class 2,49,medium
+MRI Scanner 2,2025-01-07,15:40,16:45,2957,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",20.1,Class 2,65,medium
+MRI Scanner 1,2025-01-07,16:10,17:31,1441,Cervical Spine,"Hoist, Wheelchair",51.3,Class 3,81,medium
+MRI Scanner 3,2025-01-07,16:10,17:29,1712,Lumbar Spine,"Hoist, Wheelchair",48.6,Class 3,79,medium
+MRI Scanner 4,2025-01-07,16:15,16:45,2964,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-07,16:50,17:35,3152,Brain,"Cognitive Conditions, Cognitive Impairment",14.7,Class 2,45,medium
+MRI Scanner 4,2025-01-07,16:50,18:02,1872,Brain with Contrast,"Hoist, Wheelchair",26.5,Class 3,72,medium
+MRI Scanner 3,2025-01-07,17:35,18:39,750,Brain with Contrast,"Cognitive Conditions, Cognitive Impairment",18.7,Class 2,64,medium
+MRI Scanner 1,2025-01-07,17:40,18:26,669,Brain,"Cognitive Conditions, Cognitive Impairment",15.8,Class 2,46,medium
+MRI Scanner 2,2025-01-07,17:40,18:10,3562,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-07,18:10,18:51,304,Brain,"Cognitive Conditions, Learning Difficulty",10.9,Class 2,41,medium
+MRI Scanner 2,2025-01-07,18:15,19:00,448,Brain,"Cognitive Conditions, Learning Difficulty",15.4,Class 2,45,medium
+MRI Scanner 1,2025-01-07,18:35,19:05,3980,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-07,18:45,19:15,3538,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-07,19:00,19:45,664,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-07,19:05,19:55,2060,Brain,Wheelchair,19.6,Class 2,50,medium
+MRI Scanner 1,2025-01-07,19:10,19:58,2454,Brain,Wheelchair,18.4,Class 2,48,medium
+MRI Scanner 3,2025-01-07,19:20,19:50,2570,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-08,08:00,09:00,2521,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-08,08:00,08:45,4542,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-08,08:00,08:30,3450,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-08,08:00,08:30,3036,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-08,08:35,09:46,3553,Brain,Hospital Transport,40.7,Class 3,71,medium
+MRI Scanner 4,2025-01-08,08:35,09:55,1217,Brain,Hospital Transport,50.2,Class 3,80,medium
+MRI Scanner 2,2025-01-08,08:50,10:34,1433,Whole Spine with Contrast,Hospital Transport,43.8,Class 3,104,medium
+MRI Scanner 1,2025-01-08,09:05,10:11,983,Brain,"Hoist, Wheelchair",35.9,Class 2,66,medium
+MRI Scanner 3,2025-01-08,09:55,11:01,888,Brain,"Cognitive Conditions, Learning Difficulty",35.5,Class 2,66,medium
+MRI Scanner 4,2025-01-08,10:00,11:04,2281,Whole Spine,Wheelchair,19.3,Class 2,64,medium
+MRI Scanner 1,2025-01-08,10:20,11:25,4859,Brain with Contrast,Wheelchair,19.6,Class 2,65,medium
+MRI Scanner 2,2025-01-08,10:40,11:37,2966,Lumbar Spine,Wheelchair,27.3,Class 2,57,medium
+MRI Scanner 3,2025-01-08,11:10,11:40,4725,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-08,11:10,11:40,3275,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-08,11:30,12:30,3507,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-08,11:45,12:30,3981,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-08,11:45,13:08,3554,Whole Spine with Contrast,Wheelchair,23.2,Class 2,83,medium
+MRI Scanner 4,2025-01-08,11:45,12:34,4594,Cervical Spine,Wheelchair,19.0,Class 2,49,medium
+MRI Scanner 1,2025-01-08,12:35,13:58,3607,Brain with Contrast,Wheelchair,37.8,Class 2,83,medium
+MRI Scanner 2,2025-01-08,12:35,13:25,451,Brain,Wheelchair,20.2,Class 2,50,medium
+MRI Scanner 4,2025-01-08,12:40,13:42,3802,Lumbar Spine,Wheelchair,32.2,Class 2,62,medium
+MRI Scanner 3,2025-01-08,13:15,14:07,4407,Brain,Wheelchair,21.6,Class 2,52,medium
+MRI Scanner 2,2025-01-08,13:30,14:35,2233,Brain with Contrast,Wheelchair,19.9,Class 2,65,medium
+MRI Scanner 1,2025-01-08,14:05,15:27,862,Brain with Contrast,Sedation,36.8,Class 3,82,medium
+MRI Scanner 3,2025-01-08,14:15,15:15,2929,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-08,14:40,15:10,4365,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-08,15:15,16:34,4343,Whole Spine,Sedation,34.0,Class 3,79,medium
+MRI Scanner 3,2025-01-08,15:20,16:19,2214,Brain with Contrast,Interpreter,13.7,Class 2,59,medium
+MRI Scanner 1,2025-01-08,15:35,16:20,447,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-08,16:25,17:42,3917,Brain with Contrast,Sedation,32.3,Class 3,77,medium
+MRI Scanner 3,2025-01-08,16:25,17:59,2946,Whole Spine with Contrast,Interpreter,34.1,Class 3,94,medium
+MRI Scanner 2,2025-01-08,16:40,17:52,2514,Brain,Interpreter,41.9,Class 3,72,medium
+MRI Scanner 1,2025-01-08,17:50,18:49,3731,Brain with Contrast,Difficult IV Access,14.4,Class 2,59,medium
+MRI Scanner 2,2025-01-08,18:00,18:30,292,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-08,18:05,18:50,2324,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-08,18:35,19:34,350,Brain with Contrast,Difficult IV Access,13.8,Class 2,59,medium
+MRI Scanner 1,2025-01-08,18:55,19:25,1476,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-08,18:55,19:38,450,Lumbar Spine,Poor Mobility,13.3,Class 2,43,medium
+MRI Scanner 1,2025-01-08,19:30,20:00,4089,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,08:00,08:45,3785,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-09,08:00,09:00,635,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-09,08:00,09:00,1124,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-09,08:00,08:45,4556,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-09,08:50,10:25,2881,Whole Spine with Contrast,Hospital Transport,35.4,Class 3,95,medium
+MRI Scanner 4,2025-01-09,08:50,10:30,28,Whole Spine with Contrast,Hospital Transport,40.1,Class 3,100,medium
+MRI Scanner 2,2025-01-09,09:05,10:31,3626,Brain with Contrast,Hospital Transport,40.7,Class 3,86,medium
+MRI Scanner 3,2025-01-09,09:05,10:00,2684,Lumbar Spine,Interpreter,25.1,Class 3,55,medium
+MRI Scanner 3,2025-01-09,10:05,10:53,3680,Cervical Spine,Interpreter,17.6,Class 3,48,medium
+MRI Scanner 1,2025-01-09,10:30,11:18,4716,Brain,Poor Mobility,17.9,Class 2,48,medium
+MRI Scanner 4,2025-01-09,10:35,11:23,2930,Brain,Poor Mobility,17.9,Class 2,48,medium
+MRI Scanner 2,2025-01-09,10:40,11:31,4335,Cervical Spine,Wheelchair,20.5,Class 2,51,medium
+MRI Scanner 3,2025-01-09,11:00,11:30,1645,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,11:25,11:55,213,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-09,11:30,12:00,52,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-09,11:35,13:00,4970,Whole Spine with Contrast,Wheelchair,24.5,Class 2,85,medium
+MRI Scanner 2,2025-01-09,11:40,12:10,3695,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,12:00,13:31,4281,Whole Spine with Contrast,Wheelchair,30.8,Class 3,91,medium
+MRI Scanner 4,2025-01-09,12:05,12:35,1576,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-09,12:15,12:45,1183,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-09,12:40,13:40,3503,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-09,12:50,13:20,3599,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-09,13:05,13:35,3906,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-09,13:25,14:10,4373,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-09,13:40,14:40,835,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-09,13:40,14:25,2560,Cervical Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,13:45,14:45,487,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-09,14:15,15:15,4780,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-09,14:30,15:00,2151,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,14:45,15:15,609,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-09,14:50,15:20,4766,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-09,15:05,15:35,294,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,15:20,15:50,1850,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-09,15:20,16:05,1767,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,15:25,15:55,1908,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-09,15:40,16:25,1787,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-09,15:55,16:40,4024,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,16:00,16:30,1349,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-09,16:10,16:55,1496,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-09,16:30,17:15,4060,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,16:35,17:20,1327,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-09,16:45,17:45,522,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-09,17:00,18:00,3941,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-09,17:20,18:05,4757,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,17:25,17:55,4899,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,17:50,18:20,1953,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-09,18:00,18:45,1785,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-09,18:05,18:50,3184,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-09,18:10,19:10,1036,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-09,18:25,19:10,1291,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-09,18:50,19:35,4710,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-09,18:55,19:25,1746,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-09,19:15,19:45,2540,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-09,19:15,19:45,2457,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-09,19:30,20:00,2081,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,08:00,08:30,2991,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,08:00,08:45,2726,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,08:00,08:30,613,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,08:00,08:30,367,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,08:35,09:39,3774,Lumbar Spine,Hospital Transport,33.9,Class 3,64,medium
+MRI Scanner 3,2025-01-10,08:35,09:44,4167,Lumbar Spine,Hospital Transport,39.0,Class 3,69,medium
+MRI Scanner 4,2025-01-10,08:35,09:38,1002,Cervical Spine,Hospital Transport,33.0,Class 3,63,medium
+MRI Scanner 2,2025-01-10,08:50,09:35,3714,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-10,09:40,10:10,2405,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,09:45,10:30,4064,Cervical Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,09:45,10:30,313,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,09:50,10:20,277,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,10:15,11:00,4173,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,10:25,10:55,4745,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,10:35,11:05,4229,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,10:35,11:20,3360,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,11:00,11:30,25,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,11:05,11:50,1059,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-10,11:10,11:55,3435,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,11:25,11:55,3675,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,11:35,12:05,2728,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,11:55,12:40,4147,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-10,12:00,12:45,4275,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,12:00,12:45,4385,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,12:10,12:55,4488,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-10,12:45,13:15,4915,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,12:50,13:20,2136,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,12:50,13:35,145,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,13:00,13:30,4824,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,13:20,13:50,4984,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,13:25,13:55,1120,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,13:35,14:05,3408,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,13:40,14:10,1305,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,13:55,14:25,699,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,14:00,14:30,3585,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,14:10,14:40,3823,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,14:15,15:00,4529,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-10,14:30,15:30,2758,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 1,2025-01-10,14:35,15:35,766,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 3,2025-01-10,14:45,15:45,391,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-10,15:05,15:35,1665,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,15:35,16:20,631,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-10,15:40,16:25,3399,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,15:40,16:10,3868,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,15:50,16:20,2967,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,16:15,17:15,327,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-10,16:25,16:55,1136,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,16:25,17:10,1683,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-10,16:30,17:30,4470,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 2,2025-01-10,17:00,17:30,2979,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,17:15,18:00,1156,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,17:20,17:50,1820,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,17:35,18:05,278,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,17:35,18:20,1332,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,17:55,18:40,3711,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-10,18:05,18:35,426,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,18:10,18:40,495,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,18:25,18:55,398,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,18:40,19:10,3285,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-10,18:45,19:30,868,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-10,18:45,19:15,1623,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-10,19:00,19:30,2368,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-10,19:15,19:45,786,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-10,19:20,19:50,4631,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,08:00,08:45,469,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,08:00,08:30,2905,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-11,08:00,09:00,1635,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-11,08:00,08:45,4544,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,08:35,09:20,1547,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-11,08:50,09:20,1207,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,08:50,09:20,1359,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-11,09:05,09:50,823,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-11,09:25,10:10,3048,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,09:25,10:25,4380,Whole Spine with Contrast,None,0.0,Class 1,60,low
+MRI Scanner 4,2025-01-11,09:25,10:10,1903,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-11,09:55,10:25,2017,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,10:15,10:45,1504,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,10:15,11:00,4764,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,10:30,11:15,4553,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-11,10:30,11:00,2494,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,10:50,11:20,1515,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-11,11:05,11:35,1186,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,11:05,11:50,4145,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,11:20,11:50,352,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,11:25,11:55,1001,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-11,11:40,12:10,3182,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-11,11:55,12:25,1459,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,11:55,12:25,266,Cervical Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,12:00,12:45,3351,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-11,12:15,12:45,3445,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-11,12:30,13:00,1152,Brain,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,12:30,13:00,730,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,12:50,13:35,4279,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-11,12:50,13:35,3272,Brain with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 2,2025-01-11,13:05,13:50,3005,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-11,13:05,13:50,275,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 1,2025-01-11,13:40,14:10,151,Brain,None,0.0,Class 1,30,low
+MRI Scanner 3,2025-01-11,13:40,14:10,4428,Brain,None,0.0,Class 1,30,low
+MRI Scanner 2,2025-01-11,13:55,14:40,260,Whole Spine,None,0.0,Class 1,45,low
+MRI Scanner 4,2025-01-11,13:55,14:25,1906,Brain,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-11,14:15,15:00,1572,Lumbar Spine with Contrast,None,0.0,Class 1,45,low
+MRI Scanner 3,2025-01-11,14:15,14:45,9,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 4,2025-01-11,14:30,15:00,2338,Lumbar Spine,None,0.0,Class 1,30,low
+MRI Scanner 1,2025-01-13,08:00,08:57,3323,Brain,Hospital Transport,27.5,Class 3,57,medium
+MRI Scanner 2,2025-01-13,08:00,09:41,776,Whole Spine with Contrast,Hospital Transport,40.7,Class 3,101,medium
+MRI Scanner 3,2025-01-13,08:00,09:07,408,Lumbar Spine,Hospital Transport,36.7,Class 3,67,medium
+MRI Scanner 1,2025-01-14,08:00,09:10,2805,Cervical Spine,Hospital Transport,39.5,Class 3,70,medium
+MRI Scanner 2,2025-01-14,08:00,09:16,2582,Brain,Hospital Transport,45.8,Class 3,76,medium
+MRI Scanner 3,2025-01-14,08:00,09:32,4737,Lumbar Spine with Contrast,Hospital Transport,46.8,Class 3,92,medium
+MRI Scanner 1,2025-01-15,08:00,09:19,1716,Brain with Contrast,Hospital Transport,34.5,Class 3,79,medium
+MRI Scanner 2,2025-01-15,08:00,09:38,3668,Whole Spine with Contrast,Hospital Transport,38.4,Class 3,98,medium
+MRI Scanner 3,2025-01-15,08:00,09:38,4618,Whole Spine with Contrast,Hospital Transport,37.9,Class 3,98,medium
+MRI Scanner 1,2025-01-16,08:00,09:32,177,Whole Spine with Contrast,Hospital Transport,32.0,Class 3,92,medium
+MRI Scanner 2,2025-01-16,08:00,09:07,3153,Lumbar Spine,Hospital Transport,36.7,Class 3,67,medium
+MRI Scanner 3,2025-01-16,08:00,09:03,4545,Cervical Spine,Hospital Transport,33.5,Class 3,63,medium
+MRI Scanner 1,2025-01-17,08:00,09:03,2607,Lumbar Spine,Hospital Transport,33.3,Class 3,63,medium
+MRI Scanner 2,2025-01-17,08:00,09:10,3574,Lumbar Spine,Hospital Transport,39.9,Class 3,70,medium
+MRI Scanner 3,2025-01-17,08:00,09:11,4363,Brain,Hospital Transport,40.8,Class 3,71,medium
+MRI Scanner 1,2025-01-20,08:00,09:26,4952,Brain with Contrast,Hospital Transport,40.7,Class 3,86,medium
+MRI Scanner 2,2025-01-20,08:00,09:25,2090,Whole Spine,Hospital Transport,40.5,Class 3,85,medium
+MRI Scanner 3,2025-01-20,08:00,08:59,4132,Lumbar Spine,Hospital Transport,29.0,Class 3,59,medium

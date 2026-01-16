@@ -1,0 +1,640 @@
+<html><head><style>
+            body { font-family: Arial, sans-serif; font-size: 12px; }
+            h1 { text-align: center; }
+            .day-container { border: 1px solid #ccc; margin: 20px; padding: 10px; background: #fff; }
+            .scanner-row { display: flex; align-items: center; margin-bottom: 5px; border-bottom: 1px solid #eee; }
+            .scanner-label { width: 100px; font-weight: bold; }
+            .timeline { display: flex; flex-grow: 1; position: relative; height: 40px; background-color: #f0f0f0; border-radius: 4px; }
+            .slot { position: absolute; height: 30px; top: 5px; border-radius: 4px; font-size: 10px; overflow: hidden; white-space: nowrap; text-align: center; line-height: 30px; border: 1px solid #666; color: #000; cursor: help; }
+            .slot:hover { opacity: 0.8; border: 2px solid #000; z-index: 10; font-weight: bold;}
+            .legend { text-align: center; margin-bottom: 20px; }
+            .legend span { margin-right: 15px; padding: 5px 10px; border: 1px solid #ccc; }
+        </style></head><body><h1>MRI Schedule Visualisation</h1><div class="legend"><span style="background-color: #ff4d4d">Hoist</span><span style="background-color: #ff9933">Transport</span><span style="background-color: #ffff66">Wheelchair</span><span style="background-color: #cc99ff">Sedation / Claustrophobia</span><span style="background-color: #66b3ff">Interpreter</span><span style="background-color: #99ff99">None</span><span style="background-color: #e0e0e0">Other</span></div><div class="day-container"><h3>Thursday (2025-01-02)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:154.5px; background-color:#cc99ff;" title="Patient: 38 | Class: Class 3
+Flag: Sedation needed
+Time: 08:00-09:43">Sedation needed (103m)</div><div class="slot" style="left:162.0px; width:159.0px; background-color:#ff9933;" title="Patient: 28 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:48-11:34">Hospital Transport Required (106m)</div><div class="slot" style="left:328.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 87 | Class: Class 3
+Flag: Sedation needed
+Time: 11:39-12:44">Sedation needed (65m)</div><div class="slot" style="left:433.5px; width:159.0px; background-color:#ff9933;" title="Patient: 177 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 12:49-14:35">Hospital Transport Required (106m)</div><div class="slot" style="left:600.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 384 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 14:40-15:48">Hoist Required (68m)</div><div class="slot" style="left:709.5px; width:97.5px; background-color:#cc99ff;" title="Patient: 679 | Class: Class 3
+Flag: Sedation needed
+Time: 15:53-16:58">Sedation needed (65m)</div><div class="slot" style="left:814.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 862 | Class: Class 3
+Flag: Sedation needed
+Time: 17:03-18:31">Sedation needed (88m)</div><div class="slot" style="left:954.0px; width:45.0px; background-color:#99ff99;" title="Patient: 9 | Class: Class 1
+Flag: None
+Time: 18:36-19:06">Std</div><div class="slot" style="left:1006.5px; width:45.0px; background-color:#99ff99;" title="Patient: 24 | Class: Class 1
+Flag: None
+Time: 19:11-19:41">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1615 | Class: Class 3
+Flag: Sedation needed
+Time: 08:00-09:05">Sedation needed (65m)</div><div class="slot" style="left:105.0px; width:136.5px; background-color:#ff9933;" title="Patient: 399 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:10-10:41">Hospital Transport Required (91m)</div><div class="slot" style="left:249.0px; width:102.0px; background-color:#ff9933;" title="Patient: 408 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 10:46-11:54">Hospital Transport Required (68m)</div><div class="slot" style="left:358.5px; width:102.0px; background-color:#ff9933;" title="Patient: 514 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:59-13:07">Hospital Transport Required (68m)</div><div class="slot" style="left:468.0px; width:159.0px; background-color:#ff9933;" title="Patient: 776 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:12-14:58">Hospital Transport Required (106m)</div><div class="slot" style="left:634.5px; width:102.0px; background-color:#ff9933;" title="Patient: 800 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 15:03-16:11">Hospital Transport Required (68m)</div><div class="slot" style="left:744.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 1802 | Class: Class 3
+Flag: Sedation needed
+Time: 16:16-17:21">Sedation needed (65m)</div><div class="slot" style="left:849.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 2678 | Class: Class 3
+Flag: Sedation needed
+Time: 17:26-18:31">Sedation needed (65m)</div><div class="slot" style="left:954.0px; width:45.0px; background-color:#99ff99;" title="Patient: 25 | Class: Class 1
+Flag: None
+Time: 18:36-19:06">Std</div><div class="slot" style="left:1006.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 35 | Class: Class 2
+Flag: Difficult IV Access
+Time: 19:11-19:57">Difficult IV Access (46m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 983 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:08">Hoist Required (68m)</div><div class="slot" style="left:109.5px; width:136.5px; background-color:#ff4d4d;" title="Patient: 989 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 09:13-10:44">Hoist Required (91m)</div><div class="slot" style="left:253.5px; width:102.0px; background-color:#ff9933;" title="Patient: 1002 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 10:49-11:57">Hospital Transport Required (68m)</div><div class="slot" style="left:363.0px; width:102.0px; background-color:#ff9933;" title="Patient: 1217 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 12:02-13:10">Hospital Transport Required (68m)</div><div class="slot" style="left:472.5px; width:102.0px; background-color:#ff9933;" title="Patient: 1364 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:15-14:23">Hospital Transport Required (68m)</div><div class="slot" style="left:582.0px; width:159.0px; background-color:#ff9933;" title="Patient: 1433 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:28-16:14">Hospital Transport Required (106m)</div><div class="slot" style="left:748.5px; width:79.5px; background-color:#99ff99;" title="Patient: 42 | Class: Class 2
+Flag: None
+Time: 16:19-17:12">Std</div><div class="slot" style="left:835.5px; width:45.0px; background-color:#99ff99;" title="Patient: 46 | Class: Class 1
+Flag: None
+Time: 17:17-17:47">Std</div><div class="slot" style="left:888.0px; width:45.0px; background-color:#99ff99;" title="Patient: 52 | Class: Class 1
+Flag: None
+Time: 17:52-18:22">Std</div><div class="slot" style="left:940.5px; width:45.0px; background-color:#99ff99;" title="Patient: 75 | Class: Class 1
+Flag: None
+Time: 18:27-18:57">Std</div><div class="slot" style="left:993.0px; width:67.5px; background-color:#99ff99;" title="Patient: 81 | Class: Class 1
+Flag: None
+Time: 19:02-19:47">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 1441 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:08">Hoist Required (68m)</div><div class="slot" style="left:109.5px; width:102.0px; background-color:#ff4d4d;" title="Patient: 1712 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 09:13-10:21">Hoist Required (68m)</div><div class="slot" style="left:219.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 2937 | Class: Class 3
+Flag: Sedation needed
+Time: 10:26-11:31">Sedation needed (65m)</div><div class="slot" style="left:324.0px; width:120.0px; background-color:#cc99ff;" title="Patient: 3104 | Class: Class 3
+Flag: Sedation needed
+Time: 11:36-12:56">Sedation needed (80m)</div><div class="slot" style="left:451.5px; width:45.0px; background-color:#99ff99;" title="Patient: 84 | Class: Class 1
+Flag: None
+Time: 13:01-13:31">Std</div><div class="slot" style="left:504.0px; width:154.5px; background-color:#cc99ff;" title="Patient: 3536 | Class: Class 3
+Flag: Sedation needed
+Time: 13:36-15:19">Sedation needed (103m)</div><div class="slot" style="left:666.0px; width:132.0px; background-color:#cc99ff;" title="Patient: 3917 | Class: Class 3
+Flag: Sedation needed
+Time: 15:24-16:52">Sedation needed (88m)</div><div class="slot" style="left:805.5px; width:78.0px; background-color:#ffff66;" title="Patient: 90 | Class: Class 3
+Flag: Wheelchair User
+Time: 16:57-17:49">Wheelchair User (52m)</div><div class="slot" style="left:891.0px; width:97.5px; background-color:#66b3ff;" title="Patient: 98 | Class: Class 2
+Flag: Interpreter Required
+Time: 17:54-18:59">Interpreter Required (65m)</div><div class="slot" style="left:996.0px; width:45.0px; background-color:#99ff99;" title="Patient: 111 | Class: Class 1
+Flag: None
+Time: 19:04-19:34">Std</div></div></div></div><div class="day-container"><h3>Friday (2025-01-03)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 1872 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:31">Hoist Required (91m)</div><div class="slot" style="left:144.0px; width:159.0px; background-color:#ff9933;" title="Patient: 1669 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:36-11:22">Hospital Transport Required (106m)</div><div class="slot" style="left:310.5px; width:136.5px; background-color:#ff9933;" title="Patient: 1716 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:27-12:58">Hospital Transport Required (91m)</div><div class="slot" style="left:454.5px; width:136.5px; background-color:#ff9933;" title="Patient: 2014 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:03-14:34">Hospital Transport Required (91m)</div><div class="slot" style="left:598.5px; width:124.5px; background-color:#ff9933;" title="Patient: 2090 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:39-16:02">Hospital Transport Required (83m)</div><div class="slot" style="left:730.5px; width:159.0px; background-color:#ff4d4d;" title="Patient: 2100 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 16:07-17:53">Hoist Required (106m)</div><div class="slot" style="left:897.0px; width:45.0px; background-color:#99ff99;" title="Patient: 114 | Class: Class 1
+Flag: None
+Time: 17:58-18:28">Std</div><div class="slot" style="left:949.5px; width:45.0px; background-color:#99ff99;" title="Patient: 126 | Class: Class 1
+Flag: None
+Time: 18:33-19:03">Std</div><div class="slot" style="left:1002.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 128 | Class: Class 2
+Flag: Interpreter Required
+Time: 19:08-19:58">Interpreter Required (50m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:120.0px; background-color:#cc99ff;" title="Patient: 4343 | Class: Class 3
+Flag: Sedation needed
+Time: 08:00-09:20">Sedation needed (80m)</div><div class="slot" style="left:127.5px; width:102.0px; background-color:#ff9933;" title="Patient: 2175 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:25-10:33">Hospital Transport Required (68m)</div><div class="slot" style="left:237.0px; width:102.0px; background-color:#ff9933;" title="Patient: 2582 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 10:38-11:46">Hospital Transport Required (68m)</div><div class="slot" style="left:346.5px; width:102.0px; background-color:#ff9933;" title="Patient: 2607 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:51-12:59">Hospital Transport Required (68m)</div><div class="slot" style="left:456.0px; width:102.0px; background-color:#ff9933;" title="Patient: 2805 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:04-14:12">Hospital Transport Required (68m)</div><div class="slot" style="left:565.5px; width:159.0px; background-color:#ff9933;" title="Patient: 2881 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:17-16:03">Hospital Transport Required (106m)</div><div class="slot" style="left:732.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4484 | Class: Class 3
+Flag: Sedation needed
+Time: 16:08-17:13">Sedation needed (65m)</div><div class="slot" style="left:837.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4626 | Class: Class 3
+Flag: Sedation needed
+Time: 17:18-18:23">Sedation needed (65m)</div><div class="slot" style="left:942.0px; width:79.5px; background-color:#99ff99;" title="Patient: 145 | Class: Class 2
+Flag: None
+Time: 18:28-19:21">Std</div><div class="slot" style="left:1029.0px; width:45.0px; background-color:#99ff99;" title="Patient: 151 | Class: Class 1
+Flag: None
+Time: 19:26-19:56">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:124.5px; background-color:#ff4d4d;" title="Patient: 2359 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:23">Hoist Required (83m)</div><div class="slot" style="left:132.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 2427 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 09:28-10:59">Hoist Required (91m)</div><div class="slot" style="left:276.0px; width:102.0px; background-color:#ff9933;" title="Patient: 3153 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:04-12:12">Hospital Transport Required (68m)</div><div class="slot" style="left:385.5px; width:102.0px; background-color:#ff9933;" title="Patient: 3323 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 12:17-13:25">Hospital Transport Required (68m)</div><div class="slot" style="left:495.0px; width:102.0px; background-color:#ff9933;" title="Patient: 3553 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:30-14:38">Hospital Transport Required (68m)</div><div class="slot" style="left:604.5px; width:102.0px; background-color:#ff9933;" title="Patient: 3574 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:43-15:51">Hospital Transport Required (68m)</div><div class="slot" style="left:714.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 113 | Class: Class 3
+Flag: Poor Mobility
+Time: 15:56-16:47">Poor Mobility (51m)</div><div class="slot" style="left:798.0px; width:102.0px; background-color:#ff9933;" title="Patient: 3774 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 16:52-18:00">Hospital Transport Required (68m)</div><div class="slot" style="left:907.5px; width:79.5px; background-color:#99ff99;" title="Patient: 206 | Class: Class 2
+Flag: None
+Time: 18:05-18:58">Std</div><div class="slot" style="left:994.5px; width:45.0px; background-color:#99ff99;" title="Patient: 213 | Class: Class 1
+Flag: None
+Time: 19:03-19:33">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 3175 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:08">Hoist Required (68m)</div><div class="slot" style="left:109.5px; width:124.5px; background-color:#ff4d4d;" title="Patient: 3432 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 09:13-10:36">Hoist Required (83m)</div><div class="slot" style="left:241.5px; width:132.0px; background-color:#cc99ff;" title="Patient: 4787 | Class: Class 3
+Flag: Sedation needed
+Time: 10:41-12:09">Sedation needed (88m)</div><div class="slot" style="left:381.0px; width:97.5px; background-color:#cc99ff;" title="Patient: 4947 | Class: Class 3
+Flag: Sedation needed
+Time: 12:14-13:19">Sedation needed (65m)</div><div class="slot" style="left:486.0px; width:45.0px; background-color:#99ff99;" title="Patient: 220 | Class: Class 1
+Flag: None
+Time: 13:24-13:54">Std</div><div class="slot" style="left:538.5px; width:78.0px; background-color:#ffff66;" title="Patient: 229 | Class: Class 3
+Flag: Wheelchair User
+Time: 13:59-14:51">Wheelchair User (52m)</div><div class="slot" style="left:624.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 251 | Class: Class 3
+Flag: Poor Mobility
+Time: 14:56-15:47">Poor Mobility (51m)</div><div class="slot" style="left:708.0px; width:102.0px; background-color:#99ff99;" title="Patient: 259 | Class: Class 2
+Flag: None
+Time: 15:52-17:00">Std</div><div class="slot" style="left:817.5px; width:67.5px; background-color:#99ff99;" title="Patient: 260 | Class: Class 1
+Flag: None
+Time: 17:05-17:50">Std</div><div class="slot" style="left:892.5px; width:45.0px; background-color:#99ff99;" title="Patient: 266 | Class: Class 1
+Flag: None
+Time: 17:55-18:25">Std</div><div class="slot" style="left:945.0px; width:67.5px; background-color:#99ff99;" title="Patient: 275 | Class: Class 1
+Flag: None
+Time: 18:30-19:15">Std</div><div class="slot" style="left:1020.0px; width:45.0px; background-color:#99ff99;" title="Patient: 277 | Class: Class 1
+Flag: None
+Time: 19:20-19:50">Std</div></div></div></div><div class="day-container"><h3>Saturday (2025-01-04)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 278 | Class: Class 1
+Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:45.0px; background-color:#99ff99;" title="Patient: 292 | Class: Class 1
+Flag: None
+Time: 08:35-09:05">Std</div><div class="slot" style="left:105.0px; width:45.0px; background-color:#99ff99;" title="Patient: 294 | Class: Class 1
+Flag: None
+Time: 09:10-09:40">Std</div><div class="slot" style="left:157.5px; width:111.0px; background-color:#66b3ff;" title="Patient: 296 | Class: Class 3
+Flag: Interpreter Required
+Time: 09:45-10:59">Interpreter Required (74m)</div><div class="slot" style="left:276.0px; width:73.5px; background-color:#e0e0e0;" title="Patient: 304 | Class: Class 2
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 11:04-11:53">Cognitive Conditions (49m)</div><div class="slot" style="left:357.0px; width:79.5px; background-color:#99ff99;" title="Patient: 313 | Class: Class 2
+Flag: None
+Time: 11:58-12:51">Std</div><div class="slot" style="left:444.0px; width:102.0px; background-color:#99ff99;" title="Patient: 327 | Class: Class 2
+Flag: None
+Time: 12:56-14:04">Std</div><div class="slot" style="left:553.5px; width:105.0px; background-color:#e0e0e0;" title="Patient: 350 | Class: Class 3
+Flag: Difficult IV Access
+Time: 14:09-15:19">Difficult IV Access (70m)</div><div class="slot" style="left:666.0px; width:45.0px; background-color:#99ff99;" title="Patient: 352 | Class: Class 1
+Flag: None
+Time: 15:24-15:54">Std</div><div class="slot" style="left:718.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 362 | Class: Class 2
+Flag: Difficult IV Access
+Time: 15:59-16:45">Difficult IV Access (46m)</div><div class="slot" style="left:795.0px; width:45.0px; background-color:#99ff99;" title="Patient: 367 | Class: Class 1
+Flag: None
+Time: 16:50-17:20">Std</div><div class="slot" style="left:847.5px; width:133.5px; background-color:#66b3ff;" title="Patient: 368 | Class: Class 3
+Flag: Interpreter Required
+Time: 17:25-18:54">Interpreter Required (89m)</div><div class="slot" style="left:988.5px; width:45.0px; background-color:#99ff99;" title="Patient: 398 | Class: Class 1
+Flag: None
+Time: 18:59-19:29">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#99ff99;" title="Patient: 391 | Class: Class 2
+Flag: None
+Time: 08:00-09:08">Std</div><div class="slot" style="left:109.5px; width:45.0px; background-color:#99ff99;" title="Patient: 426 | Class: Class 1
+Flag: None
+Time: 09:13-09:43">Std</div><div class="slot" style="left:162.0px; width:45.0px; background-color:#99ff99;" title="Patient: 439 | Class: Class 1
+Flag: None
+Time: 09:48-10:18">Std</div><div class="slot" style="left:214.5px; width:102.0px; background-color:#99ff99;" title="Patient: 441 | Class: Class 2
+Flag: None
+Time: 10:23-11:31">Std</div><div class="slot" style="left:324.0px; width:79.5px; background-color:#99ff99;" title="Patient: 447 | Class: Class 2
+Flag: None
+Time: 11:36-12:29">Std</div><div class="slot" style="left:411.0px; width:73.5px; background-color:#e0e0e0;" title="Patient: 448 | Class: Class 2
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 12:34-13:23">Cognitive Conditions (49m)</div><div class="slot" style="left:492.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 450 | Class: Class 3
+Flag: Poor Mobility
+Time: 13:28-14:19">Poor Mobility (51m)</div><div class="slot" style="left:576.0px; width:67.5px; background-color:#99ff99;" title="Patient: 469 | Class: Class 1
+Flag: None
+Time: 14:24-15:09">Std</div><div class="slot" style="left:651.0px; width:102.0px; background-color:#99ff99;" title="Patient: 474 | Class: Class 2
+Flag: None
+Time: 15:14-16:22">Std</div><div class="slot" style="left:760.5px; width:45.0px; background-color:#99ff99;" title="Patient: 482 | Class: Class 1
+Flag: None
+Time: 16:27-16:57">Std</div><div class="slot" style="left:813.0px; width:79.5px; background-color:#99ff99;" title="Patient: 484 | Class: Class 2
+Flag: None
+Time: 17:02-17:55">Std</div><div class="slot" style="left:900.0px; width:102.0px; background-color:#99ff99;" title="Patient: 487 | Class: Class 2
+Flag: None
+Time: 18:00-19:08">Std</div><div class="slot" style="left:1009.5px; width:45.0px; background-color:#99ff99;" title="Patient: 495 | Class: Class 1
+Flag: None
+Time: 19:13-19:43">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:100.5px; background-color:#ffff66;" title="Patient: 385 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-09:07">Wheelchair User (67m)</div><div class="slot" style="left:108.0px; width:78.0px; background-color:#ffff66;" title="Patient: 451 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:12-10:04">Wheelchair User (52m)</div><div class="slot" style="left:193.5px; width:102.0px; background-color:#99ff99;" title="Patient: 522 | Class: Class 2
+Flag: None
+Time: 10:09-11:17">Std</div><div class="slot" style="left:303.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 524 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 11:22-12:10">Cognitive Conditions (48m)</div><div class="slot" style="left:382.5px; width:133.5px; background-color:#66b3ff;" title="Patient: 526 | Class: Class 3
+Flag: Interpreter Required
+Time: 12:15-13:44">Interpreter Required (89m)</div><div class="slot" style="left:523.5px; width:79.5px; background-color:#99ff99;" title="Patient: 531 | Class: Class 2
+Flag: None
+Time: 13:49-14:42">Std</div><div class="slot" style="left:610.5px; width:114.0px; background-color:#ffff66;" title="Patient: 538 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:47-16:03">Wheelchair User (76m)</div><div class="slot" style="left:732.0px; width:114.0px; background-color:#ffff66;" title="Patient: 561 | Class: Class 3
+Flag: Wheelchair User
+Time: 16:08-17:24">Wheelchair User (76m)</div><div class="slot" style="left:853.5px; width:78.0px; background-color:#ffff66;" title="Patient: 572 | Class: Class 3
+Flag: Wheelchair User
+Time: 17:29-18:21">Wheelchair User (52m)</div><div class="slot" style="left:939.0px; width:79.5px; background-color:#99ff99;" title="Patient: 599 | Class: Class 2
+Flag: None
+Time: 18:26-19:19">Std</div><div class="slot" style="left:1026.0px; width:45.0px; background-color:#99ff99;" title="Patient: 609 | Class: Class 1
+Flag: None
+Time: 19:24-19:54">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:114.0px; background-color:#ffff66;" title="Patient: 578 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-09:16">Wheelchair User (76m)</div><div class="slot" style="left:121.5px; width:45.0px; background-color:#99ff99;" title="Patient: 613 | Class: Class 1
+Flag: None
+Time: 09:21-09:51">Std</div><div class="slot" style="left:174.0px; width:78.0px; background-color:#ffff66;" title="Patient: 625 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:56-10:48">Wheelchair User (52m)</div><div class="slot" style="left:259.5px; width:79.5px; background-color:#99ff99;" title="Patient: 631 | Class: Class 2
+Flag: None
+Time: 10:53-11:46">Std</div><div class="slot" style="left:346.5px; width:133.5px; background-color:#66b3ff;" title="Patient: 632 | Class: Class 3
+Flag: Interpreter Required
+Time: 11:51-13:20">Interpreter Required (89m)</div><div class="slot" style="left:487.5px; width:102.0px; background-color:#99ff99;" title="Patient: 635 | Class: Class 2
+Flag: None
+Time: 13:25-14:33">Std</div><div class="slot" style="left:597.0px; width:102.0px; background-color:#99ff99;" title="Patient: 646 | Class: Class 2
+Flag: None
+Time: 14:38-15:46">Std</div><div class="slot" style="left:706.5px; width:79.5px; background-color:#99ff99;" title="Patient: 664 | Class: Class 2
+Flag: None
+Time: 15:51-16:44">Std</div><div class="slot" style="left:793.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 669 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 16:49-17:37">Cognitive Conditions (48m)</div><div class="slot" style="left:873.0px; width:45.0px; background-color:#99ff99;" title="Patient: 699 | Class: Class 1
+Flag: None
+Time: 17:42-18:12">Std</div><div class="slot" style="left:925.5px; width:45.0px; background-color:#99ff99;" title="Patient: 730 | Class: Class 1
+Flag: None
+Time: 18:17-18:47">Std</div><div class="slot" style="left:978.0px; width:102.0px; background-color:#99ff99;" title="Patient: 766 | Class: Class 2
+Flag: None
+Time: 18:52-20:00">Std</div></div></div></div><div class="day-container"><h3>Sunday (2025-01-05)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 675 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-08:52">Wheelchair User (52m)</div><div class="slot" style="left:85.5px; width:130.5px; background-color:#e0e0e0;" title="Patient: 706 | Class: Class 3
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 08:57-10:24">Cognitive Conditions (87m)</div><div class="slot" style="left:223.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 750 | Class: Class 3
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 10:29-11:41">Cognitive Conditions (72m)</div><div class="slot" style="left:339.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 753 | Class: Class 3
+Flag: Poor Mobility
+Time: 11:46-12:37">Poor Mobility (51m)</div><div class="slot" style="left:423.0px; width:45.0px; background-color:#99ff99;" title="Patient: 786 | Class: Class 1
+Flag: None
+Time: 12:42-13:12">Std</div><div class="slot" style="left:475.5px; width:67.5px; background-color:#99ff99;" title="Patient: 811 | Class: Class 1
+Flag: None
+Time: 13:17-14:02">Std</div><div class="slot" style="left:550.5px; width:78.0px; background-color:#ffff66;" title="Patient: 815 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:07-14:59">Wheelchair User (52m)</div><div class="slot" style="left:636.0px; width:109.5px; background-color:#e0e0e0;" title="Patient: 817 | Class: Class 3
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 15:04-16:17">Cognitive Conditions (73m)</div><div class="slot" style="left:753.0px; width:79.5px; background-color:#99ff99;" title="Patient: 823 | Class: Class 2
+Flag: None
+Time: 16:22-17:15">Std</div><div class="slot" style="left:840.0px; width:102.0px; background-color:#99ff99;" title="Patient: 835 | Class: Class 2
+Flag: None
+Time: 17:20-18:28">Std</div><div class="slot" style="left:949.5px; width:79.5px; background-color:#99ff99;" title="Patient: 868 | Class: Class 2
+Flag: None
+Time: 18:33-19:26">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:73.5px; background-color:#e0e0e0;" title="Patient: 888 | Class: Class 2
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 08:00-08:49">Cognitive Conditions (49m)</div><div class="slot" style="left:81.0px; width:45.0px; background-color:#99ff99;" title="Patient: 903 | Class: Class 1
+Flag: None
+Time: 08:54-09:24">Std</div><div class="slot" style="left:133.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 906 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 09:29-10:17">Cognitive Conditions (48m)</div><div class="slot" style="left:213.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 943 | Class: Class 3
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 10:22-11:34">Cognitive Conditions (72m)</div><div class="slot" style="left:328.5px; width:79.5px; background-color:#99ff99;" title="Patient: 962 | Class: Class 2
+Flag: None
+Time: 11:39-12:32">Std</div><div class="slot" style="left:415.5px; width:105.0px; background-color:#e0e0e0;" title="Patient: 975 | Class: Class 3
+Flag: Difficult IV Access
+Time: 12:37-13:47">Difficult IV Access (70m)</div><div class="slot" style="left:528.0px; width:132.0px; background-color:#e0e0e0;" title="Patient: 988 | Class: Class 3
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 13:52-15:20">Cognitive Conditions (88m)</div><div class="slot" style="left:667.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1001 | Class: Class 1
+Flag: None
+Time: 15:25-15:55">Std</div><div class="slot" style="left:720.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 1004 | Class: Class 3
+Flag: Interpreter Required
+Time: 16:00-17:14">Interpreter Required (74m)</div><div class="slot" style="left:838.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 1012 | Class: Class 2
+Flag: Interpreter Required
+Time: 17:19-18:09">Interpreter Required (50m)</div><div class="slot" style="left:921.0px; width:102.0px; background-color:#99ff99;" title="Patient: 1036 | Class: Class 2
+Flag: None
+Time: 18:14-19:22">Std</div><div class="slot" style="left:1030.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1120 | Class: Class 1
+Flag: None
+Time: 19:27-19:57">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 986 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-08:52">Wheelchair User (52m)</div><div class="slot" style="left:85.5px; width:114.0px; background-color:#ffff66;" title="Patient: 1007 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:57-10:13">Wheelchair User (76m)</div><div class="slot" style="left:207.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1016 | Class: Class 3
+Flag: Wheelchair User
+Time: 10:18-11:10">Wheelchair User (52m)</div><div class="slot" style="left:292.5px; width:111.0px; background-color:#e0e0e0;" title="Patient: 1033 | Class: Class 3
+Flag: Poor Mobility
+Time: 11:15-12:29">Poor Mobility (74m)</div><div class="slot" style="left:411.0px; width:67.5px; background-color:#99ff99;" title="Patient: 1052 | Class: Class 1
+Flag: None
+Time: 12:34-13:19">Std</div><div class="slot" style="left:486.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1059 | Class: Class 2
+Flag: None
+Time: 13:24-14:17">Std</div><div class="slot" style="left:573.0px; width:111.0px; background-color:#e0e0e0;" title="Patient: 1075 | Class: Class 3
+Flag: Poor Mobility
+Time: 14:22-15:36">Poor Mobility (74m)</div><div class="slot" style="left:691.5px; width:102.0px; background-color:#99ff99;" title="Patient: 1124 | Class: Class 2
+Flag: None
+Time: 15:41-16:49">Std</div><div class="slot" style="left:801.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1136 | Class: Class 1
+Flag: None
+Time: 16:54-17:24">Std</div><div class="slot" style="left:853.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1141 | Class: Class 1
+Flag: None
+Time: 17:29-17:59">Std</div><div class="slot" style="left:906.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1152 | Class: Class 1
+Flag: None
+Time: 18:04-18:34">Std</div><div class="slot" style="left:958.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1156 | Class: Class 2
+Flag: None
+Time: 18:39-19:32">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1183 | Class: Class 1
+Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1186 | Class: Class 1
+Flag: None
+Time: 08:35-09:05">Std</div><div class="slot" style="left:105.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1207 | Class: Class 1
+Flag: None
+Time: 09:10-09:40">Std</div><div class="slot" style="left:157.5px; width:114.0px; background-color:#ffff66;" title="Patient: 1234 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:45-11:01">Wheelchair User (76m)</div><div class="slot" style="left:279.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 1240 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 11:06-11:54">Cognitive Conditions (48m)</div><div class="slot" style="left:358.5px; width:76.5px; background-color:#e0e0e0;" title="Patient: 1255 | Class: Class 3
+Flag: Poor Mobility
+Time: 11:59-12:50">Poor Mobility (51m)</div><div class="slot" style="left:442.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1266 | Class: Class 1
+Flag: None
+Time: 12:55-13:25">Std</div><div class="slot" style="left:495.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1291 | Class: Class 2
+Flag: None
+Time: 13:30-14:23">Std</div><div class="slot" style="left:582.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1301 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:28-15:20">Wheelchair User (52m)</div><div class="slot" style="left:667.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1305 | Class: Class 1
+Flag: None
+Time: 15:25-15:55">Std</div><div class="slot" style="left:720.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1327 | Class: Class 2
+Flag: None
+Time: 16:00-16:53">Std</div><div class="slot" style="left:807.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1332 | Class: Class 2
+Flag: None
+Time: 16:58-17:51">Std</div><div class="slot" style="left:894.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1349 | Class: Class 1
+Flag: None
+Time: 17:56-18:26">Std</div><div class="slot" style="left:946.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1358 | Class: Class 1
+Flag: None
+Time: 18:31-19:01">Std</div><div class="slot" style="left:999.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1359 | Class: Class 1
+Flag: None
+Time: 19:06-19:36">Std</div></div></div></div><div class="day-container"><h3>Monday (2025-01-06)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 3686 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:31">Hoist Required (91m)</div><div class="slot" style="left:144.0px; width:136.5px; background-color:#ff9933;" title="Patient: 3626 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:36-11:07">Hospital Transport Required (91m)</div><div class="slot" style="left:288.0px; width:159.0px; background-color:#ff9933;" title="Patient: 3668 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:12-12:58">Hospital Transport Required (106m)</div><div class="slot" style="left:454.5px; width:159.0px; background-color:#ff9933;" title="Patient: 3808 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:03-14:49">Hospital Transport Required (106m)</div><div class="slot" style="left:621.0px; width:136.5px; background-color:#ff9933;" title="Patient: 3956 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:54-16:25">Hospital Transport Required (91m)</div><div class="slot" style="left:765.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 4014 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 16:30-17:38">Hoist Required (68m)</div><div class="slot" style="left:874.5px; width:102.0px; background-color:#99ff99;" title="Patient: 1413 | Class: Class 2
+Flag: None
+Time: 17:43-18:51">Std</div><div class="slot" style="left:984.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1459 | Class: Class 1
+Flag: None
+Time: 18:56-19:26">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1476 | Class: Class 1
+Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1496 | Class: Class 2
+Flag: None
+Time: 08:35-09:28">Std</div><div class="slot" style="left:139.5px; width:102.0px; background-color:#ff9933;" title="Patient: 4132 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 09:33-10:41">Hospital Transport Required (68m)</div><div class="slot" style="left:249.0px; width:102.0px; background-color:#ff9933;" title="Patient: 4167 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 10:46-11:54">Hospital Transport Required (68m)</div><div class="slot" style="left:358.5px; width:136.5px; background-color:#ff9933;" title="Patient: 4302 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:59-13:30">Hospital Transport Required (91m)</div><div class="slot" style="left:502.5px; width:102.0px; background-color:#ff9933;" title="Patient: 4363 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:35-14:43">Hospital Transport Required (68m)</div><div class="slot" style="left:612.0px; width:102.0px; background-color:#ff9933;" title="Patient: 4545 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:48-15:56">Hospital Transport Required (68m)</div><div class="slot" style="left:721.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1504 | Class: Class 1
+Flag: None
+Time: 16:01-16:31">Std</div><div class="slot" style="left:774.0px; width:94.5px; background-color:#e0e0e0;" title="Patient: 1508 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 16:36-17:39">Cognitive Conditions (63m)</div><div class="slot" style="left:876.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1515 | Class: Class 1
+Flag: None
+Time: 17:44-18:14">Std</div><div class="slot" style="left:928.5px; width:102.0px; background-color:#99ff99;" title="Patient: 1531 | Class: Class 2
+Flag: None
+Time: 18:19-19:27">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 4121 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:31">Hoist Required (91m)</div><div class="slot" style="left:144.0px; width:136.5px; background-color:#ff4d4d;" title="Patient: 4526 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 09:36-11:07">Hoist Required (91m)</div><div class="slot" style="left:288.0px; width:159.0px; background-color:#ff9933;" title="Patient: 4618 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 11:12-12:58">Hospital Transport Required (106m)</div><div class="slot" style="left:454.5px; width:136.5px; background-color:#ff9933;" title="Patient: 4737 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 13:03-14:34">Hospital Transport Required (91m)</div><div class="slot" style="left:598.5px; width:136.5px; background-color:#ff9933;" title="Patient: 4952 | Class: Class 3
+Flag: Hospital Transport Required
+Time: 14:39-16:10">Hospital Transport Required (91m)</div><div class="slot" style="left:742.5px; width:69.0px; background-color:#e0e0e0;" title="Patient: 1543 | Class: Class 2
+Flag: Difficult IV Access
+Time: 16:15-17:01">Difficult IV Access (46m)</div><div class="slot" style="left:819.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1546 | Class: Class 3
+Flag: Wheelchair User
+Time: 17:06-17:58">Wheelchair User (52m)</div><div class="slot" style="left:904.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1547 | Class: Class 2
+Flag: None
+Time: 18:03-18:56">Std</div><div class="slot" style="left:991.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1572 | Class: Class 2
+Flag: None
+Time: 19:01-19:54">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:102.0px; background-color:#ff4d4d;" title="Patient: 4779 | Class: Class 3
+Flag: Hoist Required, Wheelchair User
+Time: 08:00-09:08">Hoist Required (68m)</div><div class="slot" style="left:109.5px; width:78.0px; background-color:#ffff66;" title="Patient: 1555 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:13-10:05">Wheelchair User (52m)</div><div class="slot" style="left:195.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1556 | Class: Class 3
+Flag: Wheelchair User
+Time: 10:10-11:02">Wheelchair User (52m)</div><div class="slot" style="left:280.5px; width:109.5px; background-color:#e0e0e0;" title="Patient: 1575 | Class: Class 3
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 11:07-12:20">Cognitive Conditions (73m)</div><div class="slot" style="left:397.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1576 | Class: Class 1
+Flag: None
+Time: 12:25-12:55">Std</div><div class="slot" style="left:450.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1577 | Class: Class 1
+Flag: None
+Time: 13:00-13:30">Std</div><div class="slot" style="left:502.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1589 | Class: Class 1
+Flag: None
+Time: 13:35-14:05">Std</div><div class="slot" style="left:555.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1620 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:10-15:02">Wheelchair User (52m)</div><div class="slot" style="left:640.5px; width:79.5px; background-color:#99ff99;" title="Patient: 1622 | Class: Class 2
+Flag: None
+Time: 15:07-16:00">Std</div><div class="slot" style="left:727.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1623 | Class: Class 1
+Flag: None
+Time: 16:05-16:35">Std</div><div class="slot" style="left:780.0px; width:102.0px; background-color:#99ff99;" title="Patient: 1635 | Class: Class 2
+Flag: None
+Time: 16:40-17:48">Std</div><div class="slot" style="left:889.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1645 | Class: Class 1
+Flag: None
+Time: 17:53-18:23">Std</div><div class="slot" style="left:942.0px; width:102.0px; background-color:#99ff99;" title="Patient: 1655 | Class: Class 2
+Flag: None
+Time: 18:28-19:36">Std</div></div></div></div><div class="day-container"><h3>Tuesday (2025-01-07)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1665 | Class: Class 1
+Flag: None
+Time: 08:00-08:30">Std</div><div class="slot" style="left:52.5px; width:67.5px; background-color:#99ff99;" title="Patient: 1683 | Class: Class 1
+Flag: None
+Time: 08:35-09:20">Std</div><div class="slot" style="left:127.5px; width:72.0px; background-color:#e0e0e0;" title="Patient: 1688 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 09:25-10:13">Cognitive Conditions (48m)</div><div class="slot" style="left:207.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1713 | Class: Class 1
+Flag: None
+Time: 10:18-10:48">Std</div><div class="slot" style="left:259.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1746 | Class: Class 1
+Flag: None
+Time: 10:53-11:23">Std</div><div class="slot" style="left:312.0px; width:136.5px; background-color:#ffff66;" title="Patient: 1756 | Class: Class 3
+Flag: Wheelchair User
+Time: 11:28-12:59">Wheelchair User (91m)</div><div class="slot" style="left:456.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1767 | Class: Class 2
+Flag: None
+Time: 13:04-13:57">Std</div><div class="slot" style="left:543.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1782 | Class: Class 2
+Flag: None
+Time: 14:02-14:55">Std</div><div class="slot" style="left:630.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1785 | Class: Class 2
+Flag: None
+Time: 15:00-15:53">Std</div><div class="slot" style="left:717.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1787 | Class: Class 2
+Flag: None
+Time: 15:58-16:51">Std</div><div class="slot" style="left:804.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1789 | Class: Class 3
+Flag: Wheelchair User
+Time: 16:56-17:48">Wheelchair User (52m)</div><div class="slot" style="left:889.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1813 | Class: Class 1
+Flag: None
+Time: 17:53-18:23">Std</div><div class="slot" style="left:942.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1820 | Class: Class 1
+Flag: None
+Time: 18:28-18:58">Std</div><div class="slot" style="left:994.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1850 | Class: Class 1
+Flag: None
+Time: 19:03-19:33">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:79.5px; background-color:#99ff99;" title="Patient: 1903 | Class: Class 2
+Flag: None
+Time: 08:00-08:53">Std</div><div class="slot" style="left:87.0px; width:45.0px; background-color:#99ff99;" title="Patient: 1906 | Class: Class 1
+Flag: None
+Time: 08:58-09:28">Std</div><div class="slot" style="left:139.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1908 | Class: Class 1
+Flag: None
+Time: 09:33-10:03">Std</div><div class="slot" style="left:192.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 1928 | Class: Class 3
+Flag: Interpreter Required
+Time: 10:08-11:22">Interpreter Required (74m)</div><div class="slot" style="left:310.5px; width:45.0px; background-color:#99ff99;" title="Patient: 1953 | Class: Class 1
+Flag: None
+Time: 11:27-11:57">Std</div><div class="slot" style="left:363.0px; width:102.0px; background-color:#99ff99;" title="Patient: 1962 | Class: Class 2
+Flag: None
+Time: 12:02-13:10">Std</div><div class="slot" style="left:472.5px; width:94.5px; background-color:#e0e0e0;" title="Patient: 1985 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 13:15-14:18">Cognitive Conditions (63m)</div><div class="slot" style="left:574.5px; width:67.5px; background-color:#99ff99;" title="Patient: 2010 | Class: Class 1
+Flag: None
+Time: 14:23-15:08">Std</div><div class="slot" style="left:649.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2017 | Class: Class 1
+Flag: None
+Time: 15:13-15:43">Std</div><div class="slot" style="left:702.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 2065 | Class: Class 3
+Flag: Interpreter Required
+Time: 15:48-17:02">Interpreter Required (74m)</div><div class="slot" style="left:820.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2080 | Class: Class 2
+Flag: None
+Time: 17:07-18:00">Std</div><div class="slot" style="left:907.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2081 | Class: Class 1
+Flag: None
+Time: 18:05-18:35">Std</div><div class="slot" style="left:960.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2102 | Class: Class 1
+Flag: None
+Time: 18:40-19:25">Std</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2126 | Class: Class 1
+Flag: None
+Time: 19:30-20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1816 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-08:52">Wheelchair User (52m)</div><div class="slot" style="left:85.5px; width:136.5px; background-color:#ffff66;" title="Patient: 1818 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:57-10:28">Wheelchair User (91m)</div><div class="slot" style="left:229.5px; width:114.0px; background-color:#ffff66;" title="Patient: 1875 | Class: Class 3
+Flag: Wheelchair User
+Time: 10:33-11:49">Wheelchair User (76m)</div><div class="slot" style="left:351.0px; width:78.0px; background-color:#ffff66;" title="Patient: 1888 | Class: Class 3
+Flag: Wheelchair User
+Time: 11:54-12:46">Wheelchair User (52m)</div><div class="slot" style="left:436.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2052 | Class: Class 3
+Flag: Wheelchair User
+Time: 12:51-14:07">Wheelchair User (76m)</div><div class="slot" style="left:558.0px; width:78.0px; background-color:#ffff66;" title="Patient: 2060 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:12-15:04">Wheelchair User (52m)</div><div class="slot" style="left:643.5px; width:78.0px; background-color:#ffff66;" title="Patient: 2114 | Class: Class 3
+Flag: Wheelchair User
+Time: 15:09-16:01">Wheelchair User (52m)</div><div class="slot" style="left:729.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2136 | Class: Class 1
+Flag: None
+Time: 16:06-16:36">Std</div><div class="slot" style="left:781.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2151 | Class: Class 1
+Flag: None
+Time: 16:41-17:11">Std</div><div class="slot" style="left:834.0px; width:78.0px; background-color:#ffff66;" title="Patient: 2161 | Class: Class 3
+Flag: Wheelchair User
+Time: 17:16-18:08">Wheelchair User (52m)</div><div class="slot" style="left:919.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2213 | Class: Class 1
+Flag: None
+Time: 18:13-18:43">Std</div><div class="slot" style="left:972.0px; width:67.5px; background-color:#99ff99;" title="Patient: 2217 | Class: Class 1
+Flag: None
+Time: 18:48-19:33">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:111.0px; background-color:#66b3ff;" title="Patient: 2214 | Class: Class 3
+Flag: Interpreter Required
+Time: 08:00-09:14">Interpreter Required (74m)</div><div class="slot" style="left:118.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2220 | Class: Class 1
+Flag: None
+Time: 09:19-09:49">Std</div><div class="slot" style="left:171.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2233 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:54-11:10">Wheelchair User (76m)</div><div class="slot" style="left:292.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2240 | Class: Class 1
+Flag: None
+Time: 11:15-11:45">Std</div><div class="slot" style="left:345.0px; width:100.5px; background-color:#ffff66;" title="Patient: 2281 | Class: Class 3
+Flag: Wheelchair User
+Time: 11:50-12:57">Wheelchair User (67m)</div><div class="slot" style="left:453.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2293 | Class: Class 2
+Flag: None
+Time: 13:02-13:55">Std</div><div class="slot" style="left:540.0px; width:79.5px; background-color:#99ff99;" title="Patient: 2310 | Class: Class 2
+Flag: None
+Time: 14:00-14:53">Std</div><div class="slot" style="left:627.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2313 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:58-16:14">Wheelchair User (76m)</div><div class="slot" style="left:748.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2324 | Class: Class 2
+Flag: None
+Time: 16:19-17:12">Std</div><div class="slot" style="left:835.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2329 | Class: Class 1
+Flag: None
+Time: 17:17-17:47">Std</div><div class="slot" style="left:888.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2331 | Class: Class 1
+Flag: None
+Time: 17:52-18:22">Std</div><div class="slot" style="left:940.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2338 | Class: Class 1
+Flag: None
+Time: 18:27-18:57">Std</div><div class="slot" style="left:993.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2368 | Class: Class 1
+Flag: None
+Time: 19:02-19:32">Std</div></div></div></div><div class="day-container"><h3>Wednesday (2025-01-08)</h3><div class="scanner-row"><div class="scanner-label">MRI Scanner 1</div><div class="timeline"><div class="slot" style="left:0.0px; width:105.0px; background-color:#e0e0e0;" title="Patient: 2358 | Class: Class 3
+Flag: Difficult IV Access
+Time: 08:00-09:10">Difficult IV Access (70m)</div><div class="slot" style="left:112.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2360 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:15-10:31">Wheelchair User (76m)</div><div class="slot" style="left:234.0px; width:108.0px; background-color:#e0e0e0;" title="Patient: 2363 | Class: Class 3
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 10:36-11:48">Cognitive Conditions (72m)</div><div class="slot" style="left:349.5px; width:97.5px; background-color:#66b3ff;" title="Patient: 2379 | Class: Class 2
+Flag: Interpreter Required
+Time: 11:53-12:58">Interpreter Required (65m)</div><div class="slot" style="left:454.5px; width:73.5px; background-color:#e0e0e0;" title="Patient: 2380 | Class: Class 2
+Flag: Cognitive Conditions, Learning Difficulty
+Time: 13:03-13:52">Cognitive Conditions (49m)</div><div class="slot" style="left:535.5px; width:108.0px; background-color:#e0e0e0;" title="Patient: 2402 | Class: Class 3
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 13:57-15:09">Cognitive Conditions (72m)</div><div class="slot" style="left:651.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2405 | Class: Class 1
+Flag: None
+Time: 15:14-15:44">Std</div><div class="slot" style="left:703.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2448 | Class: Class 3
+Flag: Wheelchair User
+Time: 15:49-17:05">Wheelchair User (76m)</div><div class="slot" style="left:825.0px; width:78.0px; background-color:#ffff66;" title="Patient: 2454 | Class: Class 3
+Flag: Wheelchair User
+Time: 17:10-18:02">Wheelchair User (52m)</div><div class="slot" style="left:910.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2457 | Class: Class 1
+Flag: None
+Time: 18:07-18:37">Std</div><div class="slot" style="left:963.0px; width:97.5px; background-color:#66b3ff;" title="Patient: 2474 | Class: Class 2
+Flag: Interpreter Required
+Time: 18:42-19:47">Interpreter Required (65m)</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 2</div><div class="timeline"><div class="slot" style="left:0.0px; width:133.5px; background-color:#e0e0e0;" title="Patient: 2467 | Class: Class 3
+Flag: Poor Mobility
+Time: 08:00-09:29">Poor Mobility (89m)</div><div class="slot" style="left:141.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2494 | Class: Class 1
+Flag: None
+Time: 09:34-10:04">Std</div><div class="slot" style="left:193.5px; width:75.0px; background-color:#66b3ff;" title="Patient: 2514 | Class: Class 2
+Flag: Interpreter Required
+Time: 10:09-10:59">Interpreter Required (50m)</div><div class="slot" style="left:276.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2518 | Class: Class 2
+Flag: Interpreter Required
+Time: 11:04-11:54">Interpreter Required (50m)</div><div class="slot" style="left:358.5px; width:102.0px; background-color:#99ff99;" title="Patient: 2521 | Class: Class 2
+Flag: None
+Time: 11:59-13:07">Std</div><div class="slot" style="left:468.0px; width:127.5px; background-color:#e0e0e0;" title="Patient: 2530 | Class: Class 3
+Flag: Difficult IV Access
+Time: 13:12-14:37">Difficult IV Access (85m)</div><div class="slot" style="left:603.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2540 | Class: Class 1
+Flag: None
+Time: 14:42-15:12">Std</div><div class="slot" style="left:655.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2560 | Class: Class 2
+Flag: None
+Time: 15:17-16:10">Std</div><div class="slot" style="left:742.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2570 | Class: Class 1
+Flag: None
+Time: 16:15-16:45">Std</div><div class="slot" style="left:795.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2575 | Class: Class 1
+Flag: None
+Time: 16:50-17:20">Std</div><div class="slot" style="left:847.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2616 | Class: Class 1
+Flag: None
+Time: 17:25-17:55">Std</div><div class="slot" style="left:900.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2684 | Class: Class 2
+Flag: Interpreter Required
+Time: 18:00-18:50">Interpreter Required (50m)</div><div class="slot" style="left:982.5px; width:45.0px; background-color:#99ff99;" title="Patient: 2691 | Class: Class 1
+Flag: None
+Time: 18:55-19:25">Std</div><div class="slot" style="left:1035.0px; width:45.0px; background-color:#99ff99;" title="Patient: 2728 | Class: Class 1
+Flag: None
+Time: 19:30-20:00">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 3</div><div class="timeline"><div class="slot" style="left:0.0px; width:114.0px; background-color:#ffff66;" title="Patient: 2459 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:00-09:16">Wheelchair User (76m)</div><div class="slot" style="left:121.5px; width:136.5px; background-color:#ffff66;" title="Patient: 2553 | Class: Class 3
+Flag: Wheelchair User
+Time: 09:21-10:52">Wheelchair User (91m)</div><div class="slot" style="left:265.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2643 | Class: Class 3
+Flag: Wheelchair User
+Time: 10:57-12:13">Wheelchair User (76m)</div><div class="slot" style="left:387.0px; width:72.0px; background-color:#e0e0e0;" title="Patient: 2661 | Class: Class 2
+Flag: Cognitive Conditions, Cognitive Impairment
+Time: 12:18-13:06">Cognitive Conditions (48m)</div><div class="slot" style="left:466.5px; width:114.0px; background-color:#ffff66;" title="Patient: 2675 | Class: Class 3
+Flag: Wheelchair User
+Time: 13:11-14:27">Wheelchair User (76m)</div><div class="slot" style="left:588.0px; width:100.5px; background-color:#ffff66;" title="Patient: 2698 | Class: Class 3
+Flag: Wheelchair User
+Time: 14:32-15:39">Wheelchair User (67m)</div><div class="slot" style="left:696.0px; width:75.0px; background-color:#66b3ff;" title="Patient: 2704 | Class: Class 2
+Flag: Interpreter Required
+Time: 15:44-16:34">Interpreter Required (50m)</div><div class="slot" style="left:778.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2725 | Class: Class 2
+Flag: None
+Time: 16:39-17:32">Std</div><div class="slot" style="left:865.5px; width:67.5px; background-color:#99ff99;" title="Patient: 2726 | Class: Class 1
+Flag: None
+Time: 17:37-18:22">Std</div><div class="slot" style="left:940.5px; width:102.0px; background-color:#99ff99;" title="Patient: 2758 | Class: Class 2
+Flag: None
+Time: 18:27-19:35">Std</div></div></div><div class="scanner-row"><div class="scanner-label">MRI Scanner 4</div><div class="timeline"><div class="slot" style="left:0.0px; width:76.5px; background-color:#e0e0e0;" title="Patient: 2778 | Class: Class 3
+Flag: Poor Mobility
+Time: 08:00-08:51">Poor Mobility (51m)</div><div class="slot" style="left:84.0px; width:78.0px; background-color:#ffff66;" title="Patient: 2780 | Class: Class 3
+Flag: Wheelchair User
+Time: 08:56-09:48">Wheelchair User (52m)</div><div class="slot" style="left:169.5px; width:79.5px; background-color:#99ff99;" title="Patient: 2794 | Class: Class 2
+Flag: None
+Time: 09:53-10:46">Std</div><div class="slot" style="left:256.5px; width:78.0px; background-color:#ffff66;" title="Patient: 2844 | Class: Class 3
+Flag: Wheelchair User
+Time: 10:51-11:43">Wheelchair User (52m)</div><div class="slot" style="left:342.0px; width:102.0px; background-color:#99ff99;" title="Patient: 2874 | Class: Class 2
+Flag: None
+Time: 11:48-12:56">Std</div></div></div></div></body></html>

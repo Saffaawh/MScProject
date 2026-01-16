@@ -1,0 +1,8 @@
+Delay Reason,Total Cases,Major Delay (Class 3),% Major,% Minor (Class 2)
+No Flags (Control),3728,99,2.7%,6.5%
+Hoist Required,50,44,88.0%,12.0%
+Hospital Transport,278,246,88.5%,11.5%
+Claustrophobic / Sedation,85,73,85.9%,14.1%
+DIVA,43,8,18.6%,81.4%
+Wheelchair User,699,249,35.6%,64.4%
+Cognitive Impairment,167,40,24.0%,76.0%
